@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Результат</dataPath>
+			<field>Результат</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсходящиеПараметры</dataPath>
+			<field>ИсходящиеПараметры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Оборудование</dataPath>
+			<field>Оборудование</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЗаписи</dataPath>
+			<field>ТипЗаписи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерОперации</dataPath>
+			<field>НомерОперации</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГодМесяц</dataPath>
+			<field>ГодМесяц</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Таймкод</dataPath>
+			<field>Таймкод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Милисекунда</dataPath>
+			<field>Милисекунда</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Операция</dataPath>
+			<field>Операция</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияДрайвера</dataPath>
+			<field>ВерсияДрайвера</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВходящиеПараметры</dataPath>
+			<field>ВходящиеПараметры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияКомпонента</dataPath>
+			<field>ВерсияКомпонента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИДУстройства</dataPath>
+			<field>ИДУстройства</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяВыполнения</dataPath>
+			<field>ВремяВыполнения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РевизияИнтерфейса</dataPath>
+			<field>РевизияИнтерфейса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодОшибки</dataPath>
+			<field>КодОшибки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекстОшибки</dataPath>
+			<field>ТекстОшибки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаДень</dataPath>
+			<field>ДатаДень</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата день</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ОперацииСПодключаемымОборудованием.Оборудование КАК Оборудование,
+	ОперацииСПодключаемымОборудованием.Дата КАК Дата,
+	ОперацииСПодключаемымОборудованием.НомерОперации КАК НомерОперации,
+	ОперацииСПодключаемымОборудованием.ГодМесяц КАК ГодМесяц,
+	ОперацииСПодключаемымОборудованием.ВходящиеПараметры КАК ВходящиеПараметры,
+	ОперацииСПодключаемымОборудованием.ИсходящиеПараметры КАК ИсходящиеПараметры,
+	ОперацииСПодключаемымОборудованием.Результат КАК Результат,
+	ОперацииСПодключаемымОборудованием.Таймкод КАК Таймкод,
+	ОперацииСПодключаемымОборудованием.ТипЗаписи КАК ТипЗаписи,
+	ОперацииСПодключаемымОборудованием.ВерсияКомпонента КАК ВерсияКомпонента,
+	ОперацииСПодключаемымОборудованием.ВерсияДрайвера КАК ВерсияДрайвера,
+	ОперацииСПодключаемымОборудованием.Операция КАК Операция,
+	ОперацииСПодключаемымОборудованием.ИДУстройства КАК ИДУстройства,
+	ОперацииСПодключаемымОборудованием.ВремяВыполнения КАК ВремяВыполнения,
+	ОперацииСПодключаемымОборудованием.РевизияИнтерфейса КАК РевизияИнтерфейса,
+	ОперацииСПодключаемымОборудованием.Милисекунда КАК Милисекунда,
+	ОперацииСПодключаемымОборудованием.КодОшибки КАК КодОшибки,
+	ОперацииСПодключаемымОборудованием.ТекстОшибки КАК ТекстОшибки,
+	НАЧАЛОПЕРИОДА(ОперацииСПодключаемымОборудованием.Дата, ДЕНЬ) КАК ДатаДень
+ИЗ
+	РегистрСведений.ОперацииСПодключаемымОборудованием КАК ОперацииСПодключаемымОборудованием</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>УниверсальнаяДата</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Универсальная дата</v8:content>
+			</v8:item>
+		</title>
+		<presentationExpression>Формат(Дата,"ДФ='dd.MM.yyyy hh:mm:ss'")+" : "+Формат(Милисекунда,"ЧЦ=3; ЧН=000; ЧВН=")</presentationExpression>
+		<orderExpression>
+			<dcscom:expression>Дата</dcscom:expression>
+			<dcscom:orderType>Asc</dcscom:orderType>
+			<dcscom:autoOrder>false</dcscom:autoOrder>
+		</orderExpression>
+		<orderExpression>
+			<dcscom:expression>НомерОперации</dcscom:expression>
+			<dcscom:orderType>Asc</dcscom:orderType>
+			<dcscom:autoOrder>false</dcscom:autoOrder>
+		</orderExpression>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВходящиеПараметры</dataPath>
+		<expression>ЛогированиеОперацийБПО.ФорматПараметраЛогирования(ВходящиеПараметры)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Входящие параметры</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИсходящиеПараметры</dataPath>
+		<expression>ЛогированиеОперацийБПО.ФорматПараметраЛогирования(ИсходящиеПараметры)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исходящие параметры</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Оборудование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипЗаписи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УниверсальнаяДата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>РевизияИнтерфейса</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВерсияДрайвера</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВерсияКомпонента</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Together</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Операция</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Результат</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИДУстройства</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяВыполнения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВходящиеПараметры</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИсходящиеПараметры</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ДатаДень</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Восстановление внутренней нумерации документов ЭПД</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаВосстановить" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Восстановить</CommandName>
+				<ButtonImportance>Main</ButtonImportance>
+				<ExtendedTooltip name="ФормаВосстановитьРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗакрытьФорму</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="4"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаПредупреждение" id="5">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПредупреждениеРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<LabelDecoration name="ТекстПредупреждения" id="7">
+					<Width>70</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТекстПредупрежденияКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ТекстПредупрежденияРасширеннаяПодсказка" id="9"/>
+				</LabelDecoration>
+				<UsualGroup name="ГруппаПлашка" id="10">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>style:ЦветФонаПредупреждения</BackColor>
+					<ExtendedTooltip name="ГруппаПлашкаРасширеннаяПодсказка" id="11"/>
+					<ChildItems>
+						<LabelDecoration name="ТекстПлашки" id="12">
+							<Width>70</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пока нумерация не восстановлена, новые документы записать не получится.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ТекстПлашкиКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="ТекстПлашкиРасширеннаяПодсказка" id="14"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОтбор" id="15">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<InputField name="ВидДокумента" id="17">
+					<DataPath>ВидДокумента</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид документа</v8:content>
+						</v8:item>
+					</Title>
+					<Width>40</Width>
+					<DropListButton>true</DropListButton>
+					<ContextMenu name="ВидДокументаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="19"/>
+					<Events>
+						<Event name="OnChange">ВидДокументаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Год" id="20">
+					<DataPath>Год</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Год</v8:content>
+						</v8:item>
+					</Title>
+					<Width>6</Width>
+					<SpinButton>true</SpinButton>
+					<ContextMenu name="ГодКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ГодРасширеннаяПодсказка" id="22"/>
+					<Events>
+						<Event name="OnChange">ГодПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСостояние" id="23">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСостояниеРасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<LabelDecoration name="НадписьИтог" id="25">
+					<Width>70</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<TextColor>style:РезультатУспехЦвет</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьИтогКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="НадписьИтогРасширеннаяПодсказка" id="27"/>
+				</LabelDecoration>
+				<LabelDecoration name="НадписьПроблемы" id="28">
+					<Width>70</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<TextColor>style:SpecialTextColor</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьПроблемыКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="НадписьПроблемыРасширеннаяПодсказка" id="30"/>
+				</LabelDecoration>
+				<LabelDecoration name="НадписьРазбивка" id="31">
+					<Width>70</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<TextColor>style:ПоясняющийТекст</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьРазбивкаКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="НадписьРазбивкаРасширеннаяПодсказка" id="33"/>
+				</LabelDecoration>
+				<LabelDecoration name="НадписьНетПроблем" id="34">
+					<Width>70</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Font ref="style:NormalTextFont" bold="true" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проблемных документов не обнаружено.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьНетПроблемКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="НадписьНетПроблемРасширеннаяПодсказка" id="36"/>
+				</LabelDecoration>
+				<UsualGroup name="ГруппаДокументЗаписан" id="37">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>style:ЦветФонаПредупреждения</BackColor>
+					<ExtendedTooltip name="ГруппаДокументЗаписанРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<LabelDecoration name="ТекстДокументЗаписан" id="39">
+							<Width>70</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content> </v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ТекстДокументЗаписанКонтекстноеМеню" id="40"/>
+							<ExtendedTooltip name="ТекстДокументЗаписанРасширеннаяПодсказка" id="41"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="ТехническаяИнформация" id="42">
+			<Type>Hyperlink</Type>
+			<CommandName>Form.Command.ТехническаяИнформация</CommandName>
+			<ExtendedTooltip name="ТехническаяИнформацияРасширеннаяПодсказка" id="43"/>
+		</Button>
+		<UsualGroup name="ГруппаТехническаяИнформация" id="44">
+			<Visible>false</Visible>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТехническаяИнформацияРасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<LabelDecoration name="ТекстПоясненияТехническойИнформации" id="46">
+					<Width>70</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<TextColor>style:ПоясняющийТекст</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменён только внутренний номер, по которому программа ведёт автонумерацию. Номер, указанный в самом документе и переданный в ГИС ЭПД, остался прежним, на обмен с контрагентами это не влияет. Если номер в самом документе не был заполнен, в него записан прежний внутренний номер, чтобы он не потерялся.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТекстПоясненияТехническойИнформацииКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ТекстПоясненияТехническойИнформацииРасширеннаяПодсказка" id="48"/>
+				</LabelDecoration>
+				<Table name="Результаты" id="49">
+					<CommandBarLocation>None</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
+					<Height>6</Height>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+					<DataPath>Результаты</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="РезультатыКонтекстноеМеню" id="50"/>
+					<AutoCommandBar name="РезультатыКоманднаяПанель" id="51"/>
+					<ExtendedTooltip name="РезультатыРасширеннаяПодсказка" id="52"/>
+					<SearchStringAddition name="РезультатыСтрокаПоиска" id="53">
+						<AdditionSource>
+							<Item>Результаты</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РезультатыСтрокаПоискаКонтекстноеМеню" id="54"/>
+						<ExtendedTooltip name="РезультатыСтрокаПоискаРасширеннаяПодсказка" id="55"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="РезультатыСостояниеПросмотра" id="56">
+						<AdditionSource>
+							<Item>Результаты</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РезультатыСостояниеПросмотраКонтекстноеМеню" id="57"/>
+						<ExtendedTooltip name="РезультатыСостояниеПросмотраРасширеннаяПодсказка" id="58"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="РезультатыУправлениеПоиском" id="59">
+						<AdditionSource>
+							<Item>Результаты</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="РезультатыУправлениеПоискомКонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="РезультатыУправлениеПоискомРасширеннаяПодсказка" id="61"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">РезультатыВыбор</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="РезультатыДокумент" id="62">
+							<DataPath>Результаты.Документ</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Документ</v8:content>
+								</v8:item>
+							</Title>
+							<Width>40</Width>
+							<ContextMenu name="РезультатыДокументКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="РезультатыДокументРасширеннаяПодсказка" id="64"/>
+						</InputField>
+						<InputField name="РезультатыСтарыйНомер" id="65">
+							<DataPath>Результаты.СтарыйНомер</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Старый внутренний номер</v8:content>
+								</v8:item>
+							</Title>
+							<Width>14</Width>
+							<ContextMenu name="РезультатыСтарыйНомерКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="РезультатыСтарыйНомерРасширеннаяПодсказка" id="67"/>
+						</InputField>
+						<InputField name="РезультатыНовыйНомер" id="68">
+							<DataPath>Результаты.НовыйНомер</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Новый внутренний номер</v8:content>
+								</v8:item>
+							</Title>
+							<Width>14</Width>
+							<ContextMenu name="РезультатыНовыйНомерКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="РезультатыНовыйНомерРасширеннаяПодсказка" id="70"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="71">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ВосстановлениеНумерацииЭПД</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ВидДокумента" id="72">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Год" id="73">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Год</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяДокумента" id="74">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоПроблемных" id="75">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество проблемных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Восстановлено" id="76">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановлено</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Результаты" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Документ" id="78">
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЭлектроннаяЭкспедиторскаяРасписка</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектронноеПоручениеЭкспедитору</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектронныйЗаказНаряд</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектроннаяCкладскаяРасписка</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектронныйДоговорФрахтования</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектронныйПутевойЛист</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектронныйЗаказЗаявка</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектроннаяТранспортнаяНакладная</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЭлектроннаяСопроводительнаяВедомость</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СтарыйНомер" id="79">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НовыйНомер" id="80">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Восстановить" id="81">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить нумерацию</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Восстановить</Action>
+		</Command>
+		<Command name="ЗакрытьФорму" id="82">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ЗакрытьФорму</Action>
+		</Command>
+		<Command name="ТехническаяИнформация" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Техническая информация</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ТехническаяИнформация</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ИмяДокумента">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="Номер">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="Итог">
+			<Type/>
+		</Parameter>
+		<Parameter name="Дата">
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>

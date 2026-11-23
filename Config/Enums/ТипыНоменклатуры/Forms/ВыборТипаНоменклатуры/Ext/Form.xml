@@ -1,0 +1,2578 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Выберите тип номенклатуры</v8:content>
+		</v8:item>
+	</Title>
+	<Width>62</Width>
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаТипНоменклатурыТовар" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа тип номенклатуры товар</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа тип номенклатуры товар</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТипНоменклатурыТоварРасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<RadioButtonField name="ТипНоменклатурыТовар" id="1">
+					<DataPath>ТипНоменклатуры</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подсказка задается программно</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыНоменклатуры.EnumValue.Товар</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ТипНоменклатурыТоварКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ТипНоменклатурыТоварРасширеннаяПодсказка" id="3">
+						<TextColor>style:ПоясняющийТекст</TextColor>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="OnChange">ТипНоменклатурыПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+				<UsualGroup name="ГруппаОсобенности" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа особенности</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа особенности</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОсобенностиРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияОсобенностиОтступ" id="41">
+							<ContextMenu name="ДекорацияОсобенностиОтступКонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="ДекорацияОсобенностиОтступРасширеннаяПодсказка" id="43"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаОсобенностиЗначения" id="44">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа особенности значения</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа особенности значения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОсобенностиЗначенияРасширеннаяПодсказка" id="45"/>
+							<ChildItems>
+								<RadioButtonField name="ОсобенностьУчетаБезОсобенностейУчета" id="36">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.БезОсобенностейУчета</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаБезОсобенностейУчетаКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="ОсобенностьУчетаБезОсобенностейУчетаРасширеннаяПодсказка" id="38"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<UsualGroup name="ГруппаАлкоголь" id="58">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа алкоголь</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа алкоголь</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Height>3</Height>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаАлкогольРасширеннаяПодсказка" id="59"/>
+									<ChildItems>
+										<RadioButtonField name="ОсобенностьУчетаАлкогольнаяПродукция" id="46">
+											<DataPath>ОсобенностьУчета</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подсказка задается программно</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<RadioButtonType>Auto</RadioButtonType>
+											<ColumnsCount>1</ColumnsCount>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.АлкогольнаяПродукция</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="ОсобенностьУчетаАлкогольнаяПродукцияКонтекстноеМеню" id="47"/>
+											<ExtendedTooltip name="ОсобенностьУчетаАлкогольнаяПродукцияРасширеннаяПодсказка" id="48"/>
+											<Events>
+												<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+											</Events>
+										</RadioButtonField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаПродажаВРозлив" id="66">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа продажа в розлив</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа продажа в розлив</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПродажаВРозливРасширеннаяПодсказка" id="67"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияОтступАлкоголь" id="63">
+											<ContextMenu name="ДекорацияОтступАлкогольКонтекстноеМеню" id="64"/>
+											<ExtendedTooltip name="ДекорацияОтступАлкогольРасширеннаяПодсказка" id="65"/>
+										</LabelDecoration>
+										<CheckBoxField name="ПродаетсяВРозлив" id="60">
+											<DataPath>ПродаетсяВРозлив</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<ContextMenu name="ПродаетсяВРозливКонтекстноеМеню" id="61"/>
+											<ExtendedTooltip name="ПродаетсяВРозливРасширеннаяПодсказка" id="62"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<RadioButtonField name="ОсобенностьУчетаАлкогольнаяПродукцияДо9Процентов" id="187">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.АлкогольнаяПродукцияДо9Процентов</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаАлкогольнаяПродукцияДо9ПроцентовКонтекстноеМеню" id="188"/>
+									<ExtendedTooltip name="ОсобенностьУчетаАлкогольнаяПродукцияДо9ПроцентовРасширеннаяПодсказка" id="189"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаАвтозапчастиИКомплектующиеТранспортныхСредств" id="249">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.АвтозапчастиИКомплектующиеТранспортныхСредств</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаАвтозапчастиИКомплектующиеТранспортныхСредствКонтекстноеМеню" id="250"/>
+									<ExtendedTooltip name="ОсобенностьУчетаАвтозапчастиИКомплектующиеТранспортныхСредствРасширеннаяПодсказка" id="251"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаАльтернативныйТабак" id="101">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.АльтернативныйТабак</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаАльтернативныйТабакКонтекстноеМеню" id="102"/>
+									<ExtendedTooltip name="ОсобенностьУчетаАльтернативныйТабакРасширеннаяПодсказка" id="103"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаАнтисептики" id="110">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.Антисептики</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаАнтисептикиКонтекстноеМеню" id="111"/>
+									<ExtendedTooltip name="ОсобенностьУчетаАнтисептикиРасширеннаяПодсказка" id="112"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаБАДы" id="113">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.БАДы</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаБАДыКонтекстноеМеню" id="114"/>
+									<ExtendedTooltip name="ОсобенностьУчетаБАДыРасширеннаяПодсказка" id="115"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаБАДы2025" id="246">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.БАДы2025</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаБАДы2025КонтекстноеМеню" id="247"/>
+									<ExtendedTooltip name="ОсобенностьУчетаБАДы2025РасширеннаяПодсказка" id="248"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаБакалея" id="184">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.Бакалея</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаБакалеяКонтекстноеМеню" id="185"/>
+									<ExtendedTooltip name="ОсобенностьУчетаБакалеяРасширеннаяПодсказка" id="186"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаБезалкогольноеПиво" id="125">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.БезалкогольноеПиво</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаБезалкогольноеПивоКонтекстноеМеню" id="126"/>
+									<ExtendedTooltip name="ОсобенностьУчетаБезалкогольноеПивоРасширеннаяПодсказка" id="127"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаБезалкогольныеНапитки" id="202">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<Shortcut>Ctrl+D</Shortcut>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.БезалкогольныеНапитки</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаБезалкогольныеНапиткиКонтекстноеМеню" id="203"/>
+									<ExtendedTooltip name="ОсобенностьУчетаБезалкогольныеНапиткиРасширеннаяПодсказка" id="204"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаБритвыИЛезвия" id="261">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<Shortcut>Ctrl+D</Shortcut>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.БритвыИЛезвия</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаБритвыИЛезвияКонтекстноеМеню" id="262"/>
+									<ExtendedTooltip name="ОсобенностьУчетаБритвыИЛезвияРасширеннаяПодсказка" id="263"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаВелосипеды" id="95">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<Shortcut>Ctrl+D</Shortcut>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.Велосипеды</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаВелосипедыКонтекстноеМеню" id="96"/>
+									<ExtendedTooltip name="ОсобенностьУчетаВелосипедыРасширеннаяПодсказка" id="97"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаВетеринарныеПрепараты" id="145">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ВетеринарныеПрепараты</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаВетеринарныеПрепаратыКонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="ОсобенностьУчетаВетеринарныеПрепаратыРасширеннаяПодсказка" id="147"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаДезинфицирующиеСредства" id="243">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<Shortcut>Ctrl+D</Shortcut>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ДезинфицирующиеСредства</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаДезинфицирующиеСредстваКонтекстноеМеню" id="244"/>
+									<ExtendedTooltip name="ОсобенностьУчетаДезинфицирующиеСредстваРасширеннаяПодсказка" id="245"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаДухи" id="92">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<Shortcut>Ctrl+D</Shortcut>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.Духи</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаДухиКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="ОсобенностьУчетаДухиРасширеннаяПодсказка" id="94"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаИгрыИИгрушкиДляДетей" id="148">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ИгрыИИгрушкиДляДетей</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаИгрыИИгрушкиДляДетейКонтекстноеМеню" id="149"/>
+									<ExtendedTooltip name="ОсобенностьУчетаИгрыИИгрушкиДляДетейРасширеннаяПодсказка" id="150"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКабельнаяПродукция" id="196">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КабельнаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКабельнаяПродукцияКонтекстноеМеню" id="197"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКабельнаяПродукцияРасширеннаяПодсказка" id="198"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКиЗГИСМ" id="55">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КиЗГИСМ</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКиЗГИСМКонтекстноеМеню" id="56"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКиЗГИСМРасширеннаяПодсказка" id="57"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКонсервированнаяПродукцияПодконтрольнаяВЕТИС" id="157">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КонсервированнаяПродукцияПодконтрольнаяВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКонсервированнаяПродукцияПодконтрольнаяВЕТИСКонтекстноеМеню" id="158"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКонсервированнаяПродукцияПодконтрольнаяВЕТИСРасширеннаяПодсказка" id="159"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКонсервированнаяПродукцияБезВЕТИС" id="172">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КонсервированнаяПродукцияБезВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКонсервированнаяПродукцияБезВЕТИСКонтекстноеМеню" id="173"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКонсервированнаяПродукцияБезВЕТИСРасширеннаяПодсказка" id="174"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКормаДляЖивотныхПодконтрольныеВЕТИС" id="139">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КормаДляЖивотныхПодконтрольныеВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКормаДляЖивотныхПодконтрольныеВЕТИСКонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКормаДляЖивотныхПодконтрольныеВЕТИСРасширеннаяПодсказка" id="141"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКормаДляЖивотныхВлажныеПодконтрольныеВЕТИС" id="231">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КормаДляЖивотныхВлажныеПодконтрольныеВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКормаДляЖивотныхВлажныеПодконтрольныеВЕТИСКонтекстноеМеню" id="232"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКормаДляЖивотныхВлажныеПодконтрольныеВЕТИСРасширеннаяПодсказка" id="233"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКормаДляЖивотныхБезВЕТИС" id="169">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КормаДляЖивотныхБезВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКормаДляЖивотныхБезВЕТИСКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКормаДляЖивотныхБезВЕТИСРасширеннаяПодсказка" id="171"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКормаДляЖивотныхВлажныеБезВЕТИС" id="228">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КормаДляЖивотныхВлажныеБезВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКормаДляЖивотныхВлажныеБезВЕТИСКонтекстноеМеню" id="229"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКормаДляЖивотныхВлажныеБезВЕТИСРасширеннаяПодсказка" id="230"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаКреслаКоляски" id="98">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<Shortcut>Ctrl+S</Shortcut>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.КреслаКоляски</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаКреслаКоляскиКонтекстноеМеню" id="99"/>
+									<ExtendedTooltip name="ОсобенностьУчетаКреслаКоляскиРасширеннаяПодсказка" id="100"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаМедицинскиеИзделия" id="219">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.МедицинскиеИзделия</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаМедицинскиеИзделияКонтекстноеМеню" id="220"/>
+									<ExtendedTooltip name="ОсобенностьУчетаМедицинскиеИзделияРасширеннаяПодсказка" id="221"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаМедицинскиеИзделия20" id="222">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.МедицинскиеИзделия20</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаМедицинскиеИзделия20КонтекстноеМеню" id="223"/>
+									<ExtendedTooltip name="ОсобенностьУчетаМедицинскиеИзделия20РасширеннаяПодсказка" id="224"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаМолочнаяПродукцияПодконтрольнаяВЕТИС" id="83">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.МолочнаяПродукцияПодконтрольнаяВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаМолочнаяПродукцияПодконтрольнаяВЕТИСКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ОсобенностьУчетаМолочнаяПродукцияПодконтрольнаяВЕТИСРасширеннаяПодсказка" id="85"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаМолочнаяПродукцияБезВЕТИС" id="107">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Tooltip is set from 1C:Enterprise script</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Tooltip is set from 1C:Enterprise script</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.МолочнаяПродукцияБезВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаМолочнаяПродукцияБезВЕТИСКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="ОсобенностьУчетаМолочнаяПродукцияБезВЕТИСРасширеннаяПодсказка" id="109"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаМорепродуктыПодконтрольныеВЕТИС" id="136">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.МорепродуктыПодконтрольныеВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаМорепродуктыПодконтрольныеВЕТИСКонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="ОсобенностьУчетаМорепродуктыПодконтрольныеВЕТИСРасширеннаяПодсказка" id="138"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаМоторныеМасла" id="199">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.МоторныеМасла</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаМоторныеМаслаКонтекстноеМеню" id="200"/>
+									<ExtendedTooltip name="ОсобенностьУчетаМоторныеМаслаРасширеннаяПодсказка" id="201"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаМясоПодконтрольноеВЕТИС" id="142">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.МясоПодконтрольноеВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаМясоПодконтрольноеВЕТИСКонтекстноеМеню" id="143"/>
+									<ExtendedTooltip name="ОсобенностьУчетаМясоПодконтрольноеВЕТИСРасширеннаяПодсказка" id="144"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаНапиткиССодержаниемМолокаКакаоПрочие" id="264">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.НапиткиССодержаниемМолокаКакаоПрочие</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаНапиткиССодержаниемМолокаКакаоПрочиеКонтекстноеМеню" id="265"/>
+									<ExtendedTooltip name="ОсобенностьУчетаНапиткиССодержаниемМолокаКакаоПрочиеРасширеннаяПодсказка" id="266"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаНикотиносодержащаяПродукция" id="116">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.НикотиносодержащаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаНикотиносодержащаяПродукцияКонтекстноеМеню" id="117"/>
+									<ExtendedTooltip name="ОсобенностьУчетаНикотиносодержащаяПродукцияРасширеннаяПодсказка" id="118"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаОбувнаяПродукция" id="77">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ОбувнаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаОбувнаяПродукцияКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="ОсобенностьУчетаОбувнаяПродукцияРасширеннаяПодсказка" id="79"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаОптоволокноИОптоволоконнаяПродукция" id="163">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ОптоволокноИОптоволоконнаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаОптоволокноИОптоволоконнаяПродукцияКонтекстноеМеню" id="164"/>
+									<ExtendedTooltip name="ОсобенностьУчетаОптоволокноИОптоволоконнаяПродукцияРасширеннаяПодсказка" id="165"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаОтопительныеПриборы" id="181">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ОтопительныеПриборы</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаОтопительныеПриборыКонтекстноеМеню" id="182"/>
+									<ExtendedTooltip name="ОсобенностьУчетаОтопительныеПриборыРасширеннаяПодсказка" id="183"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаПарфюмерныеИКосметическиеСредстваИБытоваяХимия" id="166">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПарфюмерныеИКосметическиеСредстваИБытоваяХимия</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПарфюмерныеИКосметическиеСредстваИБытоваяХимияКонтекстноеМеню" id="167"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПарфюмерныеИКосметическиеСредстваИБытоваяХимияРасширеннаяПодсказка" id="168"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаПечатнаяПродукция" id="175">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПечатнаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПечатнаяПродукцияКонтекстноеМеню" id="176"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПечатнаяПродукцияРасширеннаяПодсказка" id="177"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаПечатныеПлаты" id="240">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПечатныеПлаты</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПечатныеПлатыКонтекстноеМеню" id="241"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПечатныеПлатыРасширеннаяПодсказка" id="242"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаПолимерныеТрубы" id="234">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПолимерныеТрубы</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПолимерныеТрубыКонтекстноеМеню" id="235"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПолимерныеТрубыРасширеннаяПодсказка" id="236"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаПиво" id="119">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.Пиво</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПивоКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПивоРасширеннаяПодсказка" id="121"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<UsualGroup name="ГруппаПродажаВРозливПиво" id="128">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа продажа в розлив (пиво)</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа продажа в розлив</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПродажаВРозливПивоРасширеннаяПодсказка" id="129"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияОтступПиво" id="130">
+											<ContextMenu name="ДекорацияОтступПивоКонтекстноеМеню" id="131"/>
+											<ExtendedTooltip name="ДекорацияОтступПивоРасширеннаяПодсказка" id="132"/>
+										</LabelDecoration>
+										<CheckBoxField name="ПродаетсяВРозливПиво" id="133">
+											<DataPath>ПродаетсяВРозлив</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<ContextMenu name="ПродаетсяВРозливПивоКонтекстноеМеню" id="134"/>
+											<ExtendedTooltip name="ПродаетсяВРозливПивоРасширеннаяПодсказка" id="135"/>
+											<Events>
+												<Event name="OnChange">ПродаетсяВРозливПивоПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<RadioButtonField name="ОсобенностьУчетаПивоВПотребительскихУпаковках" id="205">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПивоВПотребительскихУпаковках</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПивоВПотребительскихУпаковкахКонтекстноеМеню" id="206"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПивоВПотребительскихУпаковкахРасширеннаяПодсказка" id="207"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<UsualGroup name="ГруппаПродажаВРозливПивоВПотребительскихУпаковках" id="208">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа продажа в розлив (пиво в потребительских упаковках)</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа продажа в розлив</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПродажаВРозливПивоВПотребительскихУпаковкахРасширеннаяПодсказка" id="209"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияОтступПивоВПотребительскихУпаковках" id="210">
+											<ContextMenu name="ДекорацияОтступПивоВПотребительскихУпаковкахКонтекстноеМеню" id="211"/>
+											<ExtendedTooltip name="ДекорацияОтступПивоВПотребительскихУпаковкахРасширеннаяПодсказка" id="212"/>
+										</LabelDecoration>
+										<CheckBoxField name="ПродаетсяВРозливПивоВПотребительскихУпаковках" id="213">
+											<DataPath>ПродаетсяВРозлив</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<ContextMenu name="ПродаетсяВРозливПивоВПотребительскихУпаковкахКонтекстноеМеню" id="214"/>
+											<ExtendedTooltip name="ПродаетсяВРозливПивоВПотребительскихУпаковкахРасширеннаяПодсказка" id="215"/>
+											<Events>
+												<Event name="OnChange">ПродаетсяВРозливПивоВПотребительскихУпаковкахПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<RadioButtonField name="ОсобенностьУчетаПиротехническиеИзделияИСредстваПожарнойБезопасности" id="193">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПиротехническиеИзделияИСредстваПожарнойБезопасности</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПиротехническиеИзделияИСредстваПожарнойБезопасностиКонтекстноеМеню" id="194"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПиротехническиеИзделияИСредстваПожарнойБезопасностиРасширеннаяПодсказка" id="195"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаПодконтрольнаяПродукцияВЕТИС" id="71">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПодконтрольнаяПродукцияВЕТИС</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПодконтрольнаяПродукцияВЕТИСКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПодконтрольнаяПродукцияВЕТИСРасширеннаяПодсказка" id="73"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаРадиоэлектроннаяПродукция" id="151">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.РадиоэлектроннаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаРадиоэлектроннаяПродукцияКонтекстноеМеню" id="152"/>
+									<ExtendedTooltip name="ОсобенностьУчетаРадиоэлектроннаяПродукцияРасширеннаяПодсказка" id="153"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаРастворимыеЗавариваемыеНапитки" id="255">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.РастворимыеЗавариваемыеНапитки</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаРастворимыеЗавариваемыеНапиткиКонтекстноеМеню" id="256"/>
+									<ExtendedTooltip name="ОсобенностьУчетаРастворимыеЗавариваемыеНапиткиРасширеннаяПодсказка" id="257"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаРастительныеМасла" id="160">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.РастительныеМасла</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаРастительныеМаслаКонтекстноеМеню" id="161"/>
+									<ExtendedTooltip name="ОсобенностьУчетаРастительныеМаслаРасширеннаяПодсказка" id="162"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаСоковаяПродукция" id="122">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.СоковаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаСоковаяПродукцияКонтекстноеМеню" id="123"/>
+									<ExtendedTooltip name="ОсобенностьУчетаСоковаяПродукцияРасширеннаяПодсказка" id="124"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаСпортивноеПитание" id="252">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.СпортивноеПитание</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаСпортивноеПитаниеКонтекстноеМеню" id="253"/>
+									<ExtendedTooltip name="ОсобенностьУчетаСпортивноеПитаниеРасширеннаяПодсказка" id="254"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаСтроительныеМатериалы" id="178">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.СтроительныеМатериалы</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаСтроительныеМатериалыКонтекстноеМеню" id="179"/>
+									<ExtendedTooltip name="ОсобенностьУчетаСтроительныеМатериалыРасширеннаяПодсказка" id="180"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаТабачнаяПродукция" id="74">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ТабачнаяПродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаТабачнаяПродукцияКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="ОсобенностьУчетаТабачнаяПродукцияРасширеннаяПодсказка" id="76"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаТехническиеСредстваРеабилитации" id="216">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ТехническиеСредстваРеабилитации</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаТехническиеСредстваРеабилитацииКонтекстноеМеню" id="217"/>
+									<ExtendedTooltip name="ОсобенностьУчетаТехническиеСредстваРеабилитацииРасширеннаяПодсказка" id="218"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаТитановаяМеталлопродукция" id="154">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ТитановаяМеталлопродукция</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаТитановаяМеталлопродукцияКонтекстноеМеню" id="155"/>
+									<ExtendedTooltip name="ОсобенностьУчетаТитановаяМеталлопродукцияРасширеннаяПодсказка" id="156"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаТоварыЛичнойГигиены" id="258">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ТоварыЛичнойГигиены</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаТоварыЛичнойГигиеныКонтекстноеМеню" id="259"/>
+									<ExtendedTooltip name="ОсобенностьУчетаТоварыЛичнойГигиеныРасширеннаяПодсказка" id="260"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаПродукцияИзНатуральногоМеха" id="49">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ПродукцияИзНатуральногоМеха</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаПродукцияИзНатуральногоМехаКонтекстноеМеню" id="50"/>
+									<ExtendedTooltip name="ОсобенностьУчетаПродукцияИзНатуральногоМехаРасширеннаяПодсказка" id="51"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаСладостиИКондитерскиеИзделия" id="237">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.СладостиИКондитерскиеИзделия</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаСладостиИКондитерскиеИзделияКонтекстноеМеню" id="238"/>
+									<ExtendedTooltip name="ОсобенностьУчетаСладостиИКондитерскиеИзделияРасширеннаяПодсказка" id="239"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаТелефоныИНоутбуки" id="190">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ТелефоныИНоутбуки</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаТелефоныИНоутбукиКонтекстноеМеню" id="191"/>
+									<ExtendedTooltip name="ОсобенностьУчетаТелефоныИНоутбукиРасширеннаяПодсказка" id="192"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаЛегкаяПромышленность" id="80">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ЛегкаяПромышленность</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаЛегкаяПромышленностьКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="ОсобенностьУчетаЛегкаяПромышленностьРасширеннаяПодсказка" id="82"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаЛегкаяПромышленность2025" id="225">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.ЛегкаяПромышленность2025</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаЛегкаяПромышленность2025КонтекстноеМеню" id="226"/>
+									<ExtendedTooltip name="ОсобенностьУчетаЛегкаяПромышленность2025РасширеннаяПодсказка" id="227"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаУпакованнаяВода" id="104">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.УпакованнаяВода</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаУпакованнаяВодаКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="ОсобенностьУчетаУпакованнаяВодаРасширеннаяПодсказка" id="106"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаФотоаппараты" id="89">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.Фотоаппараты</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаФотоаппаратыКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ОсобенностьУчетаФотоаппаратыРасширеннаяПодсказка" id="91"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="ОсобенностьУчетаШины" id="86">
+									<DataPath>ОсобенностьУчета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подсказка задается программно</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ОсобенностиУчетаНоменклатуры.EnumValue.Шины</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОсобенностьУчетаШиныКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="ОсобенностьУчетаШиныРасширеннаяПодсказка" id="88"/>
+									<Events>
+										<Event name="OnChange">ОсобенностьУчетаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаТипНоменклатурыУслуга" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа тип номенклатуры услуга</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа тип номенклатуры услуга</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТипНоменклатурыУслугаРасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<RadioButtonField name="ТипНоменклатурыУслуга" id="20">
+					<DataPath>ТипНоменклатуры</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подсказка задается программно</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыНоменклатуры.EnumValue.Услуга</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ТипНоменклатурыУслугаКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТипНоменклатурыУслугаРасширеннаяПодсказка" id="22">
+						<TextColor>style:ПоясняющийТекст</TextColor>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="OnChange">ТипНоменклатурыПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаТипНоменклатурыПодарочныйСертификат" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа тип номенклатуры подарочный сертификат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа тип номенклатуры подарочный сертификат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТипНоменклатурыПодарочныйСертификатРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<RadioButtonField name="ТипНоменклатурыПодарочныйСертификат" id="14">
+					<DataPath>ТипНоменклатуры</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подсказка задается программно</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыНоменклатуры.EnumValue.ПодарочныйСертификат</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ТипНоменклатурыПодарочныйСертификатКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТипНоменклатурыПодарочныйСертификатРасширеннаяПодсказка" id="16">
+						<TextColor>style:ПоясняющийТекст</TextColor>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="OnChange">ТипНоменклатурыПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ПризнакПредметаРасчета" id="68">
+			<DataPath>ПризнакПредметаРасчета</DataPath>
+			<ContextMenu name="ПризнакПредметаРасчетаКонтекстноеМеню" id="69"/>
+			<ExtendedTooltip name="ПризнакПредметаРасчетаРасширеннаяПодсказка" id="70"/>
+		</InputField>
+		<CommandBar name="КоманднаяПанельФормы" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalLocation>Right</HorizontalLocation>
+			<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<Button name="ОК" id="6">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ОК</CommandName>
+					<ButtonImportance>Main</ButtonImportance>
+					<ExtendedTooltip name="ОКРасширеннаяПодсказка" id="7"/>
+				</Button>
+				<Button name="Отмена" id="4">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Отмена</CommandName>
+					<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="5"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ТипНоменклатуры" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="ОсобенностьУчета" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Особенность учета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ОсобенностиУчетаНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПродаетсяВРозлив" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продается в розлив</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПризнакПредметаРасчета" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Признак предмета расчета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ПризнакиПредметовРасчета</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОК" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОК</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Отмена" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отмена</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ТипНоменклатуры">
+			<Type>
+				<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ОсобенностьУчета">
+			<Type>
+				<v8:Type>cfg:EnumRef.ОсобенностиУчетаНоменклатуры</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>

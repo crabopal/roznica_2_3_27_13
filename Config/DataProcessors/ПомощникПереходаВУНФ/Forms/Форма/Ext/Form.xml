@@ -1,0 +1,3776 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="URLProcessing">ОбработкаНавигационнойСсылки</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ПанельОсновная" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ПанельОсновнаяРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаПриветствие" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаПриветствиеРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияПриветствие" id="732">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;font Almarai&gt;&lt;fontsize 10&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;Вас приветствует помощник перехода в &lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;link https://v8.1c.ru/small.biz/&gt;1С:УНФ, ред. 3.0&lt;/&gt;.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияПриветствиеКонтекстноеМеню" id="733"/>
+							<ExtendedTooltip name="ДекорацияПриветствиеРасширеннаяПодсказка" id="734"/>
+						</LabelDecoration>
+						<Pages name="ПанельПриветствие" id="509">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель приветствие</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель приветствие</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ПанельПриветствиеРасширеннаяПодсказка" id="510"/>
+							<ChildItems>
+								<Page name="СтраницаПриветствиеТребуетсяОбновление" id="521">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница приветствие требуется обновление</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница приветствие требуется обновление</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаПриветствиеТребуетсяОбновлениеРасширеннаяПодсказка" id="522"/>
+									<ChildItems>
+										<PictureDecoration name="ДекорацияПриветствиеТребуетсяОбновлениеКартинка" id="551">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация ожидание картинка</v8:content>
+												</v8:item>
+											</Title>
+											<Picture>
+												<xr:Ref>CommonPicture.Внимание16</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="ДекорацияПриветствиеТребуетсяОбновлениеКартинкаКонтекстноеМеню" id="552"/>
+											<ExtendedTooltip name="ДекорацияПриветствиеТребуетсяОбновлениеКартинкаРасширеннаяПодсказка" id="553"/>
+										</PictureDecoration>
+										<LabelDecoration name="ДекорацияПриветствиеТребуетсяОбновлениеНадпись" id="523">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Обнаружена более новая версия. Перед осуществлением перехода необходимо &lt;link ОбновитьВерсиюПрограммы&gt;обновить программу&lt;/&gt;.</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияПриветствиеТребуетсяОбновлениеНадписьКонтекстноеМеню" id="524"/>
+											<ExtendedTooltip name="ДекорацияПриветствиеТребуетсяОбновлениеНадписьРасширеннаяПодсказка" id="525"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаПриветствиеОжидание" id="511">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница приветствие ожидание</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница приветствие ожидание</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаПриветствиеОжиданиеРасширеннаяПодсказка" id="512"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПриветствиеОжидание" id="513">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Анализ информационной базы</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа приветствие ожидание</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>WeakSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПриветствиеОжиданиеРасширеннаяПодсказка" id="514"/>
+											<ChildItems>
+												<PictureDecoration name="ДекорацияПриветствиеОжиданиеКартинка" id="515">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Декорация ожидание картинка</v8:content>
+														</v8:item>
+													</Title>
+													<Picture>
+														<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
+													<ContextMenu name="ДекорацияПриветствиеОжиданиеКартинкаКонтекстноеМеню" id="516"/>
+													<ExtendedTooltip name="ДекорацияПриветствиеОжиданиеКартинкаРасширеннаяПодсказка" id="517"/>
+												</PictureDecoration>
+												<LabelDecoration name="ДекорацияПриветствиеОжиданиеНадпись" id="518">
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<Font height="10" kind="AutoFont"/>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Выполняется анализ готовности информационной базы к переходу...</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияПриветствиеОжиданиеНадписьКонтекстноеМеню" id="519"/>
+													<ExtendedTooltip name="ДекорацияПриветствиеОжиданиеНадписьРасширеннаяПодсказка" id="520"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаПриветствиеГотоваКПереходу" id="554">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница приветствие ожидание</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница приветствие ожидание</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаПриветствиеГотоваКПереходуРасширеннаяПодсказка" id="555"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПриветствиеГотоваКПереходу" id="556">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа приветствие готова к переходу</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа приветсвие ожидание</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>WeakSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПриветствиеГотоваКПереходуРасширеннаяПодсказка" id="557"/>
+											<ChildItems>
+												<PictureDecoration name="ДекорацияПриветствиеГотоваКПереходуКартинка" id="558">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Декорация приветствие готова к переходу картинка</v8:content>
+														</v8:item>
+													</Title>
+													<Picture>
+														<xr:Ref>StdPicture.AppearanceCheckIcon</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
+													<ContextMenu name="ДекорацияПриветствиеГотоваКПереходуКартинкаКонтекстноеМеню" id="559"/>
+													<ExtendedTooltip name="ДекорацияПриветствиеГотоваКПереходуКартинкаРасширеннаяПодсказка" id="560"/>
+												</PictureDecoration>
+												<LabelDecoration name="ДекорацияПриветствиеГотоваКПереходуНадпись" id="561">
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Информационная база готова к переходу</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияПриветствиеГотоваКПереходуНадписьКонтекстноеМеню" id="562"/>
+													<ExtendedTooltip name="ДекорацияПриветствиеГотоваКПереходуНадписьРасширеннаяПодсказка" id="563"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаПриветствиеТребуютсяДействия" id="564">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница приветствие требуется обновление</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаПриветствиеТребуютсяДействияРасширеннаяПодсказка" id="565"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПриветствиеТребуютсяДействия" id="575">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа приветствие требуются действия</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа приветствие требуются действия</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>WeakSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПриветствиеТребуютсяДействияРасширеннаяПодсказка" id="576"/>
+											<ChildItems>
+												<PictureDecoration name="ДекорацияПриветствиеТребуютсяДействияКартинка" id="566">
+													<Picture>
+														<xr:Ref>CommonPicture.Внимание16</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
+													<ContextMenu name="ДекорацияПриветствиеТребуютсяДействияКартинкаКонтекстноеМеню" id="567"/>
+													<ExtendedTooltip name="ДекорацияПриветствиеТребуютсяДействияКартинкаРасширеннаяПодсказка" id="568"/>
+												</PictureDecoration>
+												<LabelDecoration name="ДекорацияПриветствиеТребуютсяДействияНадпись" id="569">
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<Title formatted="true">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>&lt;font Almarai&gt;&lt;fontsize 10&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;Перед осуществлением перехода рекомендуется выполнить регламентные операции:&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияПриветствиеТребуютсяДействияНадписьКонтекстноеМеню" id="570"/>
+													<ExtendedTooltip name="ДекорацияПриветствиеТребуютсяДействияНадписьРасширеннаяПодсказка" id="571"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаПриветствиеДействия" id="577">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа приветствие действия</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа приветствие действия</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>WeakSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПриветствиеДействияРасширеннаяПодсказка" id="578"/>
+											<ChildItems>
+												<PictureDecoration name="ДекорацияПриветствиеОтступ" id="579">
+													<Width>2</Width>
+													<Height>1</Height>
+													<ContextMenu name="ДекорацияПриветствиеОтступКонтекстноеМеню" id="580"/>
+													<ExtendedTooltip name="ДекорацияПриветствиеОтступРасширеннаяПодсказка" id="581"/>
+												</PictureDecoration>
+												<UsualGroup name="ГруппаПриветствиеДействияДетально" id="582">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа приветствие действия детально</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа приветствие действия детально</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>WeakSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаПриветствиеДействияДетальноРасширеннаяПодсказка" id="583"/>
+													<ChildItems>
+														<LabelDecoration name="ДекорацияПриветствиеЗакрытьКассовыеСмены" id="584">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Title formatted="true">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>- &lt;link ЗакрытьКассовыеСмены&gt;Закрыть кассовые смены&lt;/&gt;;</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияПриветствиеЗакрытьКассовыеСменыКонтекстноеМеню" id="585"/>
+															<ExtendedTooltip name="ДекорацияПриветствиеЗакрытьКассовыеСменыРасширеннаяПодсказка" id="586"/>
+														</LabelDecoration>
+														<LabelDecoration name="ДекорацияПриветствиеВыполнитьСинхронизацию" id="572">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Title formatted="true">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>- &lt;link ВыполнитьСинхронизацию&gt;Выполнить синхронизацию&lt;/&gt;;</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияПриветствиеВыполнитьСинхронизациюКонтекстноеМеню" id="573"/>
+															<ExtendedTooltip name="ДекорацияПриветствиеВыполнитьСинхронизациюРасширеннаяПодсказка" id="574"/>
+														</LabelDecoration>
+														<LabelDecoration name="ДекорацияПриветствиеУдалитьПомеченныеОбъекты" id="587">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Title formatted="true">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>- &lt;link УдалитьПомеченныеОбъекты&gt;Удалить помеченные объекты&lt;/&gt;;</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияПриветствиеУдалитьПомеченныеОбъектыКонтекстноеМеню" id="588"/>
+															<ExtendedTooltip name="ДекорацияПриветствиеУдалитьПомеченныеОбъектыРасширеннаяПодсказка" id="589"/>
+														</LabelDecoration>
+														<LabelDecoration name="ДекорацияПриветствиеОбменЕГАИС" id="590">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Title formatted="true">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>- &lt;link ОбменЕГАИС&gt;Завершить обмен с ЕГАИС&lt;/&gt;;</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияПриветствиеОбменЕГАИСКонтекстноеМеню" id="591"/>
+															<ExtendedTooltip name="ДекорацияПриветствиеОбменЕГАИСРасширеннаяПодсказка" id="592"/>
+														</LabelDecoration>
+														<LabelDecoration name="ДекорацияПриветствиеОбменИСМП" id="593">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Title formatted="true">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>- &lt;link ОбменИСМП&gt;Завершить обмен с ИС МП&lt;/&gt;;</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияПриветствиеОбменИСМПКонтекстноеМеню" id="594"/>
+															<ExtendedTooltip name="ДекорацияПриветствиеОбменИСМПРасширеннаяПодсказка" id="595"/>
+														</LabelDecoration>
+														<LabelDecoration name="ДекорацияПриветствиеОбменВЕТИС" id="596">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Title formatted="true">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>- &lt;link ОбменВЕТИС&gt;Завершить обмен с ВЕТИС&lt;/&gt;;</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияПриветствиеОбменВЕТИСКонтекстноеМеню" id="597"/>
+															<ExtendedTooltip name="ДекорацияПриветствиеОбменВЕТИСРасширеннаяПодсказка" id="598"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСпособыПерехода" id="97">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способ перехода</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаСпособыПереходаРасширеннаяПодсказка" id="98"/>
+					<ChildItems>
+						<Pages name="ВизуализацииПерехода" id="122">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Визуализации перехода</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Визуализации перехода</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ВизуализацииПереходаРасширеннаяПодсказка" id="123"/>
+							<ChildItems>
+								<Page name="СтраницаОблако" id="124">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>В Облако</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница облако</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаОблакоРасширеннаяПодсказка" id="125"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаКоробкаОблако" id="126">
+											<Height>6</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="КартинкаКоробкаОблакоКонтекстноеМеню" id="127"/>
+											<ExtendedTooltip name="КартинкаКоробкаОблакоРасширеннаяПодсказка" id="128"/>
+										</PictureDecoration>
+										<PictureDecoration name="КартинкаОблакоОблако" id="129">
+											<Visible>false</Visible>
+											<Height>6</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="КартинкаОблакоОблакоКонтекстноеМеню" id="130"/>
+											<ExtendedTooltip name="КартинкаОблакоОблакоРасширеннаяПодсказка" id="131"/>
+										</PictureDecoration>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаФайл" id="132">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>В Файл</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница файл</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаФайлРасширеннаяПодсказка" id="133"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаКоробкаФайл" id="134">
+											<Height>6</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="КартинкаКоробкаФайлКонтекстноеМеню" id="135"/>
+											<ExtendedTooltip name="КартинкаКоробкаФайлРасширеннаяПодсказка" id="136"/>
+										</PictureDecoration>
+										<PictureDecoration name="КартинкаОблакоФайл" id="137">
+											<Visible>false</Visible>
+											<Height>6</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Picture>
+												<xr:Abs>Picture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="КартинкаОблакоФайлКонтекстноеМеню" id="138"/>
+											<ExtendedTooltip name="КартинкаОблакоФайлРасширеннаяПодсказка" id="139"/>
+										</PictureDecoration>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+						<UsualGroup name="ГруппаСпособыПерехода" id="99">
+							<Group>Vertical</Group>
+							<VerticalSpacing>Half</VerticalSpacing>
+							<Behavior>Usual</Behavior>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаСпособыПереходаРасширеннаяПодсказка" id="100"/>
+							<ChildItems>
+								<RadioButtonField name="СпособПереходаСервис" id="105">
+									<DataPath>СпособПерехода</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переход в облачный сервис</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="СпособПереходаСервисКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="СпособПереходаСервисРасширеннаяПодсказка" id="107"/>
+									<Events>
+										<Event name="OnChange">СпособПереходаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="СпособПереходаФайл" id="119">
+									<DataPath>СпособПерехода</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Выгрузить данные в файл для ручного перехода</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="СпособПереходаФайлКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="СпособПереходаФайлРасширеннаяПодсказка" id="121"/>
+									<Events>
+										<Event name="OnChange">СпособПереходаПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаЭтапыПерехода" id="788">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Этапы перехода</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаЭтапыПереходаРасширеннаяПодсказка" id="789"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаЭтапыПерехода" id="808">
+							<Group>Vertical</Group>
+							<VerticalSpacing>Half</VerticalSpacing>
+							<Behavior>Usual</Behavior>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЭтапыПереходаРасширеннаяПодсказка" id="809"/>
+							<ChildItems>
+								<LabelDecoration name="ЗаголовокВыборЭтаповПеерехода" id="819">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выбор этапов перехода</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ЗаголовокВыборЭтаповПеереходаКонтекстноеМеню" id="820"/>
+									<ExtendedTooltip name="ЗаголовокВыборЭтаповПеереходаРасширеннаяПодсказка" id="821"/>
+								</LabelDecoration>
+								<UsualGroup name="ГруппаЭтапыПереходаОтступ" id="825">
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЭтапыПереходаОтступРасширеннаяПодсказка" id="826"/>
+									<ChildItems>
+										<PictureDecoration name="ДекорацияОтступЭтапыПерехода" id="822">
+											<Width>1</Width>
+											<Height>1</Height>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="ДекорацияОтступЭтапыПереходаКонтекстноеМеню" id="823"/>
+											<ExtendedTooltip name="ДекорацияОтступЭтапыПереходаРасширеннаяПодсказка" id="824"/>
+										</PictureDecoration>
+										<UsualGroup name="ГруппаЭтапыПереходаЭлементы" id="827">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Невыбранные этапы будут пропущены</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаЭтапыПереходаЭлементыРасширеннаяПодсказка" id="828"/>
+											<ChildItems>
+												<CheckBoxField name="ЭтапПереноситьНСИ" id="810">
+													<DataPath>ЭтапПереноситьНСИ</DataPath>
+													<TitleLocation>Right</TitleLocation>
+													<ContextMenu name="ЭтапПереноситьНСИКонтекстноеМеню" id="811"/>
+													<ExtendedTooltip name="ЭтапПереноситьНСИРасширеннаяПодсказка" id="812"/>
+												</CheckBoxField>
+												<CheckBoxField name="ЭтапПереноситьКартинкиНоменклатуры" id="813">
+													<DataPath>ЭтапПереноситьКартинкиНоменклатуры</DataPath>
+													<TitleLocation>Right</TitleLocation>
+													<ContextMenu name="ЭтапПереноситьКартинкиНоменклатурыКонтекстноеМеню" id="814"/>
+													<ExtendedTooltip name="ЭтапПереноситьКартинкиНоменклатурыРасширеннаяПодсказка" id="815"/>
+												</CheckBoxField>
+												<CheckBoxField name="ЭтапПереноситьОстатки" id="816">
+													<DataPath>ЭтапПереноситьОстатки</DataPath>
+													<TitleLocation>Right</TitleLocation>
+													<ContextMenu name="ЭтапПереноситьОстаткиКонтекстноеМеню" id="817"/>
+													<ExtendedTooltip name="ЭтапПереноситьОстаткиРасширеннаяПодсказка" id="818"/>
+												</CheckBoxField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЭтапыКаталогВыгрузки" id="863">
+									<Group>HorizontalIfPossible</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЭтапыКаталогВыгрузкиРасширеннаяПодсказка" id="864"/>
+									<ChildItems>
+										<InputField name="КаталогВыгрузкиВФайл" id="865">
+											<DataPath>КаталогВыгрузкиВФайл</DataPath>
+											<ChoiceButton>true</ChoiceButton>
+											<ContextMenu name="КаталогВыгрузкиВФайлКонтекстноеМеню" id="866"/>
+											<ExtendedTooltip name="КаталогВыгрузкиВФайлРасширеннаяПодсказка" id="867"/>
+											<Events>
+												<Event name="StartChoice">КаталогВыгрузкиВФайлНачалоВыбора</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВходВСервис" id="198">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вход в облачный сервис</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница вход в сервис</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаВходВСервисРасширеннаяПодсказка" id="199"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияВходВСервисПояснение" id="200">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистрировались ранее?
+Введите учетные данные для входа в облачный сервис:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияВходВСервисПояснениеКонтекстноеМеню" id="201"/>
+							<ExtendedTooltip name="ДекорацияВходВСервисПояснениеРасширеннаяПодсказка" id="202"/>
+						</LabelDecoration>
+						<UsualGroup name="ДанныеАвторизации" id="203">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ДанныеАвторизацииРасширеннаяПодсказка" id="204"/>
+							<ChildItems>
+								<LabelDecoration name="ОтступЛогинПароль" id="205">
+									<Width>1</Width>
+									<ContextMenu name="ОтступЛогинПарольКонтекстноеМеню" id="206"/>
+									<ExtendedTooltip name="ОтступЛогинПарольРасширеннаяПодсказка" id="207"/>
+								</LabelDecoration>
+								<UsualGroup name="ГруппаЛогинПароль" id="208">
+									<Group>Vertical</Group>
+									<VerticalSpacing>Half</VerticalSpacing>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЛогинПарольРасширеннаяПодсказка" id="209"/>
+									<ChildItems>
+										<InputField name="АдресСервиса" id="229">
+											<DataPath>АдресСервиса</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<TitleLocation>Left</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>20</MaxWidth>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Например - 1cfresh.com</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="АдресСервисаКонтекстноеМеню" id="230"/>
+											<ExtendedTooltip name="АдресСервисаРасширеннаяПодсказка" id="231"/>
+											<Events>
+												<Event name="OnChange">АдресСервисаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="Логин" id="210">
+											<DataPath>Логин</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>20</MaxWidth>
+											<ContextMenu name="ЛогинКонтекстноеМеню" id="211"/>
+											<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="212"/>
+										</InputField>
+										<InputField name="ПарольЗакрытый" id="213">
+											<DataPath>Пароль</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>20</MaxWidth>
+											<PasswordMode>true</PasswordMode>
+											<ContextMenu name="ПарольЗакрытыйКонтекстноеМеню" id="214"/>
+											<ExtendedTooltip name="ПарольЗакрытыйРасширеннаяПодсказка" id="215"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ДекорацияВосстановлениеПароля" id="219">
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Забыли логин или пароль? &lt;link https://1cfresh.com/recover&gt;Восстановить&lt;/&gt;
+</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияВосстановлениеПароляКонтекстноеМеню" id="220"/>
+							<ExtendedTooltip name="ДекорацияВосстановлениеПароляРасширеннаяПодсказка" id="221"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияРегистрация" id="224">
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Не зарегистрированы в облаке? &lt;link https://1cfresh.com/register&gt;Зарегистрироваться&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияРегистрацияКонтекстноеМеню" id="225"/>
+							<ExtendedTooltip name="ДекорацияРегистрацияРасширеннаяПодсказка" id="226"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВыборАбонента" id="232">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбор абонента</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница вход в сервис</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаВыборАбонентаРасширеннаяПодсказка" id="233"/>
+					<ChildItems>
+						<InputField name="АбонентКод" id="234">
+							<DataPath>КодАбонента</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ContextMenu name="АбонентКодКонтекстноеМеню" id="235"/>
+							<ExtendedTooltip name="АбонентКодРасширеннаяПодсказка" id="236"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВыборПриложения" id="242">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбор приложения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница вход в сервис</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаВыборПриложенияРасширеннаяПодсказка" id="243"/>
+					<ChildItems>
+						<InputField name="АдресПриложения" id="247">
+							<DataPath>АдресПриложения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приложение для перехода</v8:content>
+								</v8:item>
+							</Title>
+							<DropListButton>true</DropListButton>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Создать новое</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string"/>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="АдресПриложенияКонтекстноеМеню" id="248"/>
+							<ExtendedTooltip name="АдресПриложенияРасширеннаяПодсказка" id="249"/>
+							<Events>
+								<Event name="OnChange">АдресПриложенияПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="НаименованиеПриложения" id="254">
+							<DataPath>НаименованиеПриложения</DataPath>
+							<MarkRequiredComplete>true</MarkRequiredComplete>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="НаименованиеПриложенияКонтекстноеМеню" id="255"/>
+							<ExtendedTooltip name="НаименованиеПриложенияРасширеннаяПодсказка" id="256"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВыгрузкаСправочнойИнформации" id="148">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка справочной информации</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница выгрузка справочной информации</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalStretch>true</VerticalStretch>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаВыгрузкаСправочнойИнформацииРасширеннаяПодсказка" id="149"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНастройкаВыгрузкиНСИ" id="735">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкаВыгрузкиНСИРасширеннаяПодсказка" id="736"/>
+							<ChildItems>
+								<LabelDecoration name="ЗаголовокНастройкаВыгрузкиСкладов" id="751">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройка выгрузки магазинов:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ЗаголовокНастройкаВыгрузкиСкладовКонтекстноеМеню" id="752"/>
+									<ExtendedTooltip name="ЗаголовокНастройкаВыгрузкиСкладовРасширеннаяПодсказка" id="753"/>
+								</LabelDecoration>
+								<UsualGroup name="ГруппаНастройкаВыгрузкиСкладов" id="754">
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНастройкаВыгрузкиСкладовРасширеннаяПодсказка" id="755"/>
+									<ChildItems>
+										<PictureDecoration name="ДекорацияОтступВыгружатьСклады" id="756">
+											<Width>1</Width>
+											<Height>1</Height>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="ДекорацияОтступВыгружатьСкладыКонтекстноеМеню" id="757"/>
+											<ExtendedTooltip name="ДекорацияОтступВыгружатьСкладыРасширеннаяПодсказка" id="758"/>
+										</PictureDecoration>
+										<RadioButtonField name="РежимОстатков" id="762">
+											<DataPath>РежимОстатков</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+											<RadioButtonType>RadioButtons</RadioButtonType>
+											<ColumnsCount>1</ColumnsCount>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Выгружать только магазины</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:string">ПоМагазинам</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Выгружать склады магазинов</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:string">ПоСкладам</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="РежимОстатковКонтекстноеМеню" id="763"/>
+											<ExtendedTooltip name="РежимОстатковРасширеннаяПодсказка" id="764">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>При выгрузке складов магазинов остатки будут перенесены по каждому складу, а не в целом по магазину.</v8:content>
+													</v8:item>
+												</Title>
+											</ExtendedTooltip>
+										</RadioButtonField>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="ЗаголовокНастройкаВыгрузкиВидыЦен" id="777">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройка выгрузки цен:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ЗаголовокНастройкаВыгрузкиВидыЦенКонтекстноеМеню" id="778"/>
+									<ExtendedTooltip name="ЗаголовокНастройкаВыгрузкиВидыЦенРасширеннаяПодсказка" id="779"/>
+								</LabelDecoration>
+								<UsualGroup name="ГруппаНастройкаВыгрузкиВидовЦен" id="780">
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНастройкаВыгрузкиВидовЦенРасширеннаяПодсказка" id="781"/>
+									<ChildItems>
+										<PictureDecoration name="ДекорацияОтступВыгружатьВидыЦен" id="782">
+											<Width>1</Width>
+											<Height>1</Height>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="ДекорацияОтступВыгружатьВидыЦенКонтекстноеМеню" id="783"/>
+											<ExtendedTooltip name="ДекорацияОтступВыгружатьВидыЦенРасширеннаяПодсказка" id="784"/>
+										</PictureDecoration>
+										<CheckBoxField name="ТолькоЦеныПравилЦенообразованияМагазинов" id="785">
+											<DataPath>ТолькоЦеныПравилЦенообразованияМагазинов</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Только цены правил ценообразования магазинов</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Right</TitleLocation>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<ContextMenu name="ТолькоЦеныПравилЦенообразованияМагазиновКонтекстноеМеню" id="786"/>
+											<ExtendedTooltip name="ТолькоЦеныПравилЦенообразованияМагазиновРасширеннаяПодсказка" id="787">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>При установленом флаге будут перенесены цены только по видам цен из правил ценообразования магазинов. При снятом флаге будут перенесены цены по всем видам цен.</v8:content>
+													</v8:item>
+												</Title>
+											</ExtendedTooltip>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ДекорацияОрганизацииКПереносу" id="145">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Будут перенесены данные по &lt;link ОткрытьФормуВыбораОрганизации&gt;всем&lt;/&gt; организациям</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОрганизацииКПереносуКонтекстноеМеню" id="146"/>
+							<ExtendedTooltip name="ДекорацияОрганизацииКПереносуРасширеннаяПодсказка" id="147"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияВыгрузкаСправочнойИнформации" id="187">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;b&gt;Внимание!&lt;/&gt;
+Процесс выгрузки данных может занять продолжительное время.</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+							<ContextMenu name="ДекорацияВыгрузкаСправочнойИнформацииКонтекстноеМеню" id="188"/>
+							<ExtendedTooltip name="ДекорацияВыгрузкаСправочнойИнформацииРасширеннаяПодсказка" id="189"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИнформацияПослеВыгрузки" id="190">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки на стороне 1С:УНФ, ред. 3.0</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаИнформацияПослеВыгрузкиРасширеннаяПодсказка" id="191"/>
+					<ChildItems>
+						<Pages name="ПанельИнформацияПослеВыгрузки" id="490">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель информация после выгрузки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель информация после выгрузки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ПанельИнформацияПослеВыгрузкиРасширеннаяПодсказка" id="491"/>
+							<ChildItems>
+								<Page name="СтраницаИнформацияПослеВыгрузкиСервис" id="492">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница информация после выгрузки сервис</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница информация после выгрузки сервис</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаИнформацияПослеВыгрузкиСервисРасширеннаяПодсказка" id="493"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияИнформацияПослеВыгрузкиСервис" id="195">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Справочная информация успешно загружена в 1С:%1, ред. 3.0.
+
+Перед переходом на следующий этап:
+1. Убедитесь в корректности перенесенной информации и дополните ее (при необходимости); 
+2. Задайте настройки учетной политики по перенесенным организациям</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияИнформацияПослеВыгрузкиСервисКонтекстноеМеню" id="196"/>
+											<ExtendedTooltip name="ДекорацияИнформацияПослеВыгрузкиСервисРасширеннаяПодсказка" id="197"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияПерейтиКПриложению" id="487">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;link https://1cfresh.com/***&gt;Перейти к приложению&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияПерейтиКПриложениюКонтекстноеМеню" id="488"/>
+											<ExtendedTooltip name="ДекорацияПерейтиКПриложениюРасширеннаяПодсказка" id="489"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаИнформацияПослеВыгрузкиФайл" id="494">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница информация после выгрузки файл</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница информация после выгрузки файл</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаИнформацияПослеВыгрузкиФайлРасширеннаяПодсказка" id="495"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияИнформацияПослеВыгрузкиФайл" id="496">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Справочная информация успешно выгружена в файл обмена.
+
+Перед переходом на следующий этап:
+1. Откройте приложение 1С:%1, ред. 3.0 и выполните загрузку файла обмена с помощью
+    команды "Компания - Загрузка данных из конфигурации 1С:Розница, ред. 2.3";
+2. Убедитесь в корректности перенесенной информации и дополните ее (при необходимости); 
+3. Задайте настройки учетной политики по перенесенным организациям</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияИнформацияПослеВыгрузкиФайлКонтекстноеМеню" id="497"/>
+											<ExtendedTooltip name="ДекорацияИнформацияПослеВыгрузкиФайлРасширеннаяПодсказка" id="498"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВыгрузкаОстатков" id="140">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка остатков</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаВыгрузкаОстатковРасширеннаяПодсказка" id="141"/>
+					<ChildItems>
+						<InputField name="ДатаОстатков" id="142">
+							<DataPath>ДатаОстатков</DataPath>
+							<ContextMenu name="ДатаОстатковКонтекстноеМеню" id="143"/>
+							<ExtendedTooltip name="ДатаОстатковРасширеннаяПодсказка" id="144"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИнформацияПослеВыгрузкиОстатков" id="624">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки на стороне 1С:УНФ, ред. 3.0</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаИнформацияПослеВыгрузкиОстатковРасширеннаяПодсказка" id="625"/>
+					<ChildItems>
+						<Pages name="ПанельИнформацияПослеВыгрузкиОстатков" id="775">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель информация после выгрузки остатков</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель информация после выгрузки остатков</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ПанельИнформацияПослеВыгрузкиОстатковРасширеннаяПодсказка" id="776"/>
+							<ChildItems>
+								<Page name="СтраницаИнформацияПослеВыгрузкиОстатковСервис" id="765">
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаИнформацияПослеВыгрузкиОстатковСервисРасширеннаяПодсказка" id="766"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияИнформацияПослеВыгрузкиОстатковСервис" id="767">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Информация по остаткам успешно загружена в 1С:%1, ред. 3.0.</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияИнформацияПослеВыгрузкиОстатковСервисКонтекстноеМеню" id="768"/>
+											<ExtendedTooltip name="ДекорацияИнформацияПослеВыгрузкиОстатковСервисРасширеннаяПодсказка" id="769"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияПерейтиКПриложению1" id="770">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;link https://1cfresh.com/***&gt;Перейти к приложению&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияПерейтиКПриложению1КонтекстноеМеню" id="771"/>
+											<ExtendedTooltip name="ДекорацияПерейтиКПриложению1РасширеннаяПодсказка" id="772"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаИнформацияПослеВыгрузкиОстатковФайл" id="773">
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаИнформацияПослеВыгрузкиОстатковФайлРасширеннаяПодсказка" id="774"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияИнформацияПослеВыгрузкиОстатков" id="638">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Остатки успешно выгружена в файл обмена.
+
+Перед переходом на следующий этап:
+- Откройте приложение 1С:%1, ред. 3.0 и выполните загрузку файла обмена с помощью
+  команды "Компания - Загрузка данных из конфигурации 1С:Розница, ред. 2.3";</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияИнформацияПослеВыгрузкиОстатковКонтекстноеМеню" id="639"/>
+											<ExtendedTooltip name="ДекорацияИнформацияПослеВыгрузкиОстатковРасширеннаяПодсказка" id="640"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНастройкаСинхронизации" id="599">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка постоянной синхронизации</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница приветствие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаНастройкаСинхронизацииРасширеннаяПодсказка" id="600"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПереносЗавершен" id="611">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа перенос завершен</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа перенос завершен</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПереносЗавершенРасширеннаяПодсказка" id="612"/>
+							<ChildItems>
+								<PictureDecoration name="ДекорацияПереносЗавершен" id="613">
+									<Width>2</Width>
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Декорация перенос завершен</v8:content>
+										</v8:item>
+									</Title>
+									<PictureSize>AutoSize</PictureSize>
+									<Picture>
+										<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="ДекорацияПереносЗавершенКонтекстноеМеню" id="614"/>
+									<ExtendedTooltip name="ДекорацияПереносЗавершенРасширеннаяПодсказка" id="615"/>
+								</PictureDecoration>
+								<LabelDecoration name="ДекорацияПереносЗавершенТекст" id="608">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Перенос данных завершен.</v8:content>
+										</v8:item>
+									</Title>
+									<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+									<ContextMenu name="ДекорацияПереносЗавершенТекстКонтекстноеМеню" id="609"/>
+									<ExtendedTooltip name="ДекорацияПереносЗавершенТекстРасширеннаяПодсказка" id="610"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкаСинхронизации" id="619">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройка постоянной синхронизации</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройка синхронизации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкаСинхронизацииРасширеннаяПодсказка" id="620"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияНастройкаСинхронизации" id="603">
+									<Width>70</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Если на этапе переходного периода планируется одновременная работа в текущей и новой конфигурации, желательно настроить постоянный обмен данными через универсальный формат.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияНастройкаСинхронизацииКонтекстноеМеню" id="604"/>
+									<ExtendedTooltip name="ДекорацияНастройкаСинхронизацииРасширеннаяПодсказка" id="605"/>
+								</LabelDecoration>
+								<Button name="НастроитьОбменВУниверсальномФормате" id="601">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.НастроитьОбменВУниверсальномФормате</CommandName>
+									<ExtendedTooltip name="НастроитьОбменВУниверсальномФорматеРасширеннаяПодсказка" id="602"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ДекорацияПереносЗавершенОтступ" id="621">
+							<ContextMenu name="ДекорацияПереносЗавершенОтступКонтекстноеМеню" id="622"/>
+							<ExtendedTooltip name="ДекорацияПереносЗавершенОтступРасширеннаяПодсказка" id="623"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияПереносЗавершенПерейтиКПриложению" id="616">
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;link https://1cfresh.com/***&gt;Перейти к приложению&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияПереносЗавершенПерейтиКПриложениюКонтекстноеМеню" id="617"/>
+							<ExtendedTooltip name="ДекорацияПереносЗавершенПерейтиКПриложениюРасширеннаяПодсказка" id="618"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОжидание" id="12">
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаОжиданиеРасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<Pages name="ПанельОжидания" id="329">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель ожидания</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель ожидания</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ПанельОжиданияРасширеннаяПодсказка" id="330"/>
+							<ChildItems>
+								<Page name="СтраницаОжиданияПереходВСервис" id="331">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница ожидания переход в сервис</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница ожидания переход в сервис</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаОжиданияПереходВСервисРасширеннаяПодсказка" id="332"/>
+									<ChildItems>
+										<Pages name="ПанельАвторизацияНаСервисе" id="279">
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельАвторизацияНаСервисеРасширеннаяПодсказка" id="280"/>
+											<ChildItems>
+												<Page name="СтраницаАвторизациюНаСервисеВыполняется" id="291">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаАвторизациюНаСервисеВыполняетсяРасширеннаяПодсказка" id="292"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияАвторизациюНаСервисеВыполняется" id="295">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияАвторизациюНаСервисеВыполняетсяКонтекстноеМеню" id="296"/>
+															<ExtendedTooltip name="ДекорацияАвторизациюНаСервисеВыполняетсяРасширеннаяПодсказка" id="297"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияАвторизациюНаСервисеВыполняетсяТекст" id="298">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется авторизация на сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияАвторизациюНаСервисеВыполняетсяТекстКонтекстноеМеню" id="299"/>
+															<ExtendedTooltip name="ДекорацияАвторизациюНаСервисеВыполняетсяТекстРасширеннаяПодсказка" id="300"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаАвторизациюНаСервисеВыполнено" id="301">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаАвторизациюНаСервисеВыполненоРасширеннаяПодсказка" id="302"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияАвторизациюНаСервисеВыполнено" id="305">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияАвторизациюНаСервисеВыполненоКонтекстноеМеню" id="306"/>
+															<ExtendedTooltip name="ДекорацияАвторизациюНаСервисеВыполненоРасширеннаяПодсказка" id="307"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияАвторизациюНаСервисеВыполненоТекст" id="308">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполнена авторизация на сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияАвторизациюНаСервисеВыполненоТекстКонтекстноеМеню" id="309"/>
+															<ExtendedTooltip name="ДекорацияАвторизациюНаСервисеВыполненоТекстРасширеннаяПодсказка" id="310"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+										<Pages name="ПанельПроверкаДоступныхКонфигураций" id="335">
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПроверкаДоступныхКонфигурацийРасширеннаяПодсказка" id="336"/>
+											<ChildItems>
+												<Page name="СтраницаПроверкаДоступныхКонфигурацийОжидание" id="353">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПроверкаДоступныхКонфигурацийОжиданиеРасширеннаяПодсказка" id="354"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПроверкаДоступныхКонфигурацийОжидание" id="355">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПроверкаДоступныхКонфигурацийОжиданиеКонтекстноеМеню" id="356"/>
+															<ExtendedTooltip name="ДекорацияПроверкаДоступныхКонфигурацийОжиданиеРасширеннаяПодсказка" id="357"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПроверкаДоступныхКонфигурацийОжиданиеТекст" id="358">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Проверка возможности перехода</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПроверкаДоступныхКонфигурацийОжиданиеТекстКонтекстноеМеню" id="359"/>
+															<ExtendedTooltip name="ДекорацияПроверкаДоступныхКонфигурацийОжиданиеТекстРасширеннаяПодсказка" id="360"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПроверкаДоступныхКонфигурацийВыполняется" id="337">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПроверкаДоступныхКонфигурацийВыполняетсяРасширеннаяПодсказка" id="338"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПроверкаДоступныхКонфигурацийВыполняется" id="339">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПроверкаДоступныхКонфигурацийВыполняетсяКонтекстноеМеню" id="340"/>
+															<ExtendedTooltip name="ДекорацияПроверкаДоступныхКонфигурацийВыполняетсяРасширеннаяПодсказка" id="341"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПроверкаДоступныхКонфигурацийВыполняетсяТекст" id="342">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется проверка доступных конфигураций на сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПроверкаДоступныхКонфигурацийВыполняетсяТекстКонтекстноеМеню" id="343"/>
+															<ExtendedTooltip name="ДекорацияПроверкаДоступныхКонфигурацийВыполняетсяТекстРасширеннаяПодсказка" id="344"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПроверкаДоступныхКонфигурацийВыполнено" id="345">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПроверкаДоступныхКонфигурацийВыполненоРасширеннаяПодсказка" id="346"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПроверкаДоступныхКонфигурацийВыполнено" id="347">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПроверкаДоступныхКонфигурацийВыполненоКонтекстноеМеню" id="348"/>
+															<ExtendedTooltip name="ДекорацияПроверкаДоступныхКонфигурацийВыполненоРасширеннаяПодсказка" id="349"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПроверкаДоступныхКонфигурацийВыполненоТекст" id="350">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Конфигурация для перехода доступна на сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПроверкаДоступныхКонфигурацийВыполненоТекстКонтекстноеМеню" id="351"/>
+															<ExtendedTooltip name="ДекорацияПроверкаДоступныхКонфигурацийВыполненоТекстРасширеннаяПодсказка" id="352"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+										<Pages name="ПанельПодготовкаПриложенияДляПерехода" id="361">
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПодготовкаПриложенияДляПереходаРасширеннаяПодсказка" id="362"/>
+											<ChildItems>
+												<Page name="СтраницаПодготовкаПриложенияДляПереходаОжидание" id="363">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПодготовкаПриложенияДляПереходаОжиданиеРасширеннаяПодсказка" id="364"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПолучениеСпискаДоступныхПриложенийОжидание" id="365">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПолучениеСпискаДоступныхПриложенийОжиданиеКонтекстноеМеню" id="366"/>
+															<ExtendedTooltip name="ДекорацияПолучениеСпискаДоступныхПриложенийОжиданиеРасширеннаяПодсказка" id="367"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПолучениеСпискаДоступныхПриложенийОжиданиеТекст" id="368">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Подготовка приложения для перехода</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПолучениеСпискаДоступныхПриложенийОжиданиеТекстКонтекстноеМеню" id="369"/>
+															<ExtendedTooltip name="ДекорацияПолучениеСпискаДоступныхПриложенийОжиданиеТекстРасширеннаяПодсказка" id="370"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПолучениеСпискаДоступныхПриложенийВыполняется" id="371">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПолучениеСпискаДоступныхПриложенийВыполняетсяРасширеннаяПодсказка" id="372"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПолучениеСпискаДоступныхПриложенийВыполняется" id="373">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПолучениеСпискаДоступныхПриложенийВыполняетсяКонтекстноеМеню" id="374"/>
+															<ExtendedTooltip name="ДекорацияПолучениеСпискаДоступныхПриложенийВыполняетсяРасширеннаяПодсказка" id="375"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПолучениеСпискаДоступныхПриложенийВыполняетсяТекст" id="376">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется получение списка доступных приложений</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПолучениеСпискаДоступныхПриложенийВыполняетсяТекстКонтекстноеМеню" id="377"/>
+															<ExtendedTooltip name="ДекорацияПолучениеСпискаДоступныхПриложенийВыполняетсяТекстРасширеннаяПодсказка" id="378"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаСозданиеПриложенияВыполняется" id="397">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаСозданиеПриложенияВыполняетсяРасширеннаяПодсказка" id="398"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияСозданиеПриложенияВыполняется" id="399">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияСозданиеПриложенияВыполняетсяКонтекстноеМеню" id="400"/>
+															<ExtendedTooltip name="ДекорацияСозданиеПриложенияВыполняетсяРасширеннаяПодсказка" id="401"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияСозданиеПриложенияВыполняетсяТекст" id="402">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется создание приложения в сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияСозданиеПриложенияВыполняетсяТекстКонтекстноеМеню" id="403"/>
+															<ExtendedTooltip name="ДекорацияСозданиеПриложенияВыполняетсяТекстРасширеннаяПодсказка" id="404"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПроверкаСтатусаПриложенияВыполняется" id="405">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПроверкаСтатусаПриложенияВыполняетсяРасширеннаяПодсказка" id="406"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПроверкаСтатусаПриложенияВыполняется" id="407">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПроверкаСтатусаПриложенияВыполняетсяКонтекстноеМеню" id="408"/>
+															<ExtendedTooltip name="ДекорацияПроверкаСтатусаПриложенияВыполняетсяРасширеннаяПодсказка" id="409"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПроверкаСтатусаПриложенияТекст" id="410">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Ожидание готовности приложения</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПроверкаСтатусаПриложенияТекстКонтекстноеМеню" id="411"/>
+															<ExtendedTooltip name="ДекорацияПроверкаСтатусаПриложенияТекстРасширеннаяПодсказка" id="412"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПодготовкаПриложенияДляПереходаВыполнено" id="379">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПодготовкаПриложенияДляПереходаВыполненоРасширеннаяПодсказка" id="380"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПодготовкаПриложенияДляПереходаВыполнено" id="381">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПодготовкаПриложенияДляПереходаВыполненоКонтекстноеМеню" id="382"/>
+															<ExtendedTooltip name="ДекорацияПодготовкаПриложенияДляПереходаВыполненоРасширеннаяПодсказка" id="383"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПодготовкаПриложенияДляПереходаВыполненоТекст" id="384">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Приложение подготовлено для перехода</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПодготовкаПриложенияДляПереходаВыполненоТекстКонтекстноеМеню" id="385"/>
+															<ExtendedTooltip name="ДекорацияПодготовкаПриложенияДляПереходаВыполненоТекстРасширеннаяПодсказка" id="386"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+										<Pages name="ПанельПереносСправочнойИнформации" id="387">
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПереносСправочнойИнформацииРасширеннаяПодсказка" id="388"/>
+											<ChildItems>
+												<Page name="СтраницаПереносСправочнойИнформацииОжидание" id="389">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносСправочнойИнформацииОжиданиеРасширеннаяПодсказка" id="390"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносСправочнойИнформацииОжидание" id="391">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииОжиданиеКонтекстноеМеню" id="392"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииОжиданиеРасширеннаяПодсказка" id="393"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносСправочнойИнформацииОжиданиеТекст" id="394">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенос справочной информации</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииОжиданиеТекстКонтекстноеМеню" id="395"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииОжиданиеТекстРасширеннаяПодсказка" id="396"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаВыгрузкаСправочнойИнформацииВыполняется" id="413">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаВыгрузкаСправочнойИнформацииВыполняетсяРасширеннаяПодсказка" id="414"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияВыгрузкаСправочнойИнформацииВыполняется" id="415">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияВыгрузкаСправочнойИнформацииВыполняетсяКонтекстноеМеню" id="416"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаСправочнойИнформацииВыполняетсяРасширеннаяПодсказка" id="417"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияВыгрузкаСправочнойИнформацииВыполняетсяТекст" id="418">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется выгрузка справочной информации</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияВыгрузкаСправочнойИнформацииВыполняетсяТекстКонтекстноеМеню" id="419"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаСправочнойИнформацииВыполняетсяТекстРасширеннаяПодсказка" id="420"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПередачаСправочнойИнформацииВыполняется" id="429">
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница передача справочной информации выполняется</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПередачаСправочнойИнформацииВыполняетсяРасширеннаяПодсказка" id="430"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПередачаСправочнойИнформацииВыполняется" id="431">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПередачаСправочнойИнформацииВыполняетсяКонтекстноеМеню" id="432"/>
+															<ExtendedTooltip name="ДекорацияПередачаСправочнойИнформацииВыполняетсяРасширеннаяПодсказка" id="433"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПередачаСправочнойИнформацииВыполняетсяТекст" id="434">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется передача файла выгрузки НСИ на сервис</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПередачаСправочнойИнформацииВыполняетсяТекстКонтекстноеМеню" id="435"/>
+															<ExtendedTooltip name="ДекорацияПередачаСправочнойИнформацииВыполняетсяТекстРасширеннаяПодсказка" id="436"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаЗагрузкаСправочнойИнформацииВыполняется" id="421">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаЗагрузкаСправочнойИнформацииВыполняетсяРасширеннаяПодсказка" id="422"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияЗагрузкаСправочнойИнформацииВыполняется" id="423">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияЗагрузкаСправочнойИнформацииВыполняетсяКонтекстноеМеню" id="424"/>
+															<ExtendedTooltip name="ДекорацияЗагрузкаСправочнойИнформацииВыполняетсяРасширеннаяПодсказка" id="425"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияЗагрузкаСправочнойИнформацииВыполняетсяТекст" id="426">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется загрузка справочной информации на сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияЗагрузкаСправочнойИнформацииВыполняетсяТекстКонтекстноеМеню" id="427"/>
+															<ExtendedTooltip name="ДекорацияЗагрузкаСправочнойИнформацииВыполняетсяТекстРасширеннаяПодсказка" id="428"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПереносСправочнойИнформацииВыполнено" id="437">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносСправочнойИнформацииВыполненоРасширеннаяПодсказка" id="438"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносСправочнойИнформацииВыполнено" id="439">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииВыполненоКонтекстноеМеню" id="440"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииВыполненоРасширеннаяПодсказка" id="441"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносСправочнойИнформацииВыполненоТекст" id="442">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенесена справочная информация</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииВыполненоТекстКонтекстноеМеню" id="443"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииВыполненоТекстРасширеннаяПодсказка" id="444"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+										<Pages name="ПанельПереносКартинокНоменклатуры" id="868">
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПереносКартинокНоменклатурыРасширеннаяПодсказка" id="869"/>
+											<ChildItems>
+												<Page name="СтраницаПереносКартинокНоменклатурыОжидание" id="870">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносКартинокНоменклатурыОжиданиеРасширеннаяПодсказка" id="871"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносКартинокНоменклатурыОжидание" id="872">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыОжиданиеКонтекстноеМеню" id="873"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыОжиданиеРасширеннаяПодсказка" id="874"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносКартинокНоменклатурыОжиданиеТекст" id="875">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенос картинок номенклатуры</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыОжиданиеТекстКонтекстноеМеню" id="876"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыОжиданиеТекстРасширеннаяПодсказка" id="877"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаВыгрузкаКартинокНоменклатурыВыполняется" id="878">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаВыгрузкаКартинокНоменклатурыВыполняетсяРасширеннаяПодсказка" id="879"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияВыгрузкаКартинокНоменклатурыВыполняется" id="880">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияВыгрузкаКартинокНоменклатурыВыполняетсяКонтекстноеМеню" id="881"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаКартинокНоменклатурыВыполняетсяРасширеннаяПодсказка" id="882"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияВыгрузкаКартинокНоменклатурыВыполняетсяТекст" id="883">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется выгрузка картинок номенклатуры</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияВыгрузкаКартинокНоменклатурыВыполняетсяТекстКонтекстноеМеню" id="884"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаКартинокНоменклатурыВыполняетсяТекстРасширеннаяПодсказка" id="885"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПередачаКартинокНоменклатурыВыполняется" id="894">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПередачаКартинокНоменклатурыВыполняетсяРасширеннаяПодсказка" id="895"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПередачаКартинокНоменклатурыВыполняется" id="896">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПередачаКартинокНоменклатурыВыполняетсяКонтекстноеМеню" id="897"/>
+															<ExtendedTooltip name="ДекорацияПередачаКартинокНоменклатурыВыполняетсяРасширеннаяПодсказка" id="898"/>
+														</PictureDecoration>
+														<LabelDecoration name="ПередачаКартинокНоменклатурыВыполняетсяТекст" id="899">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется передача картинок номенклатуры на сервис</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ПередачаКартинокНоменклатурыВыполняетсяТекстКонтекстноеМеню" id="900"/>
+															<ExtendedTooltip name="ПередачаКартинокНоменклатурыВыполняетсяТекстРасширеннаяПодсказка" id="901"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаЗагрузкаКартинокНоменклатурыВыполняется" id="902">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаЗагрузкаКартинокНоменклатурыВыполняетсяРасширеннаяПодсказка" id="903"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияЗагрузкаКартинокНоменклатурыВыполняется" id="904">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияЗагрузкаКартинокНоменклатурыВыполняетсяКонтекстноеМеню" id="905"/>
+															<ExtendedTooltip name="ДекорацияЗагрузкаКартинокНоменклатурыВыполняетсяРасширеннаяПодсказка" id="906"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияЗагрузкаКартинокНоменклатурыВыполняетсяТекст" id="907">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется загрузка картинок номенклатуры на сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияЗагрузкаКартинокНоменклатурыВыполняетсяТекстКонтекстноеМеню" id="908"/>
+															<ExtendedTooltip name="ДекорацияЗагрузкаКартинокНоменклатурыВыполняетсяТекстРасширеннаяПодсказка" id="909"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПереносКартинокНоменклатурыВыполнено" id="886">
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница перенос картинок номенклатуры выполнено</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносКартинокНоменклатурыВыполненоРасширеннаяПодсказка" id="887"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносКартинокНоменклатурыВыполнено" id="888">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыВыполненоКонтекстноеМеню" id="889"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыВыполненоРасширеннаяПодсказка" id="890"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносКартинокНоменклатурыВыполненоТекст" id="891">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенесены картинки номенклатуры</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыВыполненоТекстКонтекстноеМеню" id="892"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыВыполненоТекстРасширеннаяПодсказка" id="893"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+										<Pages name="ПанельПереносОстатков" id="445">
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПереносОстатковРасширеннаяПодсказка" id="446"/>
+											<ChildItems>
+												<Page name="СтраницаПереносОстатковОжидание" id="447">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносОстатковОжиданиеРасширеннаяПодсказка" id="448"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносОстатковОжидание" id="449">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносОстатковОжиданиеКонтекстноеМеню" id="450"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковОжиданиеРасширеннаяПодсказка" id="451"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносОстатковОжиданиеТекст" id="452">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенос остатков</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносОстатковОжиданиеТекстКонтекстноеМеню" id="453"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковОжиданиеТекстРасширеннаяПодсказка" id="454"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаВыгрузкаОстатковВыполняется" id="455">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаВыгрузкаОстатковВыполняетсяРасширеннаяПодсказка" id="456"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияВыгрузкаОстатковВыполняется" id="457">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияВыгрузкаОстатковВыполняетсяКонтекстноеМеню" id="458"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаОстатковВыполняетсяРасширеннаяПодсказка" id="459"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияВыгрузкаОстатковВыполняетсяТекст" id="460">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется выгрузка остатков</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияВыгрузкаОстатковВыполняетсяТекстКонтекстноеМеню" id="461"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаОстатковВыполняетсяТекстРасширеннаяПодсказка" id="462"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПередачаОстатковВыполняется" id="463">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПередачаОстатковВыполняетсяРасширеннаяПодсказка" id="464"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПередачаОстатковВыполняется" id="465">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПередачаОстатковВыполняетсяКонтекстноеМеню" id="466"/>
+															<ExtendedTooltip name="ДекорацияПередачаОстатковВыполняетсяРасширеннаяПодсказка" id="467"/>
+														</PictureDecoration>
+														<LabelDecoration name="ПередачаОстатковВыполняетсяТекст" id="468">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется передача файла выгрузки остатков на сервис</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ПередачаОстатковВыполняетсяТекстКонтекстноеМеню" id="469"/>
+															<ExtendedTooltip name="ПередачаОстатковВыполняетсяТекстРасширеннаяПодсказка" id="470"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаЗагрузкаОстатковВыполняется" id="471">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаЗагрузкаОстатковВыполняетсяРасширеннаяПодсказка" id="472"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияЗагрузкаОстатковВыполняется" id="473">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияЗагрузкаОстатковВыполняетсяКонтекстноеМеню" id="474"/>
+															<ExtendedTooltip name="ДекорацияЗагрузкаОстатковВыполняетсяРасширеннаяПодсказка" id="475"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияЗагрузкаОстатковВыполняетсяТекст" id="476">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется загрузка остатков на сервисе</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияЗагрузкаОстатковВыполняетсяТекстКонтекстноеМеню" id="477"/>
+															<ExtendedTooltip name="ДекорацияЗагрузкаОстатковВыполняетсяТекстРасширеннаяПодсказка" id="478"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПереносОстатковВыполнено" id="479">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносОстатковВыполненоРасширеннаяПодсказка" id="480"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносОстатковВыполнено" id="481">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносОстатковВыполненоКонтекстноеМеню" id="482"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковВыполненоРасширеннаяПодсказка" id="483"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносОстатковВыполненоТекст" id="484">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенесены остатки</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносОстатковВыполненоТекстКонтекстноеМеню" id="485"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковВыполненоТекстРасширеннаяПодсказка" id="486"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаОжиданияПереходВФайл" id="333">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница ожидания переход в файл</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница ожидания переход в файл</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="СтраницаОжиданияПереходВФайлРасширеннаяПодсказка" id="334"/>
+									<ChildItems>
+										<Pages name="ПанельПереносСправочнойИнформацииФайл" id="648">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Панель перенос справочной информации файл</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Панель перенос справочной информации файл</v8:content>
+												</v8:item>
+											</ToolTip>
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПереносСправочнойИнформацииФайлРасширеннаяПодсказка" id="649"/>
+											<ChildItems>
+												<Page name="СтраницаПереносСправочнойИнформацииФайлОжидание" id="855">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносСправочнойИнформацииФайлОжиданиеРасширеннаяПодсказка" id="856"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносСправочнойИнформацииФайлОжидание" id="857">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииФайлОжиданиеКонтекстноеМеню" id="858"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииФайлОжиданиеРасширеннаяПодсказка" id="859"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносСправочнойИнформацииФайлОжиданиеТекст" id="860">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенос справочной информации</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииФайлОжиданиеТекстКонтекстноеМеню" id="861"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииФайлОжиданиеТекстРасширеннаяПодсказка" id="862"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаВыгрузкаСправочнойИнформацииФайлВыполняется" id="658">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница выгрузка справочной информации файл выполняется</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница выгрузка справочной информации файл выполняется</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаВыгрузкаСправочнойИнформацииФайлВыполняетсяРасширеннаяПодсказка" id="659"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияВыгрузкаСправочнойИнформацииФайлВыполняется" id="660">
+															<Width>2</Width>
+															<Height>1</Height>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Декорация выгрузка справочной информации файл выполняется</v8:content>
+																</v8:item>
+															</Title>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияВыгрузкаСправочнойИнформацииФайлВыполняетсяКонтекстноеМеню" id="661"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаСправочнойИнформацииФайлВыполняетсяРасширеннаяПодсказка" id="662"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияВыгрузкаСправочнойИнформацииФайлВыполняетсяТекст" id="663">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется выгрузка справочной информации</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияВыгрузкаСправочнойИнформацииФайлВыполняетсяТекстКонтекстноеМеню" id="664"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаСправочнойИнформацииФайлВыполняетсяТекстРасширеннаяПодсказка" id="665"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПереносСправочнойИнформацииФайлВыполнено" id="682">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница перенос справочной информации файл выполнено</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница перенос справочной информации файл выполнено</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносСправочнойИнформацииФайлВыполненоРасширеннаяПодсказка" id="683"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносСправочнойИнформацииФайлВыполнено" id="684">
+															<Width>2</Width>
+															<Height>1</Height>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Декорация перенос справочной информации файл выполнено</v8:content>
+																</v8:item>
+															</Title>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииФайлВыполненоКонтекстноеМеню" id="685"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииФайлВыполненоРасширеннаяПодсказка" id="686"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносСправочнойИнформацииФайлВыполненоТекст" id="687">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенесена справочная информация</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносСправочнойИнформацииФайлВыполненоТекстКонтекстноеМеню" id="688"/>
+															<ExtendedTooltip name="ДекорацияПереносСправочнойИнформацииФайлВыполненоТекстРасширеннаяПодсказка" id="689"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+										<Pages name="ПанельПереносКартинокНоменклатурыФайл" id="829">
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПереносКартинокНоменклатурыФайлРасширеннаяПодсказка" id="830"/>
+											<ChildItems>
+												<Page name="СтраницаПереносКартинокНоменклатурыФайлОжидание" id="831">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносКартинокНоменклатурыФайлОжиданиеРасширеннаяПодсказка" id="832"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносКартинокНоменклатурыФайлОжидание" id="833">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыФайлОжиданиеКонтекстноеМеню" id="834"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыФайлОжиданиеРасширеннаяПодсказка" id="835"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносКартинокНоменклатурыФайлОжиданиеТекст" id="836">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенос картинок номенклатуры</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыФайлОжиданиеТекстКонтекстноеМеню" id="837"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыФайлОжиданиеТекстРасширеннаяПодсказка" id="838"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПереносКартинокНоменклатурыФайлВыполняется" id="839">
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносКартинокНоменклатурыФайлВыполняетсяРасширеннаяПодсказка" id="840"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияВыгрузкаКартинокНоменклатурыФайлВыполняется" id="841">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияВыгрузкаКартинокНоменклатурыФайлВыполняетсяКонтекстноеМеню" id="842"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаКартинокНоменклатурыФайлВыполняетсяРасширеннаяПодсказка" id="843"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияВыгрузкаКартинокНоменклатурыФайлВыполняетсяТекст" id="844">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется выгрузка картинок номенклатуры</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияВыгрузкаКартинокНоменклатурыФайлВыполняетсяТекстКонтекстноеМеню" id="845"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаКартинокНоменклатурыФайлВыполняетсяТекстРасширеннаяПодсказка" id="846"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПереносКартинокНоменклатурыФайлВыполнено" id="847">
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносКартинокНоменклатурыФайлВыполненоРасширеннаяПодсказка" id="848"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносКартинокНоменклатурыФайлВыполнено" id="849">
+															<Width>2</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыФайлВыполненоКонтекстноеМеню" id="850"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыФайлВыполненоРасширеннаяПодсказка" id="851"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносКартинокНоменклатурыФайлВыполненоТекст" id="852">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенесены картинки номенклатуры</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносКартинокНоменклатурыФайлВыполненоТекстКонтекстноеМеню" id="853"/>
+															<ExtendedTooltip name="ДекорацияПереносКартинокНоменклатурыФайлВыполненоТекстРасширеннаяПодсказка" id="854"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+										<Pages name="ПанельПереносОстатковФайл" id="690">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Панель перенос остатков файл</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Панель перенос остатков файл</v8:content>
+												</v8:item>
+											</ToolTip>
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="ПанельПереносОстатковФайлРасширеннаяПодсказка" id="691"/>
+											<ChildItems>
+												<Page name="СтраницаПереносОстатковФайлОжидание" id="692">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница перенос остатков файл ожидание</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница перенос остатков файл ожидание</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносОстатковФайлОжиданиеРасширеннаяПодсказка" id="693"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносОстатковФайлОжидание" id="694">
+															<Width>2</Width>
+															<Height>1</Height>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Декорация перенос остатков файл ожидание</v8:content>
+																</v8:item>
+															</Title>
+															<PictureSize>AutoSize</PictureSize>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносОстатковФайлОжиданиеКонтекстноеМеню" id="695"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковФайлОжиданиеРасширеннаяПодсказка" id="696"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносОстатковФайлОжиданиеТекст" id="697">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ТекстЗапрещеннойЯчейкиЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенос остатков</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносОстатковФайлОжиданиеТекстКонтекстноеМеню" id="698"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковФайлОжиданиеТекстРасширеннаяПодсказка" id="699"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаВыгрузкаОстатковФайлВыполняется" id="700">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница выгрузка остатков файл выполняется</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница выгрузка остатков файл выполняется</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<Group>AlwaysHorizontal</Group>
+													<ShowTitle>false</ShowTitle>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаВыгрузкаОстатковФайлВыполняетсяРасширеннаяПодсказка" id="701"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияВыгрузкаОстатковФайлВыполняется" id="702">
+															<Width>2</Width>
+															<Height>1</Height>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Декорация выгрузка остатков файл выполняется</v8:content>
+																</v8:item>
+															</Title>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияВыгрузкаОстатковФайлВыполняетсяКонтекстноеМеню" id="703"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаОстатковФайлВыполняетсяРасширеннаяПодсказка" id="704"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияВыгрузкаОстатковФайлВыполняетсяТекст" id="705">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выполняется выгрузка остатков</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияВыгрузкаОстатковФайлВыполняетсяТекстКонтекстноеМеню" id="706"/>
+															<ExtendedTooltip name="ДекорацияВыгрузкаОстатковФайлВыполняетсяТекстРасширеннаяПодсказка" id="707"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаПереносОстатковФайлВыполнено" id="724">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница перенос остатков файл выполнено</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница перенос остатков файл выполнено</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<ScrollOnCompress>false</ScrollOnCompress>
+													<ExtendedTooltip name="СтраницаПереносОстатковФайлВыполненоРасширеннаяПодсказка" id="725"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияПереносОстатковФайлВыполнено" id="726">
+															<Width>2</Width>
+															<Height>1</Height>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Декорация перенос остатков файл выполнено</v8:content>
+																</v8:item>
+															</Title>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.Успешно32</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ДекорацияПереносОстатковФайлВыполненоКонтекстноеМеню" id="727"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковФайлВыполненоРасширеннаяПодсказка" id="728"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияПереносОстатковФайлВыполненоТекст" id="729">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перенесены остатки</v8:content>
+																</v8:item>
+															</Title>
+															<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+															<ContextMenu name="ДекорацияПереносОстатковФайлВыполненоТекстКонтекстноеМеню" id="730"/>
+															<ExtendedTooltip name="ДекорацияПереносОстатковФайлВыполненоТекстРасширеннаяПодсказка" id="731"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<Pages name="ПанельНавигации" id="69">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель навигации</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ПанельНавигацииРасширеннаяПодсказка" id="70"/>
+			<ChildItems>
+				<Page name="СтраницаНавигацияНачало" id="71">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница навигация начало</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаНавигацияНачалоРасширеннаяПодсказка" id="72"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанельНавигацияНачалоСлева" id="73">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация начало слева</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияНачалоСлеваРасширеннаяПодсказка" id="74"/>
+						</CommandBar>
+						<CommandBar name="КоманднаяПанельНавигацияНачалоСправа" id="75">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация начало справа</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияНачалоСправаРасширеннаяПодсказка" id="76"/>
+							<ChildItems>
+								<Button name="КомандаНавигацияНачалоДалее" id="77">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Далее</CommandName>
+									<ExtendedTooltip name="КомандаНавигацияНачалоДалееРасширеннаяПодсказка" id="78"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНавигацияПродолжение" id="79">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница навигация продолжение</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаНавигацияПродолжениеРасширеннаяПодсказка" id="80"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанельНавигацияПродолжениеСлева" id="81">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация продолжение слева</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияПродолжениеСлеваРасширеннаяПодсказка" id="82"/>
+							<ChildItems>
+								<Button name="КомандаНавигацияПродолжениеНазад" id="83">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Назад</CommandName>
+									<ExtendedTooltip name="КомандаНавигацияПродолжениеНазадРасширеннаяПодсказка" id="84"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<CommandBar name="КоманднаяПанельНавигацияПродолжениеСправа" id="85">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация продолжение справа</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияПродолжениеСправаРасширеннаяПодсказка" id="86"/>
+							<ChildItems>
+								<Button name="КомандаНавигацияПродолжениеДалее" id="87">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Далее</CommandName>
+									<ExtendedTooltip name="КомандаНавигацияПродолжениеДалееРасширеннаяПодсказка" id="88"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНавигацияВыгрузкаДанных" id="175">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница навигация выгрузка данных</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница навигация выгрузка данных</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаНавигацияВыгрузкаДанныхРасширеннаяПодсказка" id="176"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанельНавигацияВыгрузкаданныхСлева" id="177">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация выгрузкаданных слева</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация выгрузкаданных слева</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияВыгрузкаданныхСлеваРасширеннаяПодсказка" id="178"/>
+							<ChildItems>
+								<Button name="КомандаНавигацияВыгрузкаДанныхНазад" id="179">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Назад</CommandName>
+									<ExtendedTooltip name="КомандаНавигацияВыгрузкаДанныхНазадРасширеннаяПодсказка" id="180"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<CommandBar name="КоманднаяПанельНавигацияВыгрузкаданныхСправа" id="181">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация выгрузкаданных справа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация выгрузкаданных справа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияВыгрузкаданныхСправаРасширеннаяПодсказка" id="182"/>
+							<ChildItems>
+								<Button name="КомандаНавигацияВыгрузкаДанныхДалее" id="183">
+									<Type>CommandBarButton</Type>
+									<DefaultButton>true</DefaultButton>
+									<CommandName>Form.Command.Далее</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выгрузить</v8:content>
+										</v8:item>
+									</Title>
+									<ButtonImportance>Main</ButtonImportance>
+									<ExtendedTooltip name="КомандаНавигацияВыгрузкаДанныхДалееРасширеннаяПодсказка" id="184"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНавигацияОкончание" id="89">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница навигация окончание</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаНавигацияОкончаниеРасширеннаяПодсказка" id="90"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанельНавигацияОкончаниеСлева" id="91">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация окончание слева</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияОкончаниеСлеваРасширеннаяПодсказка" id="92"/>
+							<ChildItems>
+								<Button name="КомандаНавигацияОкончаниеНазад" id="93">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Назад</CommandName>
+									<ExtendedTooltip name="КомандаНавигацияОкончаниеНазадРасширеннаяПодсказка" id="94"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<CommandBar name="КоманднаяПанельНавигацияОкончаниеСправа" id="95">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация окончание справа</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияОкончаниеСправаРасширеннаяПодсказка" id="96"/>
+							<ChildItems>
+								<Button name="Закрыть" id="606">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.StandardCommand.Close</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Готово</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="607"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНавигацияОжидание" id="250">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница навигация ожидание</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница навигация ожидание</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаНавигацияОжиданиеРасширеннаяПодсказка" id="251"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанельНавигацияОжиданиеСправа" id="259">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация ожидание справа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация ожидание справа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияОжиданиеСправаРасширеннаяПодсказка" id="260"/>
+							<ChildItems>
+								<Button name="Отмена" id="257">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Отмена</CommandName>
+									<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="258"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<CommandBar name="КоманднаяПанельНавигацияОжиданиеСлева" id="261">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация ожидание слева</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель навигация ожидание слева</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="КоманднаяПанельНавигацияОжиданиеСлеваРасширеннаяПодсказка" id="262"/>
+						</CommandBar>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПомощникПереходаВУНФ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТаблицаПереходов" id="2">
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ПорядковыйНомерПерехода" id="1">
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяОсновнойСтраницы" id="2">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяСтраницыДекорации" id="3">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяСтраницыНавигации" id="4">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяОбработчикаПриОткрытии" id="5">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяОбработчикаПриПереходеДалее" id="6">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяОбработчикаПриПереходеНазад" id="7">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДлительнаяОперация" id="8">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИмяОбработчикаДлительнойОперации" id="9">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяОбработчикаРезультатаДлительнойОперации" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя обработчика результата длительной операции</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПорядковыйНомерПерехода" id="3">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СпособПерехода" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способ перехода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РазделениеВключено" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделение включено</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаОстатков" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата формирования остатков</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+			<Save>
+				<Field>ДатаОстатков</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Организации" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Settings>
+		</Attribute>
+		<Attribute name="АдресХранилища" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес хранилища</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПутьКФайлуВыгрузки" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлу выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Логин" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>Логин</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Пароль" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресСервиса" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес облачного сервиса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяКонфигурации" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВерсияКонфигурации" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КодАбонента" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ваш абонент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КонфигурацияДляПерехода" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конфигурация для перехода</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ИмяКонфигурацииДляПерехода" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя конфигурации для перехода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КодКонфигурацииДляПерехода" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код конфигурации для перехода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СинонимКонфигурацииДляПерехода" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синоним конфигурации для перехода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресПриложения" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес приложения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НаименованиеПриложения" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование приложения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЧасовойПояс" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Часовой пояс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НомерОбласти" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер области</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусОбласти" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус области</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Приложения" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приложения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="АдресПриложения" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес приложения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерОбласти" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер области</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтатусОбласти" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус области</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИдентификаторЗадания" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор задания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:UUID</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИдентификаторОперацииНаСервисе" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор операции на сервисе</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РежимОткрытия" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим открытия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыгружатьСклады" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружать склады</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РежимОстатков" id="30">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТолькоЦеныПравилЦенообразованияМагазинов" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только цены правил ценообразования магазинов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтапПереноситьНСИ" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переносить нормативно-справочную информацию</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтапПереноситьКартинкиНоменклатуры" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переносить картинки номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтапПереноситьОстатки" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переносить остатки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыгружаемаяКартинкаНоменклатуры" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружаемая картинка номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.НоменклатураПрисоединенныеФайлы</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КаталогВыгрузкиВФайл" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+			<Save>
+				<Field>КаталогВыгрузкиВФайл</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИмяЭтапа" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя этапа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Далее" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее &gt;</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Далее</Action>
+		</Command>
+		<Command name="Назад" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>&lt; Назад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Назад</Action>
+		</Command>
+		<Command name="Отмена" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Отмена</Action>
+		</Command>
+		<Command name="НастроитьОбменВУниверсальномФормате" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить обмен в универсальном формате</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить обмен в универсальном формате</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастроитьОбменВУниверсальномФормате</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

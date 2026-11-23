@@ -1,0 +1,1726 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
+	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СтраницыГлавные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы главные</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыГлавныеРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаПоказатели" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница показатели</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаПоказателиРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<CommandBar name="ГруппаКоманднаяПанель" id="335">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа командная панель</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа командная панель</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="336"/>
+							<ChildItems>
+								<Button name="ФормаОбновить" id="299">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Обновить</CommandName>
+									<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="300"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<UsualGroup name="ГруппаПоказателиВерх" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа показатели верх</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПоказателиВерхРасширеннаяПодсказка" id="6"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПоказателиВерхЛево" id="7">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа показатели верх лево</v8:content>
+										</v8:item>
+									</Title>
+									<Group>HorizontalIfPossible</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПоказателиВерхЛевоРасширеннаяПодсказка" id="8"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПоказателиПлитка1ОберткаБелая" id="9">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели плитка1 обертка белая</v8:content>
+												</v8:item>
+											</Title>
+											<Group>HorizontalIfPossible</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<BackColor>style:FormBackColor</BackColor>
+											<ExtendedTooltip name="ГруппаПоказателиПлитка1ОберткаБелаяРасширеннаяПодсказка" id="10"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаПоказателиПлитка1Обертка" id="11">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа показатели плитка1 обертка</v8:content>
+														</v8:item>
+													</Title>
+													<Group>HorizontalIfPossible</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<BackColor>style:ЦветПлиткиРабочегоСтола</BackColor>
+													<ExtendedTooltip name="ГруппаПоказателиПлитка1ОберткаРасширеннаяПодсказка" id="12"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаПоказателиПлитка1" id="13">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа показатели плитка1</v8:content>
+																</v8:item>
+															</Title>
+															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаПоказателиПлитка1РасширеннаяПодсказка" id="14"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаПоказателиПлитка1Верх" id="15">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка1 верх</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка1ВерхРасширеннаяПодсказка" id="16"/>
+																	<ChildItems>
+																		<LabelDecoration name="ДекорацияПлитка1ЗаголовокПоказателя" id="17">
+																			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+																			<Title formatted="false">
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Плитка 1 заголовок</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Hyperlink>true</Hyperlink>
+																			<ContextMenu name="ДекорацияПлитка1ЗаголовокПоказателяКонтекстноеМеню" id="18"/>
+																			<ExtendedTooltip name="ДекорацияПлитка1ЗаголовокПоказателяРасширеннаяПодсказка" id="19"/>
+																			<Events>
+																				<Event name="Click">ДекорацияПлитка1ЗаголовокПоказателяНажатие</Event>
+																			</Events>
+																		</LabelDecoration>
+																		<UsualGroup name="СтраницаПоказатель1ВыполнениеДо100" id="32">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Страница показатель1 выполнение до100</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Group>AlwaysHorizontal</Group>
+																			<Behavior>Usual</Behavior>
+																			<Representation>WeakSeparation</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="СтраницаПоказатель1ВыполнениеДо100РасширеннаяПодсказка" id="33"/>
+																			<ChildItems>
+																				<LabelField name="Показатель1ТекущийПериодОсновной" id="20">
+																					<DataPath>Показатель1ТекущийПериод</DataPath>
+																					<TitleFont ref="style:NormalTextFont" height="54" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<TitleLocation>None</TitleLocation>
+																					<Font ref="style:NormalTextFont" height="54" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<ContextMenu name="Показатель1ТекущийПериодОсновнойКонтекстноеМеню" id="21"/>
+																					<ExtendedTooltip name="Показатель1ТекущийПериодОсновнойРасширеннаяПодсказка" id="22"/>
+																				</LabelField>
+																				<PictureDecoration name="ДекорацияИзменениеПоказателя" id="296">
+																					<Width>3</Width>
+																					<Height>2</Height>
+																					<Title formatted="false">
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Декорация изменение показателя</v8:content>
+																						</v8:item>
+																					</Title>
+																					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+																					<GroupVerticalAlign>Center</GroupVerticalAlign>
+																					<PictureSize>Stretch</PictureSize>
+																					<ContextMenu name="ДекорацияИзменениеПоказателяКонтекстноеМеню" id="297"/>
+																					<ExtendedTooltip name="ДекорацияИзменениеПоказателяРасширеннаяПодсказка" id="298"/>
+																				</PictureDecoration>
+																				<LabelField name="Показатель1ВыполнениеПоказателя" id="34">
+																					<DataPath>Показатель1ВыполнениеПоказателя</DataPath>
+																					<TitleLocation>None</TitleLocation>
+																					<HorizontalAlign>Left</HorizontalAlign>
+																					<Width>16</Width>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<MaxWidth>5</MaxWidth>
+																					<TextColor>style:ЗаблокированныйРеквизитЦвет</TextColor>
+																					<Font ref="style:NormalTextFont" height="36" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<ContextMenu name="Показатель1ВыполнениеПоказателяКонтекстноеМеню" id="35"/>
+																					<ExtendedTooltip name="Показатель1ВыполнениеПоказателяРасширеннаяПодсказка" id="36"/>
+																				</LabelField>
+																			</ChildItems>
+																		</UsualGroup>
+																		<ChartField name="ДиаграммаВыручка" id="290">
+																			<DataPath>ДиаграммаВыручка</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<ContextMenu name="ДиаграммаВыручкаКонтекстноеМеню" id="291"/>
+																			<ExtendedTooltip name="ДиаграммаВыручкаРасширеннаяПодсказка" id="292"/>
+																		</ChartField>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаПоказателиВерхПраво" id="96">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа показатели верх лево</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПоказателиВерхПравоРасширеннаяПодсказка" id="97"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПоказателиВерхПравоВерх" id="98">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели</v8:content>
+												</v8:item>
+											</Title>
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПоказателиВерхПравоВерхРасширеннаяПодсказка" id="99"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаПоказателиПлитка2ОберткаБелая" id="100">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа показатели плитка2 обертка белая</v8:content>
+														</v8:item>
+													</Title>
+													<Group>HorizontalIfPossible</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<BackColor>style:FormBackColor</BackColor>
+													<ExtendedTooltip name="ГруппаПоказателиПлитка2ОберткаБелаяРасширеннаяПодсказка" id="101"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаПоказателиПлитка2Обертка" id="102">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа показатели плитка2 обертка</v8:content>
+																</v8:item>
+															</Title>
+															<Group>HorizontalIfPossible</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<BackColor>style:ЦветПлиткиРабочегоСтола</BackColor>
+															<ExtendedTooltip name="ГруппаПоказателиПлитка2ОберткаРасширеннаяПодсказка" id="103"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаПоказателиПлитка2" id="104">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка2</v8:content>
+																		</v8:item>
+																	</Title>
+																	<VerticalStretch>true</VerticalStretch>
+																	<Group>HorizontalIfPossible</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка2РасширеннаяПодсказка" id="105"/>
+																	<ChildItems>
+																		<UsualGroup name="ГруппаПоказателиПлитка2Данные" id="108">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка 2</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка 2</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
+																			<Representation>WeakSeparation</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаПоказателиПлитка2ДанныеРасширеннаяПодсказка" id="109"/>
+																			<ChildItems>
+																				<LabelDecoration name="ДекорацияПлитка2ЗаголовокПоказателя" id="110">
+																					<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+																					<Title formatted="false">
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Плитка 2 заголовок</v8:content>
+																						</v8:item>
+																					</Title>
+																					<Hyperlink>true</Hyperlink>
+																					<ContextMenu name="ДекорацияПлитка2ЗаголовокПоказателяКонтекстноеМеню" id="111"/>
+																					<ExtendedTooltip name="ДекорацияПлитка2ЗаголовокПоказателяРасширеннаяПодсказка" id="112"/>
+																					<Events>
+																						<Event name="Click">ДекорацияПлитка2ЗаголовокПоказателяНажатие</Event>
+																					</Events>
+																				</LabelDecoration>
+																				<LabelField name="Показатель2" id="113">
+																					<DataPath>Показатель2</DataPath>
+																					<TitleLocation>None</TitleLocation>
+																					<HorizontalAlign>Right</HorizontalAlign>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<MaxWidth>4</MaxWidth>
+																					<Font ref="style:NormalTextFont" height="48" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<ContextMenu name="Показатель2КонтекстноеМеню" id="114"/>
+																					<ExtendedTooltip name="Показатель2РасширеннаяПодсказка" id="115"/>
+																				</LabelField>
+																			</ChildItems>
+																		</UsualGroup>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаПоказателиПлитка3ОберткаБелая" id="116">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа показатели плитка3 обертка белая</v8:content>
+														</v8:item>
+													</Title>
+													<Group>HorizontalIfPossible</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<BackColor>style:FormBackColor</BackColor>
+													<ExtendedTooltip name="ГруппаПоказателиПлитка3ОберткаБелаяРасширеннаяПодсказка" id="117"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаПоказателиПлитка3Обертка" id="118">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа показатели плитка3 обертка</v8:content>
+																</v8:item>
+															</Title>
+															<HorizontalStretch>true</HorizontalStretch>
+															<Group>HorizontalIfPossible</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<BackColor>style:ЦветПлиткиРабочегоСтола</BackColor>
+															<ExtendedTooltip name="ГруппаПоказателиПлитка3ОберткаРасширеннаяПодсказка" id="119"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаПоказателиПлитка3" id="120">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка3</v8:content>
+																		</v8:item>
+																	</Title>
+																	<VerticalStretch>true</VerticalStretch>
+																	<Group>HorizontalIfPossible</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка3РасширеннаяПодсказка" id="121"/>
+																	<ChildItems>
+																		<UsualGroup name="ГруппаПоказателиПлитка3Данные" id="124">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка 3</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка 3</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
+																			<Representation>WeakSeparation</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаПоказателиПлитка3ДанныеРасширеннаяПодсказка" id="125"/>
+																			<ChildItems>
+																				<LabelDecoration name="ДекорацияПлитка3ЗаголовокПоказателя" id="126">
+																					<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+																					<Title formatted="false">
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Плитка 3 заголовок</v8:content>
+																						</v8:item>
+																					</Title>
+																					<Hyperlink>true</Hyperlink>
+																					<ContextMenu name="ДекорацияПлитка3ЗаголовокПоказателяКонтекстноеМеню" id="127"/>
+																					<ExtendedTooltip name="ДекорацияПлитка3ЗаголовокПоказателяРасширеннаяПодсказка" id="128"/>
+																					<Events>
+																						<Event name="Click">ДекорацияПлитка3ЗаголовокПоказателяНажатие</Event>
+																					</Events>
+																				</LabelDecoration>
+																				<LabelField name="Показатель3" id="129">
+																					<DataPath>Показатель3</DataPath>
+																					<TitleLocation>None</TitleLocation>
+																					<HorizontalAlign>Right</HorizontalAlign>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<MaxWidth>5</MaxWidth>
+																					<Font ref="style:NormalTextFont" height="48" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<ContextMenu name="Показатель3КонтекстноеМеню" id="130"/>
+																					<ExtendedTooltip name="Показатель3РасширеннаяПодсказка" id="131"/>
+																				</LabelField>
+																			</ChildItems>
+																		</UsualGroup>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаПоказателиВерхПравоЦентр" id="132">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели верх право центр</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>HorizontalIfPossible</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПоказателиВерхПравоЦентрРасширеннаяПодсказка" id="133"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаПоказателиПлитка4ОберткаБелая" id="134">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа показатели плитка4 обертка белая</v8:content>
+														</v8:item>
+													</Title>
+													<Group>HorizontalIfPossible</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<BackColor>style:FormBackColor</BackColor>
+													<ExtendedTooltip name="ГруппаПоказателиПлитка4ОберткаБелаяРасширеннаяПодсказка" id="135"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаПоказателиПлитка4Обертка" id="136">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа показатели плитка 4 обертка</v8:content>
+																</v8:item>
+															</Title>
+															<Group>HorizontalIfPossible</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<BackColor>style:ЦветПлиткиРабочегоСтола</BackColor>
+															<ExtendedTooltip name="ГруппаПоказателиПлитка4ОберткаРасширеннаяПодсказка" id="137"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаПоказателиПлитка4Данные" id="142">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>WeakSeparation</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка4ДанныеРасширеннаяПодсказка" id="143"/>
+																	<ChildItems>
+																		<LabelDecoration name="ДекорацияПлитка4ЗаголовокПоказателя" id="144">
+																			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+																			<Title formatted="false">
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Плитка 4 заголовок</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Hyperlink>true</Hyperlink>
+																			<ContextMenu name="ДекорацияПлитка4ЗаголовокПоказателяКонтекстноеМеню" id="145"/>
+																			<ExtendedTooltip name="ДекорацияПлитка4ЗаголовокПоказателяРасширеннаяПодсказка" id="146"/>
+																			<Events>
+																				<Event name="Click">ДекорацияПлитка4ЗаголовокПоказателяНажатие</Event>
+																			</Events>
+																		</LabelDecoration>
+																		<LabelField name="Показатель4" id="147">
+																			<DataPath>Показатель4</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<HorizontalAlign>Right</HorizontalAlign>
+																			<AutoMaxWidth>false</AutoMaxWidth>
+																			<MaxWidth>10</MaxWidth>
+																			<VerticalStretch>true</VerticalStretch>
+																			<Font ref="style:NormalTextFont" height="48" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																			<ContextMenu name="Показатель4КонтекстноеМеню" id="148"/>
+																			<ExtendedTooltip name="Показатель4РасширеннаяПодсказка" id="149"/>
+																		</LabelField>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаПоказателиВерхПравоНиз" id="312">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели верх право низ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>HorizontalIfPossible</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПоказателиВерхПравоНизРасширеннаяПодсказка" id="313"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаПоказателиПлитка5ОберткаБелая" id="314">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа показатели плитка5 обертка белая</v8:content>
+														</v8:item>
+													</Title>
+													<Group>HorizontalIfPossible</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<BackColor>style:FormBackColor</BackColor>
+													<ExtendedTooltip name="ГруппаПоказателиПлитка5ОберткаБелаяРасширеннаяПодсказка" id="315"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаПоказателиПлитка5Обертка" id="316">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа показатели плитка 5 обертка</v8:content>
+																</v8:item>
+															</Title>
+															<Group>HorizontalIfPossible</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<BackColor>style:ЦветПлиткиРабочегоСтола</BackColor>
+															<ExtendedTooltip name="ГруппаПоказателиПлитка5ОберткаРасширеннаяПодсказка" id="317"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаПоказателиПлитка5Данные" id="322">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка5 данные</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>WeakSeparation</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка5ДанныеРасширеннаяПодсказка" id="323"/>
+																	<ChildItems>
+																		<LabelDecoration name="ДекорацияПлитка5ЗаголовокПоказателя" id="324">
+																			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+																			<Title formatted="false">
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Плитка 5 заголовок</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Hyperlink>true</Hyperlink>
+																			<ContextMenu name="ДекорацияПлитка5ЗаголовокПоказателяКонтекстноеМеню" id="325"/>
+																			<ExtendedTooltip name="ДекорацияПлитка5ЗаголовокПоказателяРасширеннаяПодсказка" id="326"/>
+																			<Events>
+																				<Event name="Click">ДекорацияПлитка5ЗаголовокПоказателяНажатие</Event>
+																			</Events>
+																		</LabelDecoration>
+																		<LabelField name="Показатель5" id="327">
+																			<DataPath>Показатель5</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<HorizontalAlign>Right</HorizontalAlign>
+																			<AutoMaxWidth>false</AutoMaxWidth>
+																			<MaxWidth>10</MaxWidth>
+																			<VerticalStretch>true</VerticalStretch>
+																			<Font ref="style:NormalTextFont" height="48" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																			<ContextMenu name="Показатель5КонтекстноеМеню" id="328"/>
+																			<ExtendedTooltip name="Показатель5РасширеннаяПодсказка" id="329"/>
+																		</LabelField>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПоказателиНиз" id="160">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа показатели низ</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>HorizontalIfPossible</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПоказателиНизРасширеннаяПодсказка" id="161"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПоказателиПлитка6ОберткаБелая" id="162">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа показатели плитка 6 обертка белая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа показатели плитка 6 обертка белая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>HorizontalIfPossible</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:FormBackColor</BackColor>
+									<ExtendedTooltip name="ГруппаПоказателиПлитка6ОберткаБелаяРасширеннаяПодсказка" id="163"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПоказателиПлитка6Обертка" id="164">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели плитка 6 обертка</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа показатели плитка 6 обертка</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>HorizontalIfPossible</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<BackColor>style:ЦветПлиткиРабочегоСтола</BackColor>
+											<ExtendedTooltip name="ГруппаПоказателиПлитка6ОберткаРасширеннаяПодсказка" id="165"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаПоказателиПлитка6Данные" id="180">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа показатели плитка 6 данные</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа показатели плитка 6 данные</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>WeakSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаПоказателиПлитка6ДанныеРасширеннаяПодсказка" id="181"/>
+													<ChildItems>
+														<LabelDecoration name="ДекорацияПлитка6ЗаголовокПоказателя" id="182">
+															<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Плитка 6 заголовок</v8:content>
+																</v8:item>
+															</Title>
+															<Hyperlink>true</Hyperlink>
+															<ContextMenu name="ДекорацияПлитка6ЗаголовокПоказателяКонтекстноеМеню" id="183"/>
+															<ExtendedTooltip name="ДекорацияПлитка6ЗаголовокПоказателяРасширеннаяПодсказка" id="184"/>
+															<Events>
+																<Event name="Click">ДекорацияПлитка6ЗаголовокПоказателяНажатие</Event>
+															</Events>
+														</LabelDecoration>
+														<LabelDecoration name="ДекорацияПлитка6ЗаголовокПоказателяОтступ" id="185">
+															<ContextMenu name="ДекорацияПлитка6ЗаголовокПоказателяОтступКонтекстноеМеню" id="186"/>
+															<ExtendedTooltip name="ДекорацияПлитка6ЗаголовокПоказателяОтступРасширеннаяПодсказка" id="187"/>
+														</LabelDecoration>
+														<UsualGroup name="ГруппаПлитка6ЗначенияПоказателя" id="188">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа плитка 6 значения показателя</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа плитка 6 значения показателя</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>AlwaysHorizontal</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<United>false</United>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаПлитка6ЗначенияПоказателяРасширеннаяПодсказка" id="189"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаПоказателиПлитка6Лево" id="197">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка6 лево</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>WeakSeparation</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка6ЛевоРасширеннаяПодсказка" id="198"/>
+																	<ChildItems>
+																		<LabelField name="Показатель6_1Имя" id="207">
+																			<DataPath>Показатель6_1Имя</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<Height>1</Height>
+																			<TextColor>style:ЗаблокированныйРеквизитЦвет</TextColor>
+																			<Font ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																			<ContextMenu name="Показатель6_1ИмяКонтекстноеМеню" id="208"/>
+																			<ExtendedTooltip name="Показатель6_1ИмяРасширеннаяПодсказка" id="209"/>
+																		</LabelField>
+																		<UsualGroup name="ГруппаПоказателиПлитка6_1" id="199">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>AlwaysHorizontal</Group>
+																			<Behavior>Usual</Behavior>
+																			<Representation>None</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаПоказателиПлитка6_1РасширеннаяПодсказка" id="200"/>
+																			<ChildItems>
+																				<LabelField name="Показатель6_1Значение" id="201">
+																					<DataPath>Показатель6_1Значение</DataPath>
+																					<TitleLocation>None</TitleLocation>
+																					<VerticalAlign>Bottom</VerticalAlign>
+																					<Font ref="style:NormalTextFont" height="36" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<ContextMenu name="Показатель6_1ЗначениеКонтекстноеМеню" id="202"/>
+																					<ExtendedTooltip name="Показатель6_1ЗначениеРасширеннаяПодсказка" id="203"/>
+																				</LabelField>
+																				<LabelDecoration name="Декорация1" id="204">
+																					<Font ref="style:NormalTextFont" height="48" kind="StyleItem"/>
+																					<ContextMenu name="Декорация1КонтекстноеМеню" id="205"/>
+																					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="206"/>
+																				</LabelDecoration>
+																			</ChildItems>
+																		</UsualGroup>
+																	</ChildItems>
+																</UsualGroup>
+																<UsualGroup name="ГруппаПоказателиПлитка6Центр" id="217">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Страница показатели плитка 6 центр</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>WeakSeparation</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка6ЦентрРасширеннаяПодсказка" id="218"/>
+																	<ChildItems>
+																		<LabelField name="Показатель6_2Имя" id="227">
+																			<DataPath>Показатель6_2Имя</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<Height>1</Height>
+																			<TextColor>style:ЗаблокированныйРеквизитЦвет</TextColor>
+																			<Font ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																			<ContextMenu name="Показатель6_2ИмяКонтекстноеМеню" id="228"/>
+																			<ExtendedTooltip name="Показатель6_2ИмяРасширеннаяПодсказка" id="229"/>
+																		</LabelField>
+																		<UsualGroup name="ГруппаПоказателиПлитка6_2" id="219">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>AlwaysHorizontal</Group>
+																			<Behavior>Usual</Behavior>
+																			<Representation>None</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаПоказателиПлитка6_2РасширеннаяПодсказка" id="220"/>
+																			<ChildItems>
+																				<LabelField name="Показатель6_2Значение" id="221">
+																					<DataPath>Показатель6_2Значение</DataPath>
+																					<TitleLocation>None</TitleLocation>
+																					<VerticalAlign>Bottom</VerticalAlign>
+																					<Font ref="style:NormalTextFont" height="36" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<ContextMenu name="Показатель6_2ЗначениеКонтекстноеМеню" id="222"/>
+																					<ExtendedTooltip name="Показатель6_2ЗначениеРасширеннаяПодсказка" id="223"/>
+																				</LabelField>
+																				<LabelDecoration name="Декорация2" id="224">
+																					<Font ref="style:NormalTextFont" height="48" kind="StyleItem"/>
+																					<ContextMenu name="Декорация2КонтекстноеМеню" id="225"/>
+																					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="226"/>
+																				</LabelDecoration>
+																			</ChildItems>
+																		</UsualGroup>
+																	</ChildItems>
+																</UsualGroup>
+																<UsualGroup name="ГруппаПоказателиПлитка6Право" id="237">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа показатели плитка</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Страница показатели плитка 6 право</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
+																	<Representation>WeakSeparation</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПоказателиПлитка6ПравоРасширеннаяПодсказка" id="238"/>
+																	<ChildItems>
+																		<LabelField name="Показатель6_3Имя" id="247">
+																			<DataPath>Показатель6_3Имя</DataPath>
+																			<TitleLocation>None</TitleLocation>
+																			<Height>1</Height>
+																			<TextColor>style:ЗаблокированныйРеквизитЦвет</TextColor>
+																			<Font ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																			<ContextMenu name="Показатель6_3ИмяКонтекстноеМеню" id="248"/>
+																			<ExtendedTooltip name="Показатель6_3ИмяРасширеннаяПодсказка" id="249"/>
+																		</LabelField>
+																		<UsualGroup name="ГруппаПоказателиПлитка6_3" id="239">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа показатели плитка</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>AlwaysHorizontal</Group>
+																			<Behavior>Usual</Behavior>
+																			<Representation>None</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаПоказателиПлитка6_3РасширеннаяПодсказка" id="240"/>
+																			<ChildItems>
+																				<LabelField name="Показатель6_3Значение" id="241">
+																					<DataPath>Показатель6_3Значение</DataPath>
+																					<TitleLocation>None</TitleLocation>
+																					<VerticalAlign>Bottom</VerticalAlign>
+																					<Font ref="style:NormalTextFont" height="36" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																					<ContextMenu name="Показатель6_3ЗначениеКонтекстноеМеню" id="242"/>
+																					<ExtendedTooltip name="Показатель6_3ЗначениеРасширеннаяПодсказка" id="243"/>
+																				</LabelField>
+																				<LabelDecoration name="Декорация3" id="244">
+																					<Font ref="style:NormalTextFont" height="48" kind="StyleItem"/>
+																					<ContextMenu name="Декорация3КонтекстноеМеню" id="245"/>
+																					<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="246"/>
+																				</LabelDecoration>
+																			</ChildItems>
+																		</UsualGroup>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПоказателиОбновляются" id="330">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница показатели обновляются</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница показатели обновляются</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаПоказателиОбновляютсяРасширеннаяПодсказка" id="331"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияОбновлениеПоказателей" id="332">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация обновление показателей</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подождите, идет обновление показателей...</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+							<Picture>
+								<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияОбновлениеПоказателейКонтекстноеМеню" id="333"/>
+							<ExtendedTooltip name="ДекорацияОбновлениеПоказателейРасширеннаяПодсказка" id="334">
+								<Height>3</Height>
+								<VerticalAlign>Center</VerticalAlign>
+							</ExtendedTooltip>
+						</PictureDecoration>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МониторДиректораМагазина</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Показатель2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель 2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель3" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель 3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель4" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель 4</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель1ВыполнениеПоказателя" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель 1 2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель1ПредыдущийПериод" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель 1 3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель1ТекущийПериод" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель 1 1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель6_1Значение" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель6_1Имя" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель6_2Значение" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель6_2Имя" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель </v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель6_3Значение" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Показатель6_3Имя" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДиаграммаВыручка" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Диаграмма выручка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.2/data/chart">d5p1:Chart</v8:Type>
+			</Type>
+			<Settings xmlns:d4p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d4p1:Chart">
+				<d4p1:seriesCurId>2</d4p1:seriesCurId>
+				<d4p1:pointsCurId>10</d4p1:pointsCurId>
+				<d4p1:isSeriesDesign>true</d4p1:isSeriesDesign>
+				<d4p1:realSeriesCount>1</d4p1:realSeriesCount>
+				<d4p1:realSeriesData>
+					<d4p1:id>2</d4p1:id>
+					<d4p1:color>#FF9900</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Auto</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выручка</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>true</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realSeriesData>
+				<d4p1:realExSeriesData>
+					<d4p1:id>1</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Auto</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>#</v8:lang>
+							<v8:content>Сводная</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realExSeriesData>
+				<d4p1:isPointsDesign>true</d4p1:isPointsDesign>
+				<d4p1:realPointCount>8</d4p1:realPointCount>
+				<d4p1:realPointData>
+					<d4p1:id>1</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 1</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:realPointData>
+					<d4p1:id>2</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 2</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:realPointData>
+					<d4p1:id>3</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 3</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:realPointData>
+					<d4p1:id>4</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 4</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:realPointData>
+					<d4p1:id>5</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 5</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:realPointData>
+					<d4p1:id>6</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 6</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:realPointData>
+					<d4p1:id>9</d4p1:id>
+					<d4p1:color>auto</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 7</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>false</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:realPointData>
+					<d4p1:id>10</d4p1:id>
+					<d4p1:color>#FF6600</d4p1:color>
+					<d4p1:line width="2" gap="false">
+						<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+					</d4p1:line>
+					<d4p1:marker>Rect</d4p1:marker>
+					<d4p1:text>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка 8</v8:content>
+						</v8:item>
+					</d4p1:text>
+					<d4p1:strIsChanged>false</d4p1:strIsChanged>
+					<d4p1:isExpand>false</d4p1:isExpand>
+					<d4p1:isIndicator>false</d4p1:isIndicator>
+					<d4p1:colorPriority>true</d4p1:colorPriority>
+				</d4p1:realPointData>
+				<d4p1:curSeries>0</d4p1:curSeries>
+				<d4p1:curPoint>7</d4p1:curPoint>
+				<d4p1:chartType>Column</d4p1:chartType>
+				<d4p1:circleLabelType>None</d4p1:circleLabelType>
+				<d4p1:labelsDelimiter>, </d4p1:labelsDelimiter>
+				<d4p1:labelsLocation>Edge</d4p1:labelsLocation>
+				<d4p1:lbFormat/>
+				<d4p1:lbpFormat/>
+				<d4p1:labelsColor>style:FormTextColor</d4p1:labelsColor>
+				<d4p1:labelsFont kind="AutoFont"/>
+				<d4p1:transparentLabelsBkg>true</d4p1:transparentLabelsBkg>
+				<d4p1:labelsBkgColor>auto</d4p1:labelsBkgColor>
+				<d4p1:labelsBorder width="1">
+					<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
+				</d4p1:labelsBorder>
+				<d4p1:labelsBorderColor>auto</d4p1:labelsBorderColor>
+				<d4p1:circleExpandMode>None</d4p1:circleExpandMode>
+				<d4p1:chart3Dcrd>SouthWest</d4p1:chart3Dcrd>
+				<d4p1:title/>
+				<d4p1:isShowTitle>true</d4p1:isShowTitle>
+				<d4p1:isShowLegend>false</d4p1:isShowLegend>
+				<d4p1:ttlBorder width="0">
+					<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+				</d4p1:ttlBorder>
+				<d4p1:ttlBorderColor>style:BorderColor</d4p1:ttlBorderColor>
+				<d4p1:lgBorder width="0">
+					<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+				</d4p1:lgBorder>
+				<d4p1:lgBorderColor>style:BorderColor</d4p1:lgBorderColor>
+				<d4p1:chBorder width="0">
+					<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+				</d4p1:chBorder>
+				<d4p1:chBorderColor>style:BorderColor</d4p1:chBorderColor>
+				<d4p1:transparent>false</d4p1:transparent>
+				<d4p1:bkgColor>style:FieldBackColor</d4p1:bkgColor>
+				<d4p1:isTrnspTtl>false</d4p1:isTrnspTtl>
+				<d4p1:ttlColor>style:FieldBackColor</d4p1:ttlColor>
+				<d4p1:isTrnspLeg>false</d4p1:isTrnspLeg>
+				<d4p1:legColor>style:FieldBackColor</d4p1:legColor>
+				<d4p1:isTrnspCh>false</d4p1:isTrnspCh>
+				<d4p1:chColor>style:FieldBackColor</d4p1:chColor>
+				<d4p1:ttlTxtColor>style:FormTextColor</d4p1:ttlTxtColor>
+				<d4p1:legTxtColor>style:FormTextColor</d4p1:legTxtColor>
+				<d4p1:chTxtColor>style:FormTextColor</d4p1:chTxtColor>
+				<d4p1:ttlFont kind="AutoFont"/>
+				<d4p1:legFont kind="AutoFont"/>
+				<d4p1:chFont kind="AutoFont"/>
+				<d4p1:isShowScale>true</d4p1:isShowScale>
+				<d4p1:isShowScaleVL>true</d4p1:isShowScaleVL>
+				<d4p1:isShowSeriesScale>true</d4p1:isShowSeriesScale>
+				<d4p1:isShowPointsScale>true</d4p1:isShowPointsScale>
+				<d4p1:isShowValuesScale>true</d4p1:isShowValuesScale>
+				<d4p1:vsFormat>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=0; ЧФ='Ч ₽'</v8:content>
+					</v8:item>
+				</d4p1:vsFormat>
+				<d4p1:xLabelsOrientation>Auto</d4p1:xLabelsOrientation>
+				<d4p1:scaleLine width="1" gap="false">
+					<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+				</d4p1:scaleLine>
+				<d4p1:scaleColor>auto</d4p1:scaleColor>
+				<d4p1:isAutoSeriesName>true</d4p1:isAutoSeriesName>
+				<d4p1:isAutoPointName>false</d4p1:isAutoPointName>
+				<d4p1:maxMode>NotDefined</d4p1:maxMode>
+				<d4p1:maxSeries>4</d4p1:maxSeries>
+				<d4p1:maxSeriesPrc>30</d4p1:maxSeriesPrc>
+				<d4p1:spaceMode>Half</d4p1:spaceMode>
+				<d4p1:baseVal>0</d4p1:baseVal>
+				<d4p1:isOutline>false</d4p1:isOutline>
+				<d4p1:realPiePoint>0</d4p1:realPiePoint>
+				<d4p1:realStockSeries>0</d4p1:realStockSeries>
+				<d4p1:isLight>true</d4p1:isLight>
+				<d4p1:isGradient>false</d4p1:isGradient>
+				<d4p1:isTransposition>false</d4p1:isTransposition>
+				<d4p1:hideBaseVal>false</d4p1:hideBaseVal>
+				<d4p1:dataTable>false</d4p1:dataTable>
+				<d4p1:dtVerLines>true</d4p1:dtVerLines>
+				<d4p1:dtHorLines>true</d4p1:dtHorLines>
+				<d4p1:dtHAlign>Right</d4p1:dtHAlign>
+				<d4p1:dtFormat/>
+				<d4p1:dtKeys>true</d4p1:dtKeys>
+				<d4p1:paletteKind>Gradient</d4p1:paletteKind>
+				<d4p1:animation>Auto</d4p1:animation>
+				<d4p1:rebuildTime>7517243</d4p1:rebuildTime>
+				<d4p1:isTransposed>false</d4p1:isTransposed>
+				<d4p1:autoTransposition>false</d4p1:autoTransposition>
+				<d4p1:legendScrollEnable>false</d4p1:legendScrollEnable>
+				<d4p1:surfaceColor>#A90000</d4p1:surfaceColor>
+				<d4p1:radarScaleType>Circle</d4p1:radarScaleType>
+				<d4p1:gaugeValuesPresentation>Needle</d4p1:gaugeValuesPresentation>
+				<d4p1:gaugeQualityBands useTextStr="false" useTooltipStr="false"/>
+				<d4p1:beginGaugeAngle>0</d4p1:beginGaugeAngle>
+				<d4p1:endGaugeAngle>180</d4p1:endGaugeAngle>
+				<d4p1:gaugeThickness>5</d4p1:gaugeThickness>
+				<d4p1:gaugeLabelsLocation>InsideScale</d4p1:gaugeLabelsLocation>
+				<d4p1:gaugeLabelsArcDirection>false</d4p1:gaugeLabelsArcDirection>
+				<d4p1:gaugeBushThickness>4</d4p1:gaugeBushThickness>
+				<d4p1:gaugeBushColor>#A9A9A9</d4p1:gaugeBushColor>
+				<d4p1:autoMaxValue>true</d4p1:autoMaxValue>
+				<d4p1:userMaxValue>0</d4p1:userMaxValue>
+				<d4p1:autoMinValue>true</d4p1:autoMinValue>
+				<d4p1:userMinValue>0</d4p1:userMinValue>
+				<d4p1:elementsIsInit>false</d4p1:elementsIsInit>
+				<d4p1:titleIsInit>true</d4p1:titleIsInit>
+				<d4p1:legendIsInit>true</d4p1:legendIsInit>
+				<d4p1:chartIsInit>true</d4p1:chartIsInit>
+				<d4p1:elementsChart>
+					<d4p1:left>0</d4p1:left>
+					<d4p1:right>0.17</d4p1:right>
+					<d4p1:top>0</d4p1:top>
+					<d4p1:bottom>0</d4p1:bottom>
+				</d4p1:elementsChart>
+				<d4p1:elementsLegend>
+					<d4p1:left>0.83</d4p1:left>
+					<d4p1:right>0</d4p1:right>
+					<d4p1:top>0.08</d4p1:top>
+					<d4p1:bottom>0</d4p1:bottom>
+				</d4p1:elementsLegend>
+				<d4p1:elementsTitle>
+					<d4p1:left>0.83</d4p1:left>
+					<d4p1:right>0</d4p1:right>
+					<d4p1:top>0</d4p1:top>
+					<d4p1:bottom>0.92</d4p1:bottom>
+				</d4p1:elementsTitle>
+				<d4p1:borderColor>style:BorderColor</d4p1:borderColor>
+				<d4p1:border width="1">
+					<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
+				</d4p1:border>
+				<d4p1:dataSourceDescription/>
+				<d4p1:isDataSourceMode>false</d4p1:isDataSourceMode>
+				<d4p1:isRandomizedNewValues>true</d4p1:isRandomizedNewValues>
+				<d4p1:realDataItems>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">17.52</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">16.03</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">19.05</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">15.79</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">6.84</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">8.92</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">16.72</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+					<d4p1:item>
+						<d4p1:valData xsi:type="xs:decimal">1.32</d4p1:valData>
+						<d4p1:valInfo xsi:nil="true"/>
+						<d4p1:toolTip/>
+					</d4p1:item>
+				</d4p1:realDataItems>
+				<d4p1:splineStrain>95</d4p1:splineStrain>
+				<d4p1:translucencePercent>0</d4p1:translucencePercent>
+				<d4p1:funnelNeckHeightPercent>10</d4p1:funnelNeckHeightPercent>
+				<d4p1:funnelNeckWidthPercent>10</d4p1:funnelNeckWidthPercent>
+				<d4p1:funnelGapSumPercent>3</d4p1:funnelGapSumPercent>
+				<d4p1:multiStageLinkLine width="1" gap="false">
+					<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+				</d4p1:multiStageLinkLine>
+				<d4p1:multiStageLinkColor>#000000</d4p1:multiStageLinkColor>
+				<d4p1:valuesAxis/>
+				<d4p1:pointsAxis/>
+				<d4p1:valuesScale>
+					<d4p1:titleArea>
+						<d4p1:font kind="AutoFont"/>
+						<d4p1:textColor>auto</d4p1:textColor>
+						<d4p1:backColor>auto</d4p1:backColor>
+						<d4p1:border width="1">
+							<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+						</d4p1:border>
+						<d4p1:borderColor>auto</d4p1:borderColor>
+					</d4p1:titleArea>
+					<d4p1:labelFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0; ЧФ='Ч ₽'</v8:content>
+						</v8:item>
+					</d4p1:labelFormat>
+				</d4p1:valuesScale>
+				<d4p1:legendPlacement>None</d4p1:legendPlacement>
+				<d4p1:colorPaletteDescription>
+					<d4p1:colorPalette>Gradient</d4p1:colorPalette>
+				</d4p1:colorPaletteDescription>
+			</Settings>
+		</Attribute>
+		<Attribute name="Показатель5" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель 5</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокМагазинов" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список магазинов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПоказателиДляРасшифровки" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатели для расшифровки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Показатель" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показатель</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыАнализаМонитора</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВидОтображения" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид отображения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДиаграмм</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Доступность" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПалитраЦветов" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Палитра цветов</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЛинияТренда" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Линия тренда</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="АдресХранилища" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес хранилища</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Обновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.СинхронизацияДанных</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Обновить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

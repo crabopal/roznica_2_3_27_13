@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Subsystem uuid="97bd989e-3409-4f33-b2d9-623a4d3c4098">
+		<Properties>
+			<Name>ОбъектыСвязанные_БИП</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объекты связанные (БИП)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияСПлатежнымиСистемамиРТСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНастроекИнтеграцииСПлатежнымиСистемами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНастроекИнтеграцииСПлатежнымиСистемами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеНастроекИнтеграцииРМК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СПАРКРискиКлиентСерверРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СПАРКРискиРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСКонтрагентамиРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСКонтрагентамиКлиентСерверРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияСПлатежнымиСистемамиРТКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияСПлатежнымиСистемамиРТКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияСПлатежнымиСистемамиРТВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПолучениеОбновленийПрограммыРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОнлайнОплатыРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОнлайнОплатыРТВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОнлайнОплатыРТВызовСервераПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОнлайнОплатыРТКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаПодключенияКассовогоQRКодаСБП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайринг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайрингКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайрингКлиентПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайрингКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайрингПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайрингСервис</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайрингСлужебный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетЭквайрингСобытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.НастройкаПодключенияКИнтернетЭквайрингу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОперацииИнтернетЭквайринга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНастроекПодключенияКИнтернетЭквайрингу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеОперацийИнтернетЭквайринга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ДокументОперацииИнтернетЭквайринга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НастройкиПодключенияКИнтернетЭквайрингу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПодключениеКИнтернетЭквайрингу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИдентификаторыОперацийИнтернетЭквайринга</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

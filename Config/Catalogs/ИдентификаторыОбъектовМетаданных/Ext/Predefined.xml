@@ -1,0 +1,3789 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="11f4f8a3-e2c3-4d4f-b7e2-a0bfaa1f0194">
+		<Name>РегистрСведенийНастройкиВариантовОтчетов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f48c326-12f8-4b88-a79b-bdb9afebcdb5">
+		<Name>РегистрСведенийДанныеБизнесПроцессов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eca991f5-cbc7-4eaf-b7e9-04e65369c25c">
+		<Name>РегистрСведенийДополнительныеСведения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be5c1ebb-eafe-4294-aa88-91b181f4e9de">
+		<Name>РегистрСведенийИсполнителиЗадач</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="59edb0b6-aebb-4b30-99fd-60134db1affb">
+		<Name>РегистрСведенийНапоминанияПользователя</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7d105560-1bd9-4aef-a309-db1d3b0e7b71">
+		<Name>РегистрСведенийАдресныеОбъекты</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a43f3c43-54fe-4274-98c5-b8d43734ae2a">
+		<Name>РегистрСведенийБезопасноеХранилищеДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="77101689-79f2-4dc9-8af2-23f782ce282b">
+		<Name>РегистрСведенийБезопасноеХранилищеДанныхОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5831666b-9333-4fc7-840f-3fe6707f3bfb">
+		<Name>РегистрСведенийБлокировкиСеансовОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="acb48078-bf94-455e-93b1-f5988ae4750f">
+		<Name>РегистрСведенийБуферОперацийСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="56a898dc-d286-4a4a-8060-9f78fbe73680">
+		<Name>РегистрСведенийВерсииКлассификаторов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2c0340b3-0a76-49ec-b003-c3f37bc1aefa">
+		<Name>РегистрСведенийВерсииКлассификаторовОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="420e2757-4980-4f23-8778-fdc39203f437">
+		<Name>РегистрСведенийВерсииОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0b67eba7-4c4f-441c-9c62-a1c13b8a3e25">
+		<Name>РегистрСведенийВерсииПодсистем</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bc681fb3-e6ae-434d-a3e5-3269293833d1">
+		<Name>РегистрСведенийВерсииПодсистемОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="58267263-b695-410d-bdaa-c56a5dec670c">
+		<Name>РегистрСведенийГруппыЗначенийДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5e56a7b9-7e7e-4356-9686-cc4b84880d39">
+		<Name>РегистрСведенийДампыПлатформы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2206c4fc-3a73-45e0-8141-dd564b04c72b">
+		<Name>РегистрСведенийДанныеОбработанныеВЦентральномУзлеРИБ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2b3c8438-f1c7-4696-ab1b-e174f2cf77b1">
+		<Name>РегистрСведенийДанныеОбъектовДляРегистрацииВОбменах</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4efbd7e6-54d3-4794-930a-18e4c23f2914">
+		<Name>РегистрСведенийДатыЗапретаИзменения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bd61ad0a-25f7-42a7-8b92-92d0f6f4ef22">
+		<Name>РегистрСведенийДомаЗданияСтроения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="773e89bd-a0af-42d4-9bb9-df645081f0bd">
+		<Name>РегистрСведенийДополнительныеАдресныеСведения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ce66072f-c372-47e5-810d-9cbea8d27ac4">
+		<Name>РегистрСведенийЗависимостиПравДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f2da7109-0288-4403-8529-cba9efac89c3">
+		<Name>РегистрСведенийЗагруженныеВерсииАдресныхСведений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5e9da50d-aee3-421d-805f-db8b13c1df4d">
+		<Name>РегистрСведенийЗамерыВремени</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="75cc2cd2-dec6-4ca1-8b73-368d2df8bb7b">
+		<Name>РегистрСведенийЗамерыВремениТехнологические</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="de1a069b-de3b-4109-9d89-babf96445457">
+		<Name>РегистрСведенийЗамерыКомментарииСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6f6bbc69-af8b-45b4-9636-aaeb864501c3">
+		<Name>РегистрСведенийЗамерыОбластиСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dfaa276a-6e4c-47cb-bcea-dc8a941981da">
+		<Name>РегистрСведенийЗамерыОперацииСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7eb51fbb-30e1-4b14-879b-878235f618b3">
+		<Name>РегистрСведенийЗамерыСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e71e6dca-4776-4478-987b-2b8fc39a0691">
+		<Name>РегистрСведенийЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="79b0a2bd-d2e8-4d92-a48a-6251b381db7b">
+		<Name>РегистрСведенийЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="40955688-c05d-4304-8a1c-d4cb364a5cff">
+		<Name>РегистрСведенийЗапросыРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e33879f7-5e7b-4ace-ba14-5946df8c4ab4">
+		<Name>РегистрСведенийЗемельныеУчастки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="799c40ed-7e8f-46f7-a8dc-422f214bf6e6">
+		<Name>РегистрСведенийЗначенияГруппДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b7ec5853-5eb2-47f5-90ef-ad8f0a7defbd">
+		<Name>РегистрСведенийЗначенияГруппДоступаПоУмолчанию</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="932233fd-fa2b-4b30-afd0-009129562664">
+		<Name>РегистрСведенийИдентификаторыЗапросовНаПодключение</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="760667c5-65a4-4225-80f3-b7f9e9d1e56a">
+		<Name>РегистрСведенийИдентификаторыОбъектовВерсийРасширений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f324038-bcdf-4c3f-b6a9-4c5b28f47fc5">
+		<Name>РегистрСведенийИзмененияОбщихДанныхУзлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0abb4a9c-1cb5-4ea4-9861-008078f42a65">
+		<Name>РегистрСведенийИспользованиеДополнительныхОтчетовИОбработокСервисаВАвтономномРабочемМесте</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dc4f4d4f-a0d6-400e-aa8e-2b1a51db2e3c">
+		<Name>РегистрСведенийИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="88b96fd3-3e43-44e0-8513-5ea6a3e7d87a">
+		<Name>РегистрСведенийИспользованиеПоставляемыхРасширенийВОбластяхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aca981e1-2770-4870-8bd8-4865be38e55b">
+		<Name>РегистрСведенийИсторияАдресныхОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a3d24276-d984-4b3c-84b5-9825bf485df5">
+		<Name>РегистрСведенийКлючиДоступаВнешнихПользователей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6274c043-e650-46c8-a454-fa356dec9fee">
+		<Name>РегистрСведенийКлючиДоступаГруппДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2e140218-fa9e-4b4f-94a9-9c691d42fc41">
+		<Name>РегистрСведенийКлючиДоступаКОбъектам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="36157b26-3c67-45f9-86ad-490caf83366b">
+		<Name>РегистрСведенийКлючиДоступаКРегистрам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f742903d-368b-4b3c-ba3d-3fcd1506d165">
+		<Name>РегистрСведенийКлючиДоступаКРегиструРезультатыПроверкиУчета</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ef5e2af6-9c60-497f-bc93-06ee3924fda5">
+		<Name>РегистрСведенийКлючиДоступаНаборовГруппДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6153a04d-801d-4336-8a9b-4115c92248c5">
+		<Name>РегистрСведенийКлючиДоступаПользователей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="96fec588-694c-4ef3-aff2-1b51d09654da">
+		<Name>РегистрСведенийКодировкиФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f88dc156-ef77-4188-974a-05e65b3b86be">
+		<Name>РегистрСведенийКомментарииОперацииСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2429d0c5-40de-4616-8571-bd8a5871d7c8">
+		<Name>РегистрСведенийКомментарииСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1e2c8fa2-757f-4343-a755-2fe647b2f96d">
+		<Name>РегистрСведенийКэшПрограммныхИнтерфейсов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e1834ba7-71a5-4d52-9e98-07ea7b93b813">
+		<Name>РегистрСведенийКэшТестовыхПериодов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cde94ed4-cf3d-4b25-8a23-cfdea893a8f6">
+		<Name>РегистрСведенийНаборыЗначенийДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6bc8d5bf-c002-4d11-82ab-25f37e116134">
+		<Name>РегистрСведенийНазначениеДополнительныхОбработок</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1488dddc-2038-4d06-97f9-ee1e0de89b92">
+		<Name>РегистрСведенийНаличиеФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b02796a-1cf1-42ec-b3bf-0f02f37defab">
+		<Name>РегистрСведенийНаследованиеНастроекПравОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="36223044-2d46-49ee-a540-bce70f9bbe4d">
+		<Name>РегистрСведенийНастройкиВерсионированияОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="482bd9f1-8ed2-49e6-8343-7cecfe197c4d">
+		<Name>РегистрСведенийНастройкиКомандПечати</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="636adf0c-21ec-48fc-87fe-bc32a003762d">
+		<Name>РегистрСведенийНастройкиОбменаДаннымиXDTO</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5fd4a8d2-58fd-4f98-b274-a23fce4b32b7">
+		<Name>РегистрСведенийНастройкиОтправителя</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="406a4398-9145-40ab-afb2-6b68f8403ade">
+		<Name>РегистрСведенийНастройкиОчисткиФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be342aee-92f6-4ba5-a6a2-3ad6681c5d02">
+		<Name>РегистрСведенийНастройкиПравОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bda8386d-d60e-4ab3-b08a-a858a499cdf2">
+		<Name>РегистрСведенийНастройкиСинхронизацииФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5946cf57-52bb-4815-824a-f7cd7383c1fe">
+		<Name>РегистрСведенийНастройкиТранспортаОбменаОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc962749-1135-4413-a599-2f461be3098a">
+		<Name>РегистрСведенийНастройкиТранспортаОбменаОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7edbb082-9500-4e44-8060-c073550ee717">
+		<Name>РегистрСведенийНастройкиТранспортаОбменаСообщениями</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4931a107-c020-47cd-92aa-d4088adff1bd">
+		<Name>РегистрСведенийНеразделенныеПользователи</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5af88a16-dad3-48e5-805b-e5cd7a9e86a5">
+		<Name>РегистрСведенийНомераОтсканированныхФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8ad6ff37-d899-40a5-a539-f6778879efc5">
+		<Name>РегистрСведенийОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="03933e66-351b-4c8c-ab39-1c9c5127f09f">
+		<Name>РегистрСведенийОбластиПерсональныхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c9dc986a-3e1a-4de4-8247-092a4cd90b6e">
+		<Name>РегистрСведенийОбластиСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fd8588c2-9cd9-4847-a33d-7c9d114f2b98">
+		<Name>РегистрСведенийОбновлениеКлючейДоступаКДанным</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c695555-9ea3-4f51-9f85-fc2681d658ab">
+		<Name>РегистрСведенийОбновлениеКлючейДоступаПользователей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b6c53660-991a-4210-93ce-1a89df39a0d8">
+		<Name>РегистрСведенийОбработчикиСобытийСинхронизацииДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="73c27023-dad8-474a-9794-660198a97bf0">
+		<Name>РегистрСведенийОбщиеНастройкиУзловИнформационныхБаз</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d4ea565b-8437-4493-9d31-b9c95d0ef8b3">
+		<Name>РегистрСведенийОперацииСтатистики</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fdb5fadd-568f-401d-a105-84e9666a7fe4">
+		<Name>РегистрСведенийОчередьИзвлеченияТекста</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="29f1ff77-0c97-4139-b433-3b02168a0a8a">
+		<Name>РегистрСведенийОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="70aeeffe-1cbc-4ce0-9f8e-fa895ff367bb">
+		<Name>РегистрСведенийОчередьИнсталляцииПоставляемыхРасширенийВОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6dea861d-763d-4aac-a235-73bade515aa0">
+		<Name>РегистрСведенийПакетыДляОтправки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a41feb71-8d11-44ea-9a1e-25c6938bfd88">
+		<Name>РегистрСведенийПакетыИнформацииПриЗапуске</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2b029e59-17c2-4fa4-b96c-abeb0ca65f94">
+		<Name>РегистрСведенийПараметрыОграниченияДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="63369f0b-2768-4611-9624-689ad83c685f">
+		<Name>РегистрСведенийПараметрыРаботыВерсийРасширений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5ada59c9-aac4-4444-9b62-35a0513f1cf3">
+		<Name>РегистрСведенийПараметрыРаботыПрограммы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9877631a-5d1f-4c2f-8381-03df228a093b">
+		<Name>РегистрСведенийПодпискиПолучателей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1908f4f4-3831-4634-8bdd-d9107479838e">
+		<Name>РегистрСведенийПользовательскиеМакетыПечати</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a497e026-72c4-48e7-9e24-13b095cf5609">
+		<Name>РегистрСведенийПользовательскиеНастройкиДоступаКОбработкам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="54eb11d7-d7f2-4335-8478-b693d3c16656">
+		<Name>РегистрСведенийПоставляемыеДанныеТребующиеОбработки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="38b5d74e-1ed5-4a9d-9c85-ec088fa4f315">
+		<Name>РегистрСведенийПоставляемыеМакетыПечати</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c78ec656-8661-4360-97a7-4c8940865412">
+		<Name>РегистрСведенийПраваРолей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="32fb5e5c-df51-4063-af5c-2dbc644f2f87">
+		<Name>РегистрСведенийПравилаДляОбменаДанными</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cd2424b3-b574-4745-824f-f1d7568037db">
+		<Name>РегистрСведенийПредопределенныеВариантыОтчетовВерсийРасширений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bdf02dd2-2ff9-45a5-9817-05f815528f37">
+		<Name>РегистрСведенийПрименениеРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eb5b9e82-b31d-475d-81c7-067ac076c1aa">
+		<Name>РегистрСведенийПрименениеРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ff926644-abfc-4201-a9f9-a694123b45c1">
+		<Name>РегистрСведенийПричиныИзмененияАдресныхСведений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b79458d-c633-4456-b153-2d47f0d7daf1">
+		<Name>РегистрСведенийПроцессыДляЗапуска</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c579e663-1f62-466e-aa4e-f3055a44f686">
+		<Name>РегистрСведенийПсевдонимыПредопределенныхУзлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="62650b07-4d54-4995-a923-1c36fc8640e0">
+		<Name>РегистрСведенийПубличныеИдентификаторыСинхронизируемыхОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="acccdfa8-2c59-41c8-9bcd-05c34c8c34aa">
+		<Name>РегистрСведенийПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bd2cb26e-30d4-4234-b868-1496c11f9078">
+		<Name>РегистрСведенийРабочиеКаталогиФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3d11d8ff-65fb-4967-97ed-ef666c48b8c8">
+		<Name>РегистрСведенийРазрешенияНаИспользованиеВнешнихРесурсов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="07a70e59-ed9e-47f7-8c31-175a4c5d1376">
+		<Name>РегистрСведенийРазрешенияНаИспользованиеВнешнихРесурсовВМоделиСервиса</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="38280c6f-c2a9-483f-8157-3b9a51046c6c">
+		<Name>РегистрСведенийРазрешенияНаИспользованиеВнешнихРесурсовОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6da2d88-ace9-489b-88a8-2fe80cd8abdf">
+		<Name>РегистрСведенийРежимыПодключенияВнешнихМодулей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5ed94c59-89b8-4ca0-ac3f-9c0d262a9b7e">
+		<Name>РегистрСведенийРежимыПодключенияВнешнихМодулейВМоделиСервиса</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f81b9e4f-c0e1-4685-8450-193fd7928b9b">
+		<Name>РегистрСведенийРежимыПодключенияВнешнихМодулейОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eb6a4fce-7794-4223-8be6-c1a1b5c6433e">
+		<Name>РегистрСведенийРезультатыОбменаДанными</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06a9870d-1e43-4d4e-990f-a0f510587bbe">
+		<Name>РегистрСведенийРезультатыПроверкиУчета</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="913c8586-1ef6-4b34-bd2b-90f9c0faa788">
+		<Name>РегистрСведенийРейтингАктивностиОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="768a15ed-3bd1-49ee-89bb-04a26383f7a0">
+		<Name>РегистрСведенийСведенияОПользователях</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="21b194c2-9fe4-4270-8dfc-bb0d2e7ca87a">
+		<Name>РегистрСведенийСведенияОФайлах</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4834d149-5f32-48eb-8e4a-014c563f63a1">
+		<Name>РегистрСведенийСертификатыШифрования</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="536bee72-a776-4da9-92ff-49b749a3bd13">
+		<Name>РегистрСведенийСессииОбменаСообщениямиСистемы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1913224-39fd-4433-a279-e00b51d38f37">
+		<Name>РегистрСведенийСклоненияПредставленийОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d918970b-4ad8-4324-b9e4-d6abab53a742">
+		<Name>РегистрСведенийСлужебныеАдресныеСведения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="31ea658b-e8c2-4b0d-ab0a-e1059e35cbef">
+		<Name>РегистрСведенийСогласияНаОбработкуПерсональныхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="383f06e5-35b4-467c-af52-9092cfa36914">
+		<Name>РегистрСведенийСообщенияОбменаДанными</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fca8fbbe-afe8-4df6-a9ca-b3be93a4ec4f">
+		<Name>РегистрСведенийСообщенияОбменаДаннымиОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0d0948ee-5d39-45c8-b2aa-68a114a641a1">
+		<Name>РегистрСведенийСоответствияОбъектовИнформационныхБаз</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cf3e5179-ec8f-41c3-8b88-460f9fb4d05f">
+		<Name>РегистрСведенийСоставыГруппПользователей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3a85ac4a-7399-4be0-ba68-a71c16752de3">
+		<Name>РегистрСведенийСостоянияОбменовДанными</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a3512ca6-66b4-466c-b674-4fa5906c4be3">
+		<Name>РегистрСведенийСостоянияОбменовДаннымиОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0f0410c5-4552-4280-9838-b19c08d54d99">
+		<Name>РегистрСведенийСостоянияРассылокОтчетов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dd9cbe91-33e9-41b1-aea5-918e7f666b6f">
+		<Name>РегистрСведенийСостоянияУспешныхОбменовДанными</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5527fd6d-fd76-40a8-9eaa-d7f43abb556f">
+		<Name>РегистрСведенийСостоянияУспешныхОбменовДаннымиОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="509faa40-dd6e-4a75-bded-7f8473a133dd">
+		<Name>РегистрСведенийСтатистикаКонфигурации</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="251d055b-e459-4590-8ca1-efa154842544">
+		<Name>РегистрСведенийСтатусыСинхронизацииФайловСОблачнымСервисом</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="623acf6b-7efa-408f-ac9b-89cd66e64862">
+		<Name>РегистрСведенийСубъектыДляСкрытияПерсональныхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3d09c483-7667-4e36-af93-43894a0f2273">
+		<Name>РегистрСведенийТаблицыГруппДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0e372238-1ba8-48e9-bf71-b4599d1c8242">
+		<Name>РегистрСведенийУровниСокращенийАдресныхСведений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b5667bdd-9949-4e79-954e-32568968dcbb">
+		<Name>РегистрСведенийФайлыВРабочемКаталоге</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4596f38f-9a2d-49e7-8a86-06a40392f9c7">
+		<Name>РегистрСведенийХранилищеСертификатов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dd00a042-2253-459d-ae4e-dfe9024dac54">
+		<Name>РегистрСведенийЭлектронныеПодписи</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="88528ac9-27ac-43b3-9d48-3ad12742c6e9">
+		<Name>РегистрСведенийВременныеИдентификаторыЗапросов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d54453ed-2e97-4881-9904-72f0b157e6c3">
+		<Name>РегистрСведенийДоступныеЛицензии</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1be8932e-c454-4ba5-bef5-e7d1f98f3383">
+		<Name>РегистрСведенийЗанятыеЛицензии</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0345cafd-9567-4c6b-b69c-6224324c3c65">
+		<Name>РегистрСведенийИнцидентыОткрытые</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f4877fc3-1e50-47b6-9afe-6358cc47ce9f">
+		<Name>РегистрСведенийИнцидентыОтложенныеПроверки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c84451bb-c990-4c1e-8660-f2bc6004e108">
+		<Name>РегистрСведенийМиграцияПриложенийОчередьЗагрузки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="795f0569-cfa5-48e7-a693-6c43ea64f4fe">
+		<Name>РегистрСведенийМиграцияПриложенийСостояниеВыгрузки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="027ccab2-7d9b-4123-bc29-99b89ea0bc7a">
+		<Name>РегистрСведенийМиграцияПриложенийСостояниеЗагрузки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="32433bba-7075-44d1-abe9-0b8c998cd69e">
+		<Name>РегистрСведенийНастройкиУчетныхСистем</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fd102fb6-3080-4ed8-b8a9-2d673118a00e">
+		<Name>РегистрСведенийОбъектыКОтправке</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eca783ba-56c7-43b7-a318-9ddc9570a3cc">
+		<Name>РегистрСведенийПросмотренныеДанныеИнформационногоЦентра</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="66c90255-7e82-45f5-a03e-7040309f2477">
+		<Name>РегистрСведенийСвойстваЗаданий</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="70e52222-cbb4-4aa4-9cce-a4abddda21f0">
+		<Name>РегистрСведенийСостоянияИнтеграцииОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d9a17a35-50b1-4c83-834b-62e3b50e3b89">
+		<Name>РегистрСведенийФайлыОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="65ee6d7a-6352-4696-9fd2-35c7a02c4144">
+		<Name>РегистрСведенийОграничениеСкоростиОтсылкиИнцидентов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2eba640a-28be-4f83-89ca-6a21b50f5d71">
+		<Name>РегистрСведенийЗапущенныеОбработчикиОчередиЗаданий</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c9caf969-5c58-4bf1-ae05-471385e310e6">
+		<Name>РегистрСведенийКэшДанныхКлассификаторов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2529e951-336d-4270-9d3b-e5a6148f954e">
+		<Name>РегистрСведенийНеудаленныеОбъекты</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="417f7313-4c12-4a68-8ab3-b391a0a883e2">
+		<Name>РегистрСведенийОбновлениеКлючейДоступаТекущиеЗадания</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="87dbaa53-3d37-44c0-a072-021dd7fa3e6f">
+		<Name>РегистрСведенийОбщиеПоставляемыеМакетыПечати</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3a392cc5-8c83-4e58-ad38-95d672fe2e27">
+		<Name>РегистрСведенийОчередьОбновляемыхПоставляемыхРасширенийВОбластяхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="042f093a-3ace-411c-b8b8-0236af1631d7">
+		<Name>РегистрСведенийОчередьРасширенийДляОповещений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="54d0956b-805f-4280-873d-50fc8b7eaded">
+		<Name>РегистрСведенийПоставляемыеДанныеТребующиеОбработкиВОбластях</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0028853c-63d1-4ec8-965d-31f15ad05d7e">
+		<Name>РегистрСведенийСостоянияПроверокВеденияУчета</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="245d63d2-f030-408a-9cae-75d2be4d69ee">
+		<Name>РегистрСведенийУдаляемыеОбъекты</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6e10526d-d55a-417d-a264-2dd079a5870f">
+		<Name>РегистрСведенийОбработчикиОбновления</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6cf49688-44ad-417f-99cb-c83b261f10f1">
+		<Name>РегистрСведенийОбработчикиОбновленияОбщихДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e43b6d77-9453-48ea-b01c-c614bdee971e">
+		<Name>РегистрСведенийПотокиОбновления</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="30c9965b-1763-49b0-b2ec-695a90a849a2">
+		<Name>РегистрСведенийСостоянияОригиналовПервичныхДокументов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="51a9bff2-c716-4f86-bbfa-861b026ee9fd">
+		<Name>РегистрСведенийИспользуемыеВидыДоступа</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bdd8a5af-48f3-48f5-b5ef-e03497baf600">
+		<Name>РегистрСведенийИспользуемыеВидыДоступаПоТаблицам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f674dc60-7b2e-4976-83a1-ae630aad4b4b">
+		<Name>РегистрСведенийСертификатыПользователяDSS</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0405403b-dc8f-4335-bc31-99751a5199dc">
+		<Name>РегистрСведенийСнимкиОтчетов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06562364-9733-435f-9e75-eff9490c2152">
+		<Name>РегистрСведенийСервисМобильнойПодписиСтатусы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="326c0878-0d06-4969-864b-2ff720b4b6ca">
+		<Name>РегистрСведенийЗаявленияНаВыпускСертификата</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="330959c1-20b8-4ed6-b8ad-a55ed8181188">
+		<Name>РегистрНакопленияБонусныеБаллы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e2a7f2d8-ddc9-41a9-afcf-bccc44ba85de">
+		<Name>РегистрНакопленияДвиженияСерийТоваров</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cdedcf54-afaa-4258-8b8e-0fcac1f91015">
+		<Name>РегистрНакопленияДенежныеСредстваБезналичные</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="16e187ee-3820-4b20-94e7-2a27ac8c5713">
+		<Name>РегистрНакопленияДенежныеСредстваКВыплате</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="12d3d357-c113-4da2-a1af-525e30ee9bfe">
+		<Name>РегистрНакопленияДенежныеСредстваККМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3c95131a-15e9-4176-b180-9f1c6db762a7">
+		<Name>РегистрНакопленияДенежныеСредстваКПоступлениюНаличные</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5edd17eb-7d47-4333-9ad9-75d40dd68429">
+		<Name>РегистрНакопленияДенежныеСредстваНаличные</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0cd1d423-ff3c-4a79-b67c-e3e854c51b46">
+		<Name>РегистрНакопленияЗаказыПокупателей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f5df7f4e-e59a-4d9a-9948-c68776339e45">
+		<Name>РегистрНакопленияЗаказыТоваров</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="258567e2-45f1-4ae8-87f0-8a1b82e0ac44">
+		<Name>РегистрНакопленияЗакупкиТоваров</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="163ae430-d39b-4d63-bbd4-15f5c4cef87b">
+		<Name>РегистрНакопленияОстаткиАлкогольнойПродукцииЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="16ce537f-b7d2-4fb3-88d6-daeb789e07ff">
+		<Name>РегистрНакопленияОстаткиПартийЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3352d311-8375-41b2-b391-83a87335fdd9">
+		<Name>РегистрНакопленияОстаткиПартийСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2ab45119-d0e8-427c-8baa-3b90bebb8ae4">
+		<Name>РегистрНакопленияПодарочныеСертификаты</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e1145ed4-da90-440c-8d90-c5faf91b0f85">
+		<Name>РегистрНакопленияПосетители</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="794bbbb6-91c7-4dce-9b51-af390be45c92">
+		<Name>РегистрНакопленияПремииПоЛичнымПродажам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2084b0a0-aad8-46aa-ae84-4fcc4d74edca">
+		<Name>РегистрНакопленияПродажи</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8f84d8f-2f0d-4c2f-9664-e36e8ee31837">
+		<Name>РегистрНакопленияПродажиПоДисконтнымКартам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="677c08f9-ed2b-4862-ba96-3998787ae9bf">
+		<Name>РегистрНакопленияПродажиПоПлатежнымКартам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8260ca26-6616-488b-85a7-27c8854ad9bb">
+		<Name>РегистрНакопленияРасхожденияПриПриемке</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84e0910c-ff17-4e44-b6b4-3e2dab1343d9">
+		<Name>РегистрНакопленияРасчетыСКлиентами</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a11145be-f99f-44c7-a889-c67830b0be62">
+		<Name>РегистрНакопленияРасчетыСПоставщиками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="db0cf894-b2aa-41b2-942b-3272a4bb0272">
+		<Name>РегистрНакопленияСебестоимостьПоставкиТоваров</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5c94405a-b105-43b9-8fb8-fe6eaa1fe247">
+		<Name>РегистрНакопленияТоварыКОтгрузке</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f525cc8-9d28-461e-b5b1-9afd202157ec">
+		<Name>РегистрНакопленияТоварыКОформлениюИзлишковНедостач</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e690312d-d8b1-43f3-9288-b5137e16ca78">
+		<Name>РегистрНакопленияТоварыКОформлениюОтчетовКомитенту</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b1366e1c-2e1e-48ac-a97d-1501a913cb4c">
+		<Name>РегистрНакопленияТоварыКПоступлению</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5dd638e9-e232-49c3-bc74-ba6a85c56874">
+		<Name>РегистрНакопленияТоварыНаСкладах</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e17c7443-0681-4fbe-ab53-db7a941da663">
+		<Name>РегистрНакопленияТоварыОрганизаций</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d4f8a468-773c-4ca3-a87d-043198598d64">
+		<Name>РегистрНакопленияФактическоеРабочееВремяСотрудников</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d03fd3c1-1e6b-4251-ae0a-06012dc584b8">
+		<Name>РегистрСведенийАбонентыЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a741b2c0-684c-4132-aa76-24c20f76a7f1">
+		<Name>РегистрСведенийАвторизацияВСервисе1СФреш</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a68ddf8a-4ee4-4041-aa37-b74e04786ba8">
+		<Name>РегистрСведенийАдминистративнаяИерархия</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="96f12a98-22aa-40a6-ab41-93ca7d6994ce">
+		<Name>РегистрСведенийАдресаДоставкиЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="60e65f09-9c1f-4b65-9b96-eb60e66372ca">
+		<Name>РегистрСведенийАдресаЗонОтветственностиВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="764cc3a3-7af2-401d-8de1-f647bb7ceff6">
+		<Name>РегистрСведенийАктивированныеАгентыРезервногоКопирования</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="65f9c7f7-aa63-492d-b7ba-367740601cb5">
+		<Name>РегистрСведенийАкцизныеМаркиЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c200e3c9-0fa8-409d-a6b6-6622d0c98675">
+		<Name>РегистрСведенийАрхивЛоговДрайверовОборудования</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="00941902-7b97-44fc-bda9-1faeb6973f65">
+		<Name>РегистрСведенийАрхивСообщенийОбменов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d32cada-2709-4137-a0c4-f3e390b5a760">
+		<Name>РегистрСведенийАссортимент</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a35f13cd-8b31-41bf-876f-1fbc6c52ba71">
+		<Name>РегистрСведенийБИКУчастниковСБП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ed4f3b68-9372-4ba2-a954-5ce525c4e39a">
+		<Name>РегистрСведенийБонусныеБаллыКСписаниюИНачислению</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cb5c231d-4280-4417-a0e1-c1718aab21d6">
+		<Name>РегистрСведенийВариантыУказанияНоменклатурыВДокументахБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9759c19c-b5bd-4832-b42e-0700f70079d4">
+		<Name>РегистрСведенийВерсииТитуловЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a815f226-fbf0-4480-9514-648ee78f20f6">
+		<Name>РегистрСведенийВидыАлкогольнойПродукцииЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="29f2251b-2ac4-4a85-990f-c9da3d885968">
+		<Name>РегистрСведенийВидыПриложенийОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="14b68dde-ba69-403f-adfa-83e7c444fe20">
+		<Name>РегистрСведенийВидыПродукцииПоГруппамВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="936c4066-244a-4eed-a79c-83ccf1a861b7">
+		<Name>РегистрСведенийВидыСельскохозяйственныхКультурЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2061b4be-0502-4189-8e8a-98beb6ae42af">
+		<Name>РегистрСведенийВизуализацииДокументовЦентраЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2f2e1ed0-dcd4-4f24-9d92-be5204a85537">
+		<Name>РегистрСведенийВложенныеШтрихкодыАТКИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5fbd88e7-516a-4e94-83a9-bf7eac901233">
+		<Name>РегистрСведенийВскрытыеПотребительскиеУпаковкиИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6bd60971-37c4-4a55-ab16-690b96229c85">
+		<Name>РегистрСведенийВыгружаемыеДокументыВЦентрЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b3fa8f0d-39ba-43b2-99d6-51b1ab897edc">
+		<Name>РегистрСведенийВыгрузкаЗагрузкаОбъектовМетаданных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="acf842a6-b13d-4e7d-a707-b4d945942db9">
+		<Name>РегистрСведенийВыплаченнаяЗарплата</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c647309c-0858-41bf-8129-1c424d4b46cf">
+		<Name>РегистрСведенийГрафикиРаботыМагазинов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c093a4a4-9def-4c48-b4d3-b368a07784c5">
+		<Name>РегистрСведенийДанныеRFIDИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="56b44f15-a751-478b-a8f6-bf3c5964ef6a">
+		<Name>РегистрСведенийДанныеЗаказовСервисДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ba759487-f996-480a-a3dc-35ac61686d68">
+		<Name>РегистрСведенийДанныеКлючаСессииИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="019e7a27-7d99-4da7-8f35-f0d91a2591c7">
+		<Name>РегистрСведенийДанныеКонтрагентовСоздаваемыхБезусловно</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a6d96603-cb13-40d8-9168-a7e93911abc3">
+		<Name>РегистрСведенийДанныеНаложенныхПлатежейСервисДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7ac3f70d-4865-4c5c-9bac-7949551e995b">
+		<Name>РегистрСведенийДанныеОбработкиПомощникИсправленияЕдиницИзмерения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="65569165-5f51-4114-a36b-62e8c80ec4c8">
+		<Name>РегистрСведенийДанныеОперацийОблачныхКасс</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b7d80c90-2a65-45ac-8f06-1249e7046bb7">
+		<Name>РегистрСведенийДанныеОперацийСБПc2b</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="42153885-ffdd-4b1d-ad57-587096364990">
+		<Name>РегистрСведенийДанныеОтчетаПроизводственнойЛинииИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4f7bdc3c-6885-4340-99f2-774a949e5dee">
+		<Name>РегистрСведенийДанныеОчищаемойОбласти</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1e81547-edb7-409d-9673-fc38b94cc5fa">
+		<Name>РегистрСведенийДанныеЧастичнойДоставкиСервисДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a6560b33-5ded-440f-9b68-fab3a35360ce">
+		<Name>РегистрСведенийАутентификацияПользователяПИоТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2e0a640a-bcb5-48a6-835f-b909c04c0a75">
+		<Name>РегистрСведенийДатаОбновленияСостоянийКонтрагентов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97205228-b5af-45ab-8432-e7b73369f7ab">
+		<Name>РегистрСведенийДатыЗагрузкиПоследнихНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0f159d21-0fbd-4f61-b22b-d23baed11b0d">
+		<Name>РегистрСведенийДатыОбновленияСтандартныхСписковНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c765d9c-a521-4f36-aea8-7939ce13a484">
+		<Name>РегистрСведенийДвиженияСерийныхНомеров</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b628cb1e-062b-4f3e-a47d-bae30422e390">
+		<Name>РегистрСведенийДействиеСкидокНаценок</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bb11b2cd-9cdb-4b7e-accf-62883e104756">
+		<Name>РегистрСведенийДействующиеПравилаРасчетаПремий</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6a732d61-3276-4aa6-8212-f52fc9295ccf">
+		<Name>РегистрСведенийДействующиеЦеныНоменклатуры</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="db00a725-d3ff-4cff-b2ff-ea5964c00019">
+		<Name>РегистрСведенийДепозитныеПродуктыОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2da09ebc-f56f-4b97-869c-2d46da3f2ee7">
+		<Name>РегистрСведенийДлительныеОперации</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8da99cca-6475-40a5-a2db-1a2973bcf49d">
+		<Name>РегистрСведенийДокументыОФД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b74ffe60-cd5c-432d-8469-c554ed49958f">
+		<Name>РегистрСведенийДокументыСОшибкамиПроверкиКонтрагентов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f2b7ca46-d08a-458f-b9b2-836d9a6c75fb">
+		<Name>РегистрСведенийДокументыФизическихЛиц</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c44a5898-3566-4ca3-86ea-0a036095a23d">
+		<Name>РегистрСведенийДопустимыеЗначенияПотребительскихСвойствЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b4f3591-9c90-43ce-8e2a-d10e9ecb1b3f">
+		<Name>РегистрСведенийДопустимыеЦелиПоГруппамВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c6bc610f-2323-4320-974c-b7a484652e2b">
+		<Name>РегистрСведенийДоступныеЗначенияПоМестамПримененияЭлементовКонструктораВидовПродукцииИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f35756d2-951b-4b13-8f95-7f8109763a2b">
+		<Name>РегистрСведенийДоступныеЗначенияЭлементовКонструктораВидовПродукцииИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f507e6f6-ff3f-4ace-b05d-803df22a82a4">
+		<Name>РегистрСведенийЖурналДействийКассира</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="659752b9-6dfc-42e9-ae62-345bc460b00c">
+		<Name>РегистрСведенийЖурналДействийПоЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f87ba5a1-0ba4-4610-b6fd-9010890f88b7">
+		<Name>РегистрСведенийЖурналЗаказовСервисДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0d6d030e-f6c2-4db1-8965-d5d9d478cbc8">
+		<Name>РегистрСведенийЖурналМашиночитаемыхДоверенностей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4a38d685-ee16-4e56-a4ff-1f28387b1697">
+		<Name>РегистрСведенийЖурналСобытийОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="44ecbae3-8c69-4501-b3ae-a6709d6189e6">
+		<Name>РегистрСведенийЗадачиОбменаДаннымиВнутренняяПубликация</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="02387120-597a-4313-99ca-255b01017780">
+		<Name>РегистрСведенийЗаказыПоставщикамПоЗапросамКоммерческихПредложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84aa003d-2e3b-478d-8377-1044ead84dec">
+		<Name>РегистрСведенийЗаписиСкладскогоЖурналаВРезервеВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8bd60fd1-ed49-4eb5-abf8-b54da72a4856">
+		<Name>РегистрСведенийЗаписиСкладскогоЖурналаКПередачеВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0d6340e6-0ee5-428a-a8b3-13f8b64e0ed8">
+		<Name>РегистрСведенийЗапланированныеЗаданияОчереди</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="10928e1d-7940-49e6-a90f-f2e1e7b4db4e">
+		<Name>РегистрСведенийЗаявкиНаРегистрациюВЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="944a8cb1-8b3b-469d-8870-9c0f4eef5188">
+		<Name>РегистрСведенийЗначенияДополнительныхПравПользователя</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="33b7d639-d0bc-4c07-be52-65bdd8e1bfc0">
+		<Name>РегистрСведенийДатаЗагрузкиОтчетовКассЭвотор</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc6528d8-68fb-4306-83e2-ac9eca20b2a3">
+		<Name>РегистрСведенийЗначенияКатегорийДляОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d57b3e49-d836-4b17-a1e3-c986dbc683cc">
+		<Name>РегистрСведенийЗначенияКатегорийОбщие</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dbd54a60-49f2-4819-89f9-d77fbb3eabdd">
+		<Name>РегистрСведенийЗначенияКатегорийПользовательские</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a92da48f-7977-4d57-b713-d2c762f1dbc8">
+		<Name>РегистрСведенийЗначенияПользователяЭлементовКонструктораВидовПродукцииИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ea853ff9-5e67-4159-9d29-aa9ef3316141">
+		<Name>РегистрСведенийЗначенияРеквизитовДокументовЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b1be53b-7747-43e2-9902-40dcb909b0f4">
+		<Name>РегистрСведенийЗначенияЭлементовКонструктораВидовПродукцииИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d29b99d0-ac5b-4154-87ee-8dde01f00777">
+		<Name>РегистрСведенийИдентификаторыОперацийИнтернетЭквайринга</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="010b1309-82c7-4d1b-a021-ac79a19c0f33">
+		<Name>РегистрСведенийИдентификаторыОперацийСБПc2b</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be00fecb-f521-43e2-b751-6eafb316ddd3">
+		<Name>РегистрСведенийИдентификаторыСинхронизируемыхОбъектовЦентраЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6ffb1e6c-be05-43b9-b1ad-4b260ab0b6e4">
+		<Name>РегистрСведенийИерархияГруппПользователей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="21f52ab1-c7db-4bc2-934a-d22a6ec0419d">
+		<Name>РегистрСведенийИзображенияЗапросовКоммерческихПредложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="92d7ad14-5301-419d-8c26-521eb3af3511">
+		<Name>РегистрСведенийИзображенияТорговойПлощадки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="92c66822-17e0-4d5d-b2c1-3f8189fa80ce">
+		<Name>РегистрСведенийИндексыСПАРКРиски</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc5cb127-2650-4eaf-9642-b61c3ad996b2">
+		<Name>РегистрСведенийИнформативныеОстаткиТоваровПоМагазинам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a231284f-d1b9-49f0-86eb-6eadf29dbd41">
+		<Name>РегистрСведенийИнформативныеОстаткиТоваровПоСкладам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="924105a9-db6f-4842-880a-5a9ad987eeb9">
+		<Name>РегистрСведенийИсключенияДляНастройкиНоменклатурыПоТНВЭДиОКПД2ИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d30757a5-b6ec-4bbd-b3d0-12db8911094a">
+		<Name>РегистрСведенийИспользованиеКлючаДоступаКСервисуЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0330b087-e640-4f52-8a7a-c4c1cd240810">
+		<Name>РегистрСведенийИсторияАдминистративнойИерархии</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="21c52439-31a4-43cd-aebe-cb16ff4794a9">
+		<Name>РегистрСведенийИсторияВыполненияОбменовСВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa4c18e5-b1d6-4d5f-a826-43ce4cac66e2">
+		<Name>РегистрСведенийИсторияВыполненияОбменовСЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4437b60d-1e41-4599-bc07-d24f2b5ee174">
+		<Name>РегистрСведенийИсторияВыполненияОбменовССАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6c7629d-4cf1-443d-900f-f94ce6eecaac">
+		<Name>РегистрСведенийИсторияЗапускаЗаданийОчереди</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="660d1328-ca9a-4387-908a-4393d93cf961">
+		<Name>РегистрСведенийИсторияИспользованияПараметровГенерацииШтрихкодовИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="471196a2-4d35-4609-8657-312f08a167c8">
+		<Name>РегистрСведенийИсторияИспользованияСоставаУпаковкиИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cce0fe8a-aafa-4d26-91ee-982e4b128cbb">
+		<Name>РегистрСведенийИсторияИспользованияШаблонаЭтикеткиИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="98e7538d-ab7b-4b38-a4ca-06a2e132c35f">
+		<Name>РегистрСведенийИсторияИспользованияШаблонаЭтикеткиУпаковкиИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1368879-a7e3-4a14-981d-734210d5b0f7">
+		<Name>РегистрСведенийИсторияМуниципальнойИерархии</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8fcd4cb1-1476-4230-90d4-f646c2aeb5b6">
+		<Name>РегистрСведенийИсторияПогашенийСДИЗЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74279d5a-0cf2-43b4-a36a-d22de19ebd15">
+		<Name>РегистрСведенийИсторияРассылкиОтчетов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="720ec4f6-7dde-4fde-ba32-f68a59a66207">
+		<Name>РегистрСведенийКассоваяДисциплинаВыемкиПриЗакрытииСмены</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06cd8432-74aa-482a-981f-65e0aec9d781">
+		<Name>РегистрСведенийКассыККМИнтернетМагазинов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e3543175-2e8c-4c45-8cc2-f5f2b7fb34c5">
+		<Name>РегистрСведенийКассыНеПередающиеДанныеВИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f242a0cb-735c-47f7-8300-fa633346cc4c">
+		<Name>РегистрСведенийКатегорииНовостейИнтервалыВерсий</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f5438462-fe2e-45c3-a455-c14ebcd35ff5">
+		<Name>РегистрСведенийКатегорииНовостейИнтервалыВерсийНеобработанные</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="13ed4c54-bb08-4597-8efc-4af92e687910">
+		<Name>РегистрСведенийКатегорииНовостейПростые</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="55d8a39f-73f5-477a-a0c1-92b66a0a2665">
+		<Name>РегистрСведенийКатегорииНовостейПростыеНеобработанные</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1434eac0-e8b6-47fc-8138-59f7e3d1a2aa">
+		<Name>РегистрСведенийКвотыАссортимента</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="200b3150-ce13-48bf-b1ac-d9efb7a32fa1">
+		<Name>РегистрСведенийКлассификаторФИО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7728f86e-7bcf-41ca-b903-78ca383036ad">
+		<Name>РегистрСведенийКлассификаторыМЧД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7a120c92-d57f-42c6-974c-d8cb0258e382">
+		<Name>РегистрСведенийКлассификаторыОграниченийМЧД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3fd879a0-7de2-49f9-a787-7d6098f93307">
+		<Name>РегистрСведенийКлючиПартийЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e098b66e-e0ba-4b00-9d75-1beac0c965d6">
+		<Name>РегистрСведенийКодыОКПД2ИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5acc2ddc-228d-4120-916e-c16b8c8dabea">
+		<Name>РегистрСведенийКодыРАФПЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74bbb6b5-d084-419e-a2a3-a6f3087470e6">
+		<Name>РегистрСведенийКодыТНВЭДИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="90b763e6-b086-4b66-b552-013eba0ec4de">
+		<Name>РегистрСведенийКодыТоваровPLUНаОборудовании</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4098f4a0-e62c-415f-afca-455fa6d2e0c0">
+		<Name>РегистрСведенийКодыТоваровSKU</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cee028c5-819e-4532-95ee-5b5b4699e124">
+		<Name>РегистрСведенийКоммерческиеПредложенияПоЗапросам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3130c905-60c6-4614-96e2-6d8ea969c724">
+		<Name>РегистрСведенийКомплектацияПодключаемогоОборудования</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="483db7e7-d953-4e88-b0e4-5cb5c6749115">
+		<Name>РегистрСведенийКомплектующиеНоменклатуры</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1706dc83-f46c-43f0-a54c-2b1b44e9e70f">
+		<Name>РегистрСведенийКонтрагентыБизнесСеть</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2c6b2a5b-c0f8-4948-ac67-8698330887b6">
+		<Name>РегистрСведенийКонтрагентыНаМониторингеСПАРКРиски</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="99f959c5-2e96-4cfb-a6d4-6212bcc3f027">
+		<Name>РегистрСведенийКонтрольОтраженияВУчетеЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee261f33-8a32-4558-b65c-2880a8439afa">
+		<Name>РегистрСведенийКонтрольПроведенияУчетныхДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="38cd74a3-b949-4151-a177-8582a4a9b4f0">
+		<Name>РегистрСведенийКонтрольСопоставленияНоменклатурыЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8b6021d8-9124-4bc5-9e89-2fc4b8ceb239">
+		<Name>РегистрСведенийКонтурСинхронизации</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7f51a6fa-4c98-487b-9d7c-0d1c8bf0015e">
+		<Name>РегистрСведенийКэшВзаимодействияМПЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0643debc-ffe8-4b11-a8a4-85fc5152ee61">
+		<Name>РегистрСведенийКэшВизуализацииДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee09a867-39d1-433d-8e62-13d88a40395c">
+		<Name>РегистрСведенийКэшДанныхВнешнихКомпонент</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7aa38eb7-ba67-4401-a0b1-04ff06aecc9d">
+		<Name>РегистрСведенийКэшМакетовСБП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee95cb44-d491-432a-9c51-c2ce7869df36">
+		<Name>РегистрСведенийКэшОписанияОстатковИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7a64cce3-4dd7-4a11-be03-2de65b55e9c0">
+		<Name>РегистрСведенийКэшСостоянийКонтрагентовФНС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="017db483-f341-406d-ac52-d43f3c5b0787">
+		<Name>РегистрСведенийЛогДействийКассираВРМК</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a3d17928-f896-4817-a7e5-e778a8e34015">
+		<Name>РегистрСведенийМашиночитаемыеДоверенностиПредставителиИДоверители</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="10369316-add9-4c6d-94ac-f003064d1620">
+		<Name>РегистрСведенийМашиночитаемыеДоверенностиСообщений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b17690a-3c2a-495a-b12b-7644fdaa8dcf">
+		<Name>РегистрСведенийМашиночитаемыеДоверенностиСтатусы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e9ef014f-f0ad-4228-a9c5-3576288d25f8">
+		<Name>РегистрСведенийМашиночитаемыеДоверенностиЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fd3295fa-b69d-43c1-8dc7-ac7270784435">
+		<Name>РегистрСведенийМестаОсуществленияДеятельностиИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="076c934a-5b0c-45da-adc8-b0d5a32357ef">
+		<Name>РегистрСведенийМестаПримененияЭлементовКонструктораВидовПродукцииИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="07a48e65-fba2-4750-83f9-88eb7f4715e0">
+		<Name>РегистрСведенийМестаХраненияПартийСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a40bb7d3-62ab-4168-a05a-4f6b74b1b1f7">
+		<Name>РегистрСведенийМеткиВремениДанныхДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e0c7a5dc-8fbc-4656-8274-7858b5dd6954">
+		<Name>РегистрСведенийМеткиВремениДанныхЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aaf0984f-7f43-46f8-a3df-e7aa087c1d7b">
+		<Name>РегистрСведенийМинимальныеЦеныПодакцизныхТоваровИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c69afd9a-8749-4287-8912-5e460df42588">
+		<Name>РегистрСведенийМуниципальнаяИерархия</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="653e153a-6588-4b1b-ba34-a48a11861604">
+		<Name>РегистрСведенийНаличиеНовыхЭлектронныхДокументов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a5f79153-d075-4f8e-bbb0-2360da4519f1">
+		<Name>РегистрСведенийНапоминанияПользователяИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f2b8947b-138f-455f-8b2e-38a9f5187732">
+		<Name>РегистрСведенийНастройкаРМКНаКомпьютере</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b4a4f84b-85f5-4299-ae70-a8f31c594675">
+		<Name>РегистрСведенийНастройкаСпособаУчетаСебестоимости</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="abe83b31-adae-4a83-84e4-befdf6df2ce2">
+		<Name>РегистрСведенийНастройкиАрхиваСообщенийОбменов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="511d8605-c11f-4422-9823-1ff2c8a61ddd">
+		<Name>РегистрСведенийНастройкиВариантовРаспределенияТоваров</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ad47b180-a1e9-44ed-93b0-b1bc7dd65c69">
+		<Name>РегистрСведенийНастройкиВзаимодействияМПЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ea2de972-7ca8-4aa1-a1f3-f2d9aa7c38ea">
+		<Name>РегистрСведенийНастройкиВнутреннегоЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a773526c-d7cf-404f-bcc7-429dd6803dfe">
+		<Name>РегистрСведенийНастройкиДополнительныхРеквизитовЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c9f43db-091f-4da1-9a87-af9a804e9ee0">
+		<Name>РегистрСведенийНастройкиЗаполненияДополнительныхПолей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5eeb3516-7f22-4844-9d57-14c0998a31c8">
+		<Name>РегистрСведенийНастройкиИнтеграцииЦентраЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e546d652-c6c7-44fe-aebd-7d82d49ca9d9">
+		<Name>РегистрСведенийНастройкиКассОФД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d5d91ef5-0c62-478c-9b3d-16ee4c57df5e">
+		<Name>РегистрСведенийНастройкиКаталогаРасширенийВОбластяхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="279d48ca-a2ad-498d-8081-40378610fe50">
+		<Name>РегистрСведенийНастройкиКлючевыхОпераций</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="13278ac9-7c11-4dff-892c-8be0dcdb6776">
+		<Name>РегистрСведенийНастройкиЛентНовостейПользовательские</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cb49aa71-9b86-4b20-8f09-259249f2341a">
+		<Name>РегистрСведенийНастройкиЛичногоКабинетаСервисаВОбластяхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5e20b80e-1d46-4fdf-8274-75c99e517b2f">
+		<Name>РегистрСведенийНастройкиЛогированияПоВидамДействийКассираВРМК</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d668e176-bc1a-4148-a94f-427a7e54d056">
+		<Name>РегистрСведенийНастройкиНовостейОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1dadddfe-593e-41df-a018-cfa85d4730ce">
+		<Name>РегистрСведенийНастройкиОбменаЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="437edeb6-0531-493d-b09d-44d77b3b8181">
+		<Name>РегистрСведенийНастройкиОбменаСУЗ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="11c222bb-7928-446a-857b-626b6ae17d9c">
+		<Name>РегистрСведенийНастройкиОбщиеСервисДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="28197e12-6a7c-41e3-ae97-296670d025a1">
+		<Name>РегистрСведенийНастройкиОтправкиЭлектронныхДокументов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="54afc5a3-82b5-4b89-9167-5222082e3de9">
+		<Name>РегистрСведенийНастройкиОтправкиЭлектронныхДокументовПоВидам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b8e59aeb-ffb8-438b-a08b-3961b8a1430b">
+		<Name>РегистрСведенийНастройкиПодключенияВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d7ad09f8-6e98-4f3b-ae96-ac01bcb70fee">
+		<Name>РегистрСведенийНастройкиПодключенияЛокальныхМодулейИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6506d2fc-7d59-4840-87e5-dc2a043fdd0e">
+		<Name>РегистрСведенийНастройкиПодключенияСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="33f13248-ad5d-44aa-a323-b05b0f163734">
+		<Name>РегистрСведенийНастройкиПодключенияТСПИоТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e3205abf-ef10-411a-97ff-733e17a7defa">
+		<Name>РегистрСведенийНастройкиПолномочийМЧД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7c286a63-2dbb-4fbc-8a3c-f89bda066d88">
+		<Name>РегистрСведенийНастройкиПолученияЭлектронныхДокументов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="82de054b-8908-4b01-a80a-0734dee375ec">
+		<Name>РегистрСведенийНастройкиПользователей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2719492c-3476-4ecf-9a6c-dc3945d1f4a9">
+		<Name>РегистрСведенийНастройкиПользователейБИП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d9dc7fcf-3ac7-4fef-89b5-bdeeb677f7c0">
+		<Name>РегистрСведенийНастройкиРаботыСПеревозчикамиСервисДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c088e73f-3960-43eb-80ba-9ddb16b97893">
+		<Name>РегистрСведенийНастройкиУполномоченногоГашенияВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8ede30ea-b312-413e-b0ea-54c9d3bb8211">
+		<Name>РегистрСведенийНастройкиУчастниковСБП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d2a56dfc-7656-4d90-b36c-c92186100289">
+		<Name>РегистрСведенийНастройкиЧастичногоВыбытияПродукцииИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ac39dab5-9c6d-45f9-9393-56c1a51ef0f8">
+		<Name>РегистрСведенийНеобрабатываемыеПакетыЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1b18a36c-3b08-47dd-8716-2d697ca76d28">
+		<Name>РегистрСведенийНоменклатураКонтрагентовБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8161ea4-0bb6-4d19-9cad-c304b4935a57">
+		<Name>РегистрСведенийНоменклатураКПереименованию</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee6af2e5-6c75-4a7e-95ec-f0096734e1cb">
+		<Name>РегистрСведенийНоменклатураПоставщиков</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="958c76c4-8fc1-4195-818e-a13fe3797a00">
+		<Name>РегистрСведенийНоменклатураСегмента</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="43fb0449-4e3f-4c0b-8848-afd54f9d0ea6">
+		<Name>РегистрСведенийНоменклатураТорговойПлощадки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dd686cad-8ded-4494-bc39-bb1826e8cf91">
+		<Name>РегистрСведенийОбъектыНезарегистрированныеПриЗацикливании</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2b28d5de-0f3c-458e-8997-4c300ed832b3">
+		<Name>РегистрСведенийОбъектыТранспортныхКонтейнеровЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="de11cb93-8527-4eb0-8790-300fea296626">
+		<Name>РегистрСведенийОбъектыУчетаДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a8fa4a03-54dd-46fc-85f0-a9a86633416e">
+		<Name>РегистрСведенийОператорыЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0b9d0959-7b13-4980-9f48-c76c91e684e1">
+		<Name>РегистрСведенийЗначенияЕМРЦ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c6ebdd3-968e-445f-870d-c39d281b3572">
+		<Name>РегистрСведенийОперацииРегламентныхЗаданий</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f47a7fd9-c534-4675-a6b2-c23b153045a2">
+		<Name>РегистрСведенийОперацииРегламентныхЗаданийОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e3f93802-ec0f-4c27-bdcb-16120c493bc7">
+		<Name>РегистрСведенийОперацииПроверкиКМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="90e861da-39ca-4ece-b325-b366d952c9f9">
+		<Name>РегистрСведенийОписаниеGTINИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="830c3347-f6d1-4126-a672-61f5cccce8e3">
+		<Name>РегистрСведенийОписаниеНоменклатурыИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f56a539b-6878-42de-bfa0-c1ecf2c3eb16">
+		<Name>РегистрСведенийОповещенияПользователейСертификатов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e858d8d9-6bcf-4190-959b-17a761fb0395">
+		<Name>РегистрСведенийОрганизацииБизнесСеть</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fe80f2ee-d44e-4188-bbe6-3a28c67eedae">
+		<Name>РегистрСведенийОрганизацииДляОбменаГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1d989a32-c9f9-4337-9a4a-36cd08ee7d60">
+		<Name>РегистрСведенийОсновныеПечатныеФормыКонтрагентов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b8321c8b-afa4-4dbe-a2a3-064a89558e3d">
+		<Name>РегистрСведенийОсновныеПечатныеФормыОбъектов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f6ae0d50-90c7-439b-8ab9-95642ef22df2">
+		<Name>РегистрСведенийОстаткиПродукцииВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e0112a55-5bf9-413c-911e-438cf03969bd">
+		<Name>РегистрСведенийОтборыПоЛентамНовостейДляОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4e48c79a-de13-4bfd-94aa-e4e0c1ab5f81">
+		<Name>РегистрСведенийОтборыПоЛентамНовостейОбщие</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="19716660-a401-4072-8daa-e8f69f9c6061">
+		<Name>РегистрСведенийОтборыПоЛентамНовостейПользовательские</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c0aca19a-7d82-4abd-81d9-4885ea79f0f5">
+		<Name>РегистрСведенийОтветственныеЛицаОрганизаций</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="849f6291-46c3-42ff-94b3-d4ca48d59038">
+		<Name>РегистрСведенийОтключенныеЛентыНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7be5a645-30cf-4a6e-83a3-963257123f46">
+		<Name>РегистрСведенийОтключенныеЛентыНовостейДляОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="accac34e-b7fa-4bf7-ba5e-89d11865f720">
+		<Name>РегистрСведенийОтключенныеПанелиКонтекстныхНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eaaba2eb-612c-4547-acdd-0610b250d5b2">
+		<Name>РегистрСведенийОтправкиQRКодовЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0d8155c7-7502-404c-81fe-e84b0f9d22dc">
+		<Name>РегистрСведенийОтправленныеСерверныеОповещения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cb1c3c16-7295-49cf-bd9a-6e072d674d01">
+		<Name>РегистрСведенийОчередьЗапросовВизуализацииЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c61ed207-ebcd-4b5b-be7a-0d89423d1249">
+		<Name>РегистрСведенийОчередьЗапросовВРеестрМЧДЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0fb54d74-79d5-4973-a533-2eb6c266713b">
+		<Name>РегистрСведенийОчередьЗапросовФСА</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8e5fbce0-a96b-40ea-bde6-94090c847baa">
+		<Name>РегистрСведенийОчередьПередачиДанныхГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b767380b-8b1a-4259-9d88-723f494e3d3b">
+		<Name>РегистрСведенийОчередьПередачиДанныхЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c85bb7f-ae03-428f-9090-05db9a0aa03d">
+		<Name>РегистрСведенийОчередьПолученияДанныхГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1428cad-dcff-424a-a0e0-a0790c2b4d83">
+		<Name>РегистрСведенийОчередьПолученияКвитанцийОФиксацииГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84cfc494-e4ef-4e76-a124-1d34d02aadf2">
+		<Name>РегистрСведенийОчередьСообщенийВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b818a00-500b-4309-8411-35c70a3b736c">
+		<Name>РегистрСведенийОчередьСообщенийЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ed26b715-fba6-47a9-9230-3ada52ede53e">
+		<Name>РегистрСведенийОчередьСообщенийИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="442955f0-ba0a-4dc1-b6a9-57cb138304df">
+		<Name>РегистрСведенийОперацииСПодключаемымОборудованием</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5b98a985-f575-47f9-a56d-78165e1b6736">
+		<Name>РегистрСведенийОчередьСообщенийСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a80c8d53-5c60-4415-b802-3103636d66f8">
+		<Name>РегистрСведенийОчередьСообщенийОбменаСОфлайнОборудованием</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8f0f9507-1987-43f5-b7bc-57cd8f597668">
+		<Name>РегистрСведенийОшибкиПередачиЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ded1d644-7b45-48db-bb90-f4df97b2ba64">
+		<Name>РегистрСведенийОчередьЧековККТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bb17787d-d080-49f0-b8c5-ca3e304866a7">
+		<Name>РегистрСведенийПакетыДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b670509e-30f6-49b9-b521-2b86c5c8b445">
+		<Name>РегистрСведенийПакетыКодовМаркировкиИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b141398d-3946-48dc-92c5-09475314a6a3">
+		<Name>РегистрСведенийПараметрыОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="52937edb-6227-47b5-b953-791eb69d38cd">
+		<Name>РегистрСведенийПереходыВВебВерсиюСПАРК</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="43aeb2e8-ee64-4ef3-84ff-1893ea98e60a">
+		<Name>РегистрСведенийПереченьСпециальныхОбстоятельствДокументаЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5f629b64-6dbf-42a7-9d0f-d00a90829c77">
+		<Name>РегистрСведенийПериодическиеСвойстваНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8e4db17e-9821-4294-93de-fac8675f5f6b">
+		<Name>РегистрСведенийПериодическиеСерверныеОповещения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c46a7aa-7d36-4313-9b0b-ca89bec89433">
+		<Name>РегистрСведенийПланируемоеРабочееВремяСотрудников</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="03ad9971-375d-490a-97ad-43cd85bb9c04">
+		<Name>РегистрСведенийОшибкиПодтвержденияНСПК</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bd29a2cb-abe4-4a7b-bf22-532b14fdfee1">
+		<Name>РегистрСведенийПлощадьТорговогоПространства</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cddc6b6a-301d-4178-926d-0274a4a6db13">
+		<Name>РегистрСведенийПодарочныеСертификатыКСписаниюНачислениюСерверЛояльности</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="62dfeac6-e9e5-464e-9b0b-3ea2c7e2c1f9">
+		<Name>РегистрСведенийПоддерживаемыеФорматыЭлектронныхДокументов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f7d84a11-58e5-47ef-834c-cd121c9e4017">
+		<Name>РегистрСведенийПодключенныеМПЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cffb3d4e-4de3-43ec-9431-b2e9568de16e">
+		<Name>РегистрСведенийПодписываемыеВидыЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="54a4056c-4aa8-4db3-badf-91a330cb5df7">
+		<Name>РегистрСведенийПользователиБизнесСеть</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0d268e6-7db1-4bd3-bbf7-4f1c0082486b">
+		<Name>РегистрСведенийПользователиЦентраЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="377127b0-186f-4d88-8f5d-fb6a9319d586">
+		<Name>РегистрСведенийПопыткиПродажПревышающихОстаток</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1050c4b5-1831-41ad-9f4e-32d20540c412">
+		<Name>РегистрСведенийПоставляемыеДанныеКлассификаторовВидовПродукцииИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="24c16eb3-335f-42b9-9f5b-e081b0c147ad">
+		<Name>РегистрСведенийПоставляемыеДанныеОрганизацийБизнесСеть</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="063b6209-309a-4fcf-a38d-4403a348c3b1">
+		<Name>РегистрСведенийПоставщикиНоменклатуры</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7459b94d-4f61-4b78-a709-6457ddbf896e">
+		<Name>РегистрСведенийПотокиВыгрузкиЗагрузкиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="04adc3fa-f88c-48ee-a567-8e78eb27004e">
+		<Name>РегистрСведенийПраваДоступаПользователейВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="133d8d54-014f-4603-9b88-9a5c3447b525">
+		<Name>РегистрСведенийПравилаПоискаПоЧастиНаименованияБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b5c2817-e215-4108-8602-519bbe62578f">
+		<Name>РегистрСведенийПравилаПреобразованияФорматов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="de915b7b-82ec-4a4c-b146-84aa8cec9e55">
+		<Name>РегистрСведенийПравилаПроверкиПолномочийПоМЧД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a9c27036-1d9e-414a-bb93-2932ec129475">
+		<Name>РегистрСведенийПредельныеЗначенияОКВЭД2</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a8ceab3c-b5a2-40d1-a594-faa1c1a7b51d">
+		<Name>РегистрСведенийПредприятияЗонОтветственностиВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0f932e9e-12f7-4c61-a01f-02dbcf5437c7">
+		<Name>РегистрСведенийПривязкаНовостейКМетаданным</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="98dbfc31-577d-4bc8-bf3f-c434cc444d7b">
+		<Name>РегистрСведенийПриглашенияКОбменуЭлектроннымиДокументами</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0090fd88-2c3c-4dee-be99-ff31bcb46f1d">
+		<Name>РегистрСведенийПрименениеСистемНалогообложения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f4bd6a6d-37f2-48a1-bcce-14b2f57b226e">
+		<Name>РегистрСведенийПроблемыИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3078314b-7990-45d4-a1f5-434534a63be7">
+		<Name>РегистрСведенийПроверкиЭлектронныхПодписейЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6b53713-d681-4155-81fc-2a8de30f50e0">
+		<Name>РегистрСведенийПрогрессОбновления</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="26acc2ed-d7d0-4322-bfd8-f8c15c1421f5">
+		<Name>РегистрСведенийПродукцияКСопоставлениюВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a6d5e6aa-9552-405c-aafb-bed20064b22c">
+		<Name>РегистрСведенийПромокодыКСписаниюСерверЛояльности</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e02208af-7398-4d98-a775-e7549b73c218">
+		<Name>РегистрСведенийПростыеЭлектронныеПодписи</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="85cb18f0-5a0b-4886-900c-2bc84ed23870">
+		<Name>РегистрСведенийПротоколПередачиДокументовДисконтномуСерверу</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="499e53df-fad4-4af1-9e17-6441f4a1053f">
+		<Name>РегистрСведенийПроцентыВознагражденияПоДоговорам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b3409cf-9864-4989-b9c4-6813005dac41">
+		<Name>РегистрСведенийПулКодовМаркировкиСУЗ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2206ca79-58ac-436e-a622-c7d5ff047be5">
+		<Name>РегистрСведенийРаботаСотрудников</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b21e57eb-b006-45e8-ab06-45d3a8d3462e">
+		<Name>РегистрСведенийРазмерОбъектовМетаданныхПриложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="99a9becd-3815-4362-acb9-d73095ecc87e">
+		<Name>РегистрСведенийРазмерПриложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="39884122-d1eb-4ea2-af63-cc759fbab51f">
+		<Name>РегистрСведенийРазрешенныеДляРедактированияЛентыНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4e6f8c76-b665-45c6-a6a1-27d8c5c4c25c">
+		<Name>РегистрСведенийРаспределениеНоменклатуры</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f44ae465-6a5f-4a86-bec9-7d9d55920f39">
+		<Name>РегистрСведенийРассчитанныеОтборыПоНовостям_ДляОбластиДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1ed1c0ba-1a83-448b-9df9-5cfaa100b22c">
+		<Name>РегистрСведенийРассчитанныеОтборыПоНовостям_Общие</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a4303fb3-094c-4509-b9e2-7141b2677360">
+		<Name>РегистрСведенийРассчитанныеОтборыПоНовостям_Пользовательские</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b659632f-f0ab-43b1-a521-3feead48dc2c">
+		<Name>РегистрСведенийРассчитанныеОтборыПоНовостям_РедкоМеняющиеся</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="52bcb3ea-ef70-4456-8b99-30fa072101e9">
+		<Name>РегистрСведенийРасширенияИзменяющиеСтруктуруДанныхОжидаемыеПользователем</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3c2c7778-dd81-400f-baf1-092f1b2ed253">
+		<Name>РегистрСведенийРегистрацияЗаменыКартПокупателей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="588932b4-b542-4b3e-a7d8-5604fc5dc2f0">
+		<Name>РегистрСведенийРеестрЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7291d6fb-73f8-4c12-8195-0b0a49f3f23e">
+		<Name>РегистрСведенийРезультатыОбработкиДокументовИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b2f068e-e887-4355-9cec-7d2a6e45cda0">
+		<Name>РегистрСведенийРезультатыПроверкиМЧДОператором</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c9e12569-e3cf-4d85-b585-adc19f557283">
+		<Name>РегистрСведенийРезультатыПроверкиСредствамиККТИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="37ef3de8-492a-42d9-8182-49e1fa55514c">
+		<Name>РегистрСведенийРеквизитыШтрихкодовУпаковокТоваровВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="595b1af6-316e-4e84-9643-3b51431e2a8e">
+		<Name>РегистрСведенийСведенияОПользователяхСервиса</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="959f34a6-07ca-4cb7-92c1-20fdd61bf6cb">
+		<Name>РегистрСведенийСведенияОПрочтенииДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f9aed219-5f2f-479b-87d9-de113213581e">
+		<Name>РегистрСведенийСведенияОСертификатахОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3816fbd2-22b6-4f34-aab0-1ba15df77365">
+		<Name>РегистрСведенийСводныеПриложенияОчередьЗагрузки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="17095536-c118-439c-9331-8978fbcff3cd">
+		<Name>РегистрСведенийСводныеПриложенияСостояниеВыгрузки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="20cfccc0-522e-4a9d-8376-2f1c49e35d47">
+		<Name>РегистрСведенийСводныеПриложенияСостояниеЗагрузки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa597e94-637c-4a6f-8a42-f13fb55daad6">
+		<Name>РегистрСведенийСвойстваКонтрагентовСПАРКРиски</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="efcd9b9e-661d-48d5-879e-fed45ae18e19">
+		<Name>РегистрСведенийСвойстваЛокальныхКомпьютеровДляОблачногоАрхива</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1f8e39ad-7a7a-4576-8749-482d20b36aa9">
+		<Name>РегистрСведенийСвойстваНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9de871a7-be25-41d0-bb14-5b15ebb9e4e2">
+		<Name>РегистрСведенийСвойстваРасширений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="10023b3f-43cb-471a-b4b4-57089d345eab">
+		<Name>РегистрСведенийСвойстваХранилищаОблачногоАрхива</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="37364a36-8310-4812-8c68-0dc7d7cc4f3f">
+		<Name>РегистрСведенийСвязанныеОбъектыОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be88a548-6807-4ae6-83e5-a0e8f89ea042">
+		<Name>РегистрСведенийСвязьВидовИФорматовДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d301f5ac-8c24-4d94-a377-bc2c8dc80657">
+		<Name>РегистрСведенийСеансыВерсийРасширений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97477606-ce2e-4f3f-ab0f-b0a3f82673c1">
+		<Name>РегистрСведенийСебестоимостьНоменклатуры</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f5d19c0d-e410-4ebc-af81-379a854a82e2">
+		<Name>РегистрСведенийСертификатыЗаявокНаРегистрациюВЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="500f3feb-46db-49b2-b6ea-ec73391aa0f1">
+		<Name>РегистрСведенийСертификатыПодписантовМобильнойПодписиБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="86459b6f-6e9b-4487-8fc5-1028f38e675f">
+		<Name>РегистрСведенийСертификатыПолучателейРассылкиОтчетов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7c52d0aa-d4d2-4970-a60c-063e8b844b2d">
+		<Name>РегистрСведенийСертификатыУчетныхЗаписейЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="af3e3c97-3976-45ed-924d-dca4088d0a8f">
+		<Name>РегистрСведенийСинхронизацияДанныхЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d3269e7f-bde8-47fd-bcb7-277884b62298">
+		<Name>РегистрСведенийСинхронизацияДанныхИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="737e57a0-dfd6-4314-984a-b4f3fae7c99c">
+		<Name>РегистрСведенийСинхронизацияКлассификаторовВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1764d0c1-d7e0-42bb-bf0b-a4c9a3b2be7e">
+		<Name>РегистрСведенийСинхронизацияОбъектовВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e7ab2d35-d413-4226-a559-7d983d3b6e68">
+		<Name>РегистрСведенийСинхронизацияСтатусовДокументовСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7d50a103-328f-40fa-99c7-026c43fd3d33">
+		<Name>РегистрСведенийСкидкиТорговыхПредложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="31bfb58d-9028-40e2-85eb-a9c46a172902">
+		<Name>РегистрСведенийСкидкиТорговыхПредложенийВидыЦен</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d43e9f70-2f91-4ae6-bffa-1cb24585ef07">
+		<Name>РегистрСведенийСкорректированныеФискальныеОперации</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="94615848-db1b-41a5-b40c-685ec344afcc">
+		<Name>РегистрСведенийСловарьСопоставленияНоменклатурыБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1e0798f7-099d-47ba-93c5-d7fc557fe46e">
+		<Name>РегистрСведенийСобытияМониторингаСПАРКРиски</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5198b813-503c-4349-8424-5059d622bff9">
+		<Name>РегистрСведенийСовместимостьОператоровЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1fc62455-fed5-4ad7-a387-8816af71c43f">
+		<Name>РегистрСведенийСогласиеОПредоставленииИнформацииГИСМТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2ed3aad8-f64b-4062-95f7-1681e4d0a491">
+		<Name>РегистрСведенийСоответствиеВидовНоменклатурыРаботаСНоменклатурой</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cf1f2eb8-0219-4273-a33a-51dd5b511220">
+		<Name>РегистрСведенийСоответствиеЗначенийРеквизитовРаботаСНоменклатурой</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a4273502-6251-461b-b5e2-7097b6343992">
+		<Name>РегистрСведенийСоответствиеНастроекИнтеграцииРМК</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="49d59e89-3ac5-4408-ab17-74e2f7be8814">
+		<Name>РегистрСведенийСоответствиеНоменклатурыВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9ca6ff68-2bb9-4b16-8aea-be9210600599">
+		<Name>РегистрСведенийСоответствиеНоменклатурыЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="420d8561-a840-4c7e-bfd6-059ef1e41eb3">
+		<Name>РегистрСведенийСоответствиеНоменклатурыРаботаСНоменклатурой</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ce58fbd5-7545-40db-9bd3-7c050ad4f288">
+		<Name>РегистрСведенийСоответствиеНоменклатурыСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="54ff6c68-95a1-414d-bc62-644a185197f0">
+		<Name>РегистрСведенийСоответствиеНоменклатурыСырьяГИСМТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b21ec7f6-9567-4932-969a-2c3224caefe7">
+		<Name>РегистрСведенийСоответствиеОбъектовСервисовДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a943fd96-f8ad-4999-8a64-198fc5e3bb29">
+		<Name>РегистрСведенийСоответствиеПартийЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f682390b-c64b-4d3d-a97a-b376238c9395">
+		<Name>РегистрСведенийСоответствиеПодразделенийОрганизацийМагазинам</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee09be0b-9653-43f7-9ac6-d86ee6fb9f7d">
+		<Name>РегистрСведенийСоответствиеРеквизитовРаботаСНоменклатурой</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3df8b2a7-ad6e-4e46-9c82-e391d311f470">
+		<Name>РегистрСведенийСоответствиеТНВЭДиОКПД2ИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b92591df-2e21-4abf-8c0f-37f13bf7ddf9">
+		<Name>РегистрСведенийСопоставлениеКлассификатораОграниченийСОбъектамиБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="295156d0-bb5a-43cf-b5ae-d8038bde5137">
+		<Name>РегистрСведенийСоставГруппПолучателейСкидки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7795c893-394b-41f5-948b-d7a66410d2f2">
+		<Name>РегистрСведенийСоставныеФайлы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1942895b-04a4-433e-bf8f-1cf763990adc">
+		<Name>РегистрСведенийСоставПакетовДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="939da5dd-fc45-4946-873b-bb9cf06c3e5b">
+		<Name>РегистрСведенийСостояниеБонусовСерверЛояльности</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b7b4f2cf-3d59-44cd-925a-8a4056c690f3">
+		<Name>РегистрСведенийСостояниеДоставкиЗаказаПокупателя</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="170ea822-927a-4f95-8878-018294df586b">
+		<Name>РегистрСведенийСостояниеОплатыЗаказаПокупателя</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5b8fc057-c2bf-4d39-88d8-5fc822cf1baf">
+		<Name>РегистрСведенийСостояниеОплатыПоступления</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1d9c5b68-cba5-428d-9310-7cba4851d829">
+		<Name>РегистрСведенийСостояниеОрганизацийБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="39f721e5-ba8a-4fff-872f-97daea2aea2e">
+		<Name>РегистрСведенийСостояниеПодарочныхСертификатовСерверЛояльности</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f657510a-e75c-4376-8bd7-5909da8bf765">
+		<Name>РегистрСведенийСостояниеПодписанияЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="636a296e-a4e0-441c-85af-beb035f3b7fe">
+		<Name>РегистрСведенийСостоянияCDNПлощадокИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fabfdea3-9a85-488a-b8df-bad8f6ba3b56">
+		<Name>РегистрСведенийСостоянияАвтоматическогоПолученияЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="89f51e59-6481-4276-b3b1-fe54b804b6e9">
+		<Name>РегистрСведенийСостоянияВыгрузкиВЦентрЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f8c57049-6a19-42b7-819b-18f695d8d6bf">
+		<Name>РегистрСведенийСостоянияВыгрузкиЗагрузкиОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7591a87a-7dde-4d2b-9e94-40ad71b3d68e">
+		<Name>РегистрСведенийСостоянияВыгрузкиНоменклатуры</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bc5cf07c-1ad2-437b-af7d-11bc9d4ab8d7">
+		<Name>РегистрСведенийСостоянияДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ea12cff-c5af-469c-bdb9-b4105c9f34d8">
+		<Name>РегистрСведенийСостоянияЗапросовКоммерческихПредложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1bf2e88b-7410-44df-95d9-8d44310fb54d">
+		<Name>РегистрСведенийСостоянияКонтрагентов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d8f063cc-d5f5-4337-9bd8-7a98e00524c3">
+		<Name>РегистрСведенийСостоянияКонтрагентовБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="04e5fe44-37ec-4ef3-ae34-a85a2f58d767">
+		<Name>РегистрСведенийСостоянияНовостей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d94b2ab5-a987-4ead-b114-f00821858132">
+		<Name>РегистрСведенийСостоянияОбменовССайтом</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="38cf6fa1-c59e-4e93-b1fb-812e2a2d8237">
+		<Name>РегистрСведенийСостоянияОбменовЭДЧерезОператоровЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="79f060a5-eae9-4ecd-9bf9-d4f740b9915a">
+		<Name>РегистрСведенийСостоянияОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="28fb17df-4b71-4820-94bd-3a92d6853950">
+		<Name>РегистрСведенийСостоянияОднократныхСкидокИКупонов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="26326c78-5bb9-4525-b169-5bf6b0b5a675">
+		<Name>РегистрСведенийСостоянияПоОбъектамУчетаЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bd7d6159-1c06-4088-a54a-c2d1a38674f3">
+		<Name>РегистрСведенийСостоянияПравилВизуализацииЦентраЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="101127a1-a003-49e6-9478-f7151074a7a6">
+		<Name>РегистрСведенийСостоянияСинхронизацииОбъектовСЦентромЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="237e095c-31eb-4518-9a7c-bf2dd7fd6b4f">
+		<Name>РегистрСведенийСостоянияСинхронизацииСервисДоставки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2171123d-e67a-4926-ad33-9b1c402847d4">
+		<Name>РегистрСведенийСостоянияСинхронизацииСервисНастроекЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="30b3e07a-3c22-42ea-ac3a-b1e41981b5d5">
+		<Name>РегистрСведенийСостоянияСинхронизацииСЦентромЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="652fe1e0-c635-4b06-8355-38893163679d">
+		<Name>РегистрСведенийСостоянияСинхронизацииТорговыеПредложения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="93a5be20-6836-4c82-a325-1d59d3be0307">
+		<Name>РегистрСведенийСохраненныеДанныеПомощникаПриемкиОтгрузки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dd1e3230-33b2-49ae-9788-da1510f1928f">
+		<Name>РегистрСведенийСпискиОтзываСертификатов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a0daaf2e-3ad3-4a42-b598-4b120237a7cb">
+		<Name>РегистрСведенийСрокиХраненияПерсональныхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="64903f43-efdf-4120-b002-fd327f3d4630">
+		<Name>РегистрСведенийСтатистикаПозицийТорговыхПредложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c27cf675-17bf-4923-b52e-1df5f95564a3">
+		<Name>РегистрСведенийСтатистикаСловСловаряСопоставленияНоменклатурыБЭД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="496d8761-d52a-4352-9257-bf6ce3e6e5c5">
+		<Name>РегистрСведенийСтатусыДокументовВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="206ab2c8-2e52-4118-aba9-0d5985402a0f">
+		<Name>РегистрСведенийСтатусыДокументовЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3f53664f-e740-441d-8dac-3d322ee0323c">
+		<Name>РегистрСведенийСтатусыДокументовИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f0d3106e-cb53-4743-bf38-820ede08a31f">
+		<Name>РегистрСведенийСтатусыДокументовСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f37e0a43-f4c4-42c3-b311-ab89a4d3d85a">
+		<Name>РегистрСведенийСтатусыЗапросовДляПоискаКоммерческихПредложений</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="79c8f12e-2b73-4fa6-bf36-3c7ae7eecad0">
+		<Name>РегистрСведенийСтатусыЗаявокНаВыпускКиЗГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="99aaab9e-f466-473c-abff-3348925a593e">
+		<Name>РегистрСведенийСтатусыИнформированияГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6fbf4225-12d0-4f03-ab22-a01073c8981b">
+		<Name>РегистрСведенийСтатусыОбъектовСинхронизацииЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2fdef07f-2405-4d39-b028-ef777297d3fb">
+		<Name>РегистрСведенийСтатусыОнлайнОплат</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="38299283-d69a-4a7a-9542-df84bad28fd3">
+		<Name>РегистрСведенийСтатусыОформленияДокументовВЕТИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d937d9a-3867-4267-983c-b3bcba391bf2">
+		<Name>РегистрСведенийСтатусыОформленияДокументовЕГАИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="034f1cd9-ac79-428d-99d1-7eb95fcd7cdd">
+		<Name>РегистрСведенийСтатусыОформленияДокументовЗЕРНО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="90051a28-25e7-4bdf-967c-c1419af8e61a">
+		<Name>РегистрСведенийСтатусыОформленияДокументовИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ed6c974-0272-47f6-a5f1-8cceb2f2c985">
+		<Name>РегистрСведенийСтатусыОформленияДокументовСАТУРН</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b45528be-dfd4-464b-9aa5-a38bd3e1c7eb">
+		<Name>РегистрСведенийСтатусыОформленияКРасчетуИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="94505a81-f876-422c-8d56-6cc03d08902a">
+		<Name>РегистрСведенийСтатусыПроверкиИПодбораДокументовИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cd3b33fa-68b0-41cc-b0bf-f382db10f6c2">
+		<Name>РегистрСведенийСтатусыПроверкиИПодбораИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="592c48ee-b6bb-4890-a6fe-e93aa135e107">
+		<Name>РегистрСведенийСтатусыПубликацииТоваровЭТП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc52c973-ac10-4cc9-b0f4-baec546d979f">
+		<Name>РегистрСведенийСтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c20d8255-1324-4b4f-88cb-6c9de450ee25">
+		<Name>РегистрСведенийСтатусыУведомленийОПоступленииМаркированныхТоваровГИСМ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fbb3ea4d-4fea-4a75-84a8-98ae34eca763">
+		<Name>РегистрСведенийСубъектыДляРасчетаСроковХранения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c0c48f31-4146-4f4d-998b-0d217ea88e3f">
+		<Name>РегистрСведенийСценарииОбменаРабочихМест</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c662539-635f-4e7b-8ee3-49002c44ef8a">
+		<Name>РегистрСведенийТекстовыеСообщенияДокументовЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d77eb915-0f4d-47f6-8a61-3da6a35eb46b">
+		<Name>РегистрСведенийТекущиеОтправляемыеТранспортныеКонтейнерыЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e11c53e2-21c9-411f-94e3-7a3910fd03bf">
+		<Name>РегистрСведенийТикетыОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="57e28da1-4ae0-44da-b9b1-50f7ac448f26">
+		<Name>РегистрСведенийТоварныеГруппыДокументаГИСМТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0a1e614-6560-42b7-9537-cc298dac1d03">
+		<Name>РегистрСведенийТокеныАвторизацииЭПД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a091464f-79ec-4670-b868-18fad9eb5000">
+		<Name>РегистрСведенийТорговыеПредложенияТорговойПлощадки</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6c9b4cc4-1ff4-45c3-92b0-5590c188f6f0">
+		<Name>РегистрСведенийУведомленияМонитораПортала</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="660e8a98-9cb6-4f61-8cf6-a53405b025aa">
+		<Name>РегистрСведенийПлатежныеОперации</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9208513d-171a-49d3-a370-5e5b2eeadb2a">
+		<Name>РегистрСведенийУничтоженныеПерсональныеДанные</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc5a80f8-74bf-4751-962c-a335e42a6eb7">
+		<Name>РегистрСведенийУсловияДепозитныхПродуктовОбменСБанками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d961c74e-938b-4cc0-b1ab-7f18f96fdd19">
+		<Name>РегистрСведенийУспешныеОбменыССайтом</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="55deface-56c8-49cf-8555-897cf68bfa1f">
+		<Name>РегистрСведенийУточнениеКодовФИАСПоМОДамИСМП</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="338952bf-148f-4e21-8204-17adf2483b4f">
+		<Name>РегистрСведенийУчетныеЗаписиЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="36819706-ae4e-4339-b7b7-87372f8ca67a">
+		<Name>РегистрСведенийФайлыВременногоХранилища</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="011fc8ad-0e13-4724-bd11-ebe93fd43091">
+		<Name>РегистрСведенийФайлыОбмена</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8ec268f9-18c8-4e13-be3a-7c39409f436e">
+		<Name>РегистрСведенийФиксацияОбработкиДанныхОбработчиками</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="773aad44-c309-4f4a-8c66-35a71bf58cd3">
+		<Name>РегистрСведенийФИОФизЛиц</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d0db8547-bbf2-4602-b25e-d3e238619c5f">
+		<Name>РегистрСведенийСобытияЭксплуатацииТСПИоТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="09b22ccc-9c2c-4fe1-bf9e-9c5d42f74eb7">
+		<Name>РегистрСведенийФорматыДляПреобразования</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06e72126-5c84-42dd-aea1-aa6468e337e9">
+		<Name>РегистрСведенийФорматыЗаписиКодовМагнитныхКарт</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5a9a044f-ca71-4185-a399-a99edc81658c">
+		<Name>РегистрСведенийФорматыЭлектронныхДокументов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="81585141-d767-4b89-b965-06c9c276e73c">
+		<Name>РегистрСведенийХранилищеФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e097ebf6-080c-45b9-8130-f242ebf6c516">
+		<Name>РегистрСведенийЦенникиКПечати</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c74289d-edd4-4107-a0d2-7365a51aca8e">
+		<Name>РегистрСведенийЦеныНоменклатуры</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="489bd45c-2c97-4024-96d5-a4ff804af5f2">
+		<Name>РегистрСведенийЧастиВыгрузкиЗагрузкиОбластейДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="55636944-ba84-4554-a030-daec1f4ff1ae">
+		<Name>РегистрСведенийЧерновикиЭлектронныхДокументовЛегкийКлиентЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="90db0629-c7d6-4264-a17b-463f778f6f93">
+		<Name>РегистрСведенийШаблоныНазначенийПлатежей</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="692f81a8-9db4-4b9c-b2ea-2b961cac9187">
+		<Name>РегистрСведенийШаблоныРегистрацииНовыхКарт</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f33e9778-015c-4fee-a608-87244332804b">
+		<Name>РегистрСведенийШтрихкоды</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="91674844-b2f3-4064-baf4-c118fa92ae10">
+		<Name>РегистрСведенийЭлектронныеПодписиМЧД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0d989a1-750c-4b27-aae3-1201aa43a813">
+		<Name>РегистрСведенийЭлектронныеПодписиПоМЧД</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="29879243-97f4-4ea0-b961-e883e0f6c600">
+		<Name>РегистрСведенийЭлектронныеПодписиТЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d533b449-f1ac-4485-8b23-d98105247268">
+		<Name>РегистрСведенийФискальныеОперации</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cfbcabb1-21fd-4a51-991f-c4f137ee7e1f">
+		<Name>РегистрСведенийДействияПриПолученииДанныхОбмена</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b8bba9f7-f521-4e12-b320-5d28a6938bc9">
+		<Name>РегистрСведенийИсторияРезервногоКопированияВстроенногоХранилищаДвоичныхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cef2ff4d-bce8-4cd6-a918-e9542066d823">
+		<Name>РегистрСведенийКвартирыОфисыПомещения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="088d72d7-2bb9-4ee0-bd05-28f674c68d48">
+		<Name>РегистрСведенийКоличествоБлокируемыхОбъектовКЗагрузке</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2ba23a9f-4c2b-402d-b9fd-80f3940151f7">
+		<Name>РегистрСведенийМестаХраненияДвоичныхДанных</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="42c60dc1-a7eb-468c-a102-250ec009433d">
+		<Name>РегистрСведенийНастройкиРаботыСФайловымАрхивом</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="888809d8-8fab-4f8f-9495-66a2bed39bfe">
+		<Name>РегистрСведенийОбъектыБлокирующиеЗагрузку</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5f0e0e83-2e11-454d-8459-9eedd4b27bfe">
+		<Name>РегистрСведенийОбъектыКЗагрузке</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9ec5392f-f3a8-4865-9f40-e9a4032391e3">
+		<Name>РегистрСведенийПрочитанныеДанныеСообщенийОбмена</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eaea7390-e058-40af-a2e9-034949ec6c33">
+		<Name>РегистрСведенийСведенияОХраненииДедуплицированныхФайлов</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="90429eda-5875-43e8-9911-b2ce105c83b7">
+		<Name>РегистрСведенийОшибкиПереводаАбонентовВХАБЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="28054733-5944-4cb8-9d9e-fffe55c4d21c">
+		<Name>РегистрСведенийСведенияОФайлахСообщенийЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6669ec39-cc7a-4ede-bc2f-c4c4bc08e04d">
+		<Name>РегистрСведенийУчетныеЗаписиПереведенныеИзТакскомЭДО</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4de3eb90-d512-4874-8026-5646740dce0b">
+		<Name>РегистрСведенийСПАРККлассификаторРисков</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="052f68e1-47a5-4dc0-b39b-dddab89eceaa">
+		<Name>РегистрСведенийФакторыРискаСПАРК</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="45cdc6e0-3b12-4771-ab8a-011dc41ee5b0">
+		<Name>РегистрСведенийНомераПартийГИСМТ</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c606be10-c4b3-4b0d-a353-bcb750e7999a">
+		<Name>РегистрСведенийНастройкиДополнительныхСвойствНоменклатурыИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6173d7b-396d-4e89-bb9e-17a994b99662">
+		<Name>РегистрСведенийЗначенияДополнительныхСвойствНоменклатурыИС</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c5b85030-11a9-4a0b-9ea8-1a95a31bf1aa">
+		<Name>РегистрСведенийНастройкиОблачныхКасс</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

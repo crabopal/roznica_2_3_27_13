@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Subsystem uuid="025c134d-1694-4904-bc08-4957903e8efb">
+		<Properties>
+			<Name>Обмены</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмены</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МенеджерОбменаЧерезУниверсальныйФормат_1_6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МенеджерОбменаЧерезУниверсальныйФормат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменРозницаБухгалтерияПредприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменРозницаБухгалтерияПредприятия30</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменРозницаОтчетностьПредпринимателя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменРозницаУправлениеНебольшойФирмой</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменРозницаУправлениеПредприятием</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменРозницаУправлениеТорговлей103</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменУправлениеТорговлейРозница</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ПоМагазину</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ПоРабочемуМесту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.СинхронизацияДанныхЧерезУниверсальныйФормат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятия30ЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятия30ЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятия30ЗарегистрироватьИзменениеНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятия30ЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятияЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятияЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятияЗарегистрироватьИзменениеНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаБухгалтерияПредприятияЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьИзменениеНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеНебольшойФирмойЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеНебольшойФирмойЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеНебольшойФирмойЗарегистрироватьИзменениеНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеНебольшойФирмойЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеПредприятиемЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеПредприятиемЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеПредприятиемЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеПредприятиемЗарегистрироватьИзменениеНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменениеНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменУправлениеТорговлейРозницаЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменУправлениеТорговлейРозницаЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменУправлениеТорговлейРозницаЗарегистрироватьИзменениеНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменУправлениеТорговлейРозницаЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоМагазинуРегистрация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоМагазинуРегистрацияДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоМагазинуРегистрацияКонстанты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоМагазинуРегистрацияНабора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоМагазинуРегистрацияУдаления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоРабочемуМестуРегистрация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоРабочемуМестуРегистрацияДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоРабочемуМестуРегистрацияКонстанты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоРабочемуМестуРегистрацияНабора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПоРабочемуМестуРегистрацияУдаления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.СинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.СинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьИзменениеДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.СинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.СинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияНабораЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПереходНаСинхронизациюДанныхЧерезУниверсальныйФормат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АвтономнаяРаботаОбменДаннымиСобытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.АвтономнаяРабота</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменРозницаРозница</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаРегистрация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаРегистрацияДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаРегистрацияКонстанты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаРегистрацияНабора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаРегистрацияУдаления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаРозницаРегистрация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаРозницаРегистрацияДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаРозницаРегистрацияКонстанты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаРозницаРегистрацияНабора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбменРозницаРозницаРегистрацияУдаления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_14_1i</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхНаборЗаписейРасчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхКонстанта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхНаборЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаБухгалтерияПредприятия30_Выгрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаБухгалтерияПредприятия30_Загрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменУправлениеТорговлейРозница_Выгрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменУправлениеТорговлейРозница_Загрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаУправлениеНебольшойФирмой_Выгрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаУправлениеНебольшойФирмой_Загрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаУправлениеПредприятием_Выгрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаУправлениеПредприятием_Загрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаУправлениеТорговлей103_Выгрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменРозницаУправлениеТорговлей103_Загрузка</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

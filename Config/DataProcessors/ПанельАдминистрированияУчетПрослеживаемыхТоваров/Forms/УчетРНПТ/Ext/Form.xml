@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаЗаголовок" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заголовок</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗаголовокРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<LabelDecoration name="ОписаниеРаздела" id="6">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учет прослеживаемых товаров — учет товаров по РНПТ, классификатор ТН ВЭД.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ОписаниеРазделаРасширеннаяПодсказка" id="8"/>
+				</LabelDecoration>
+				<LabelDecoration name="ДекорацияЗаголовка" id="9">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ToolTipRepresentation>None</ToolTipRepresentation>
+					<ContextMenu name="ДекорацияЗаголовкаКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ДекорацияЗаголовкаРасширеннаяПодсказка" id="11"/>
+				</LabelDecoration>
+				<CommandBar name="ГруппаСправка" id="84">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Справка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="85"/>
+					<ChildItems>
+						<Button name="Справка" id="86">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.StandardCommand.Help</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="СправкаExtendedTooltip" id="87"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНСИПрослеживаемыхТоваров" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>НСИ</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<ControlRepresentation>Button</ControlRepresentation>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="ГруппаНСИПрослеживаемыхТоваровРасширеннаяПодсказка" id="67"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаКлассификаторТНВЭД" id="61">
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<Group>HorizontalIfPossible</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаКлассификаторТНВЭДРасширеннаяПодсказка" id="62">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>При начале прослеживания импортных товаров требуется заполнить классификатор торговой внешнеэкономической деятельности (ТН ВЭД)</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияКлассификаторТНВЭД" id="63">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;link e1cib/list/Справочник.КлассификаторТНВЭД&gt;Классификатор ТН ВЭД&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияКлассификаторТНВЭДКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="ДекорацияКлассификаторТНВЭДРасширеннаяПодсказка" id="65"/>
+							<Events>
+								<Event name="URLProcessing">ДекорацияКлассификаторТНВЭДОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаДокументыОприходованиеПрослеживаемыхТоваров" id="51">
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<Group>HorizontalIfPossible</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаДокументыОприходованиеПрослеживаемыхТоваровРасширеннаяПодсказка" id="52">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>При начале прослеживания импортных товаров требуется ввести в систему их текущий остаток по организации</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияДокументыВводОстатковПрослеживаемыхИмпортныхТоваров" id="53">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;link ВводОстатковПрослеживаемыхИмпортныхТоваров&gt;Документы ввода остатков прослеживаемых импортных товаров&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияДокументыВводОстатковПрослеживаемыхИмпортныхТоваровКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ДекорацияДокументыВводОстатковПрослеживаемыхИмпортныхТоваровРасширеннаяПодсказка" id="55"/>
+							<Events>
+								<Event name="URLProcessing">ДекорацияДокументыОприходованиеПрослеживаемыхТоваровОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОтчетыПрослеживаемыхТоваров" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчеты</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Button</ControlRepresentation>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="ГруппаОтчетыПрослеживаемыхТоваровРасширеннаяПодсказка" id="78"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаОтчетОстаткиПрослеживаемыхТоваров" id="79">
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<Group>HorizontalIfPossible</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаОтчетОстаткиПрослеживаемыхТоваровРасширеннаяПодсказка" id="80">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Остатки прослеживаемых импортных товаров в разрезе организаций</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияОстатки" id="81">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;link ОткрытьВедомостьТоваровОрганизаций&gt;Ведомость товаров организаций с учетом прослеживаемых товаров&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОстаткиКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="ДекорацияОстаткиРасширеннаяПодсказка" id="83"/>
+							<Events>
+								<Event name="URLProcessing">ДекорацияОстаткиОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+</Form>
